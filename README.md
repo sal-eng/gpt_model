@@ -1,27 +1,27 @@
 # Pretraining a GPT-style LLM from Scratch
 
-This project provides a complete implementation for pretraining a decoder-only transformer model, similar to the GPT-2 124M parameter version, from the ground up using PyTorch. It covers all essential components, from the detailed model architecture and custom data loaders to a sophisticated training loop with learning rate scheduling and text generation capabilities.
+This project provides a implementation for pretraining a decoder-only transformer model, similar to the GPT-2 124M parameter version, from the ground up using PyTorch. It covers the essential components, from the  model architecture and  data loaders to a training loop with learning rate scheduling and text generation capabilities.
 
 ## Acknowledgement
 `Build a Large Language Model (From Scratch)` textbook: This textbook written by Sebastian Raschka serves as guide for learn how to build a transformer based model from scratch
 
 ## ✨ Features
 
-* **Custom Model Architecture**: Built from scratch using PyTorch, including:
-    * Efficient `MultiHeadAttention` with causal masking.
+* **Model Architecture**: Built from scratch using PyTorch, including:
+    *  `MultiHeadAttention` with causal masking.
     * `LayerNorm` and `GELU` activation function implementations.
     * `TransformerBlock` with residual connections and dropout.
-    * Complete `GPTModel` integrating token and positional embeddings.
-* **Efficient Data Handling**:
-    * A custom `torch.utils.data.Dataset` (`GPTDatasetV1`) to process large text files efficiently.
+    *  `GPTModel` integrating token and positional embeddings.
+* **Data Handling**:
+    * Using `torch.utils.data.Dataset` (`GPTDatasetV1`) to process large text files efficiently.
     * A `DataLoader` setup for creating input/target batches for next-token prediction.
-* **Advanced Training Loop**:
+* ** Training Loop**:
     * Learning rate scheduler with a **linear warmup** phase followed by **cosine decay**.
     * **Gradient clipping** to ensure training stability.
     * Periodic evaluation on a validation set to monitor for overfitting.
     * **Checkpointing** to save the model and optimizer states, allowing training to be resumed.
 * **Text Generation**:
-    * A flexible `generate` function to produce new text from a starting context.
+    * A  `generate` function to produce new text from a starting context.
     * Supports **greedy decoding**, **temperature sampling**, and **top-k filtering**.
 * **Utilities**:
     * Tokenization using OpenAI's `tiktoken` library (for the `gpt2` vocabulary).
@@ -30,10 +30,6 @@ This project provides a complete implementation for pretraining a decoder-only t
 ---
 
 ## 📂 Project Structure
-
-Of course. Here is the complete README.md content in raw Markdown format. You can copy and paste this directly into a README.md file.
-
-
 
 * `model.py`: Contains all the PyTorch `nn.Module` classes that define the GPT architecture, including the attention mechanism, transformer blocks, and the final model.
 * `train.py`: The main script for training the model. It handles data loading, model initialization, the training loop, evaluation, and saving the final model.
