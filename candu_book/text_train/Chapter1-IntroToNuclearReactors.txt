@@ -1,0 +1,721 @@
+1
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015CHAPTER 1
+Introduction to Nuclear Reactors
+prepared by
+Dr. Robin Chaplin
+Summary :
+This chapter provides a top-level introduction to nuclear reactors and surveys the world reactor
+situation. The various commercial large power producing reactors are identified and described
+against a brief background of nuclear reactor principles and key reactor components. The
+progressive expansion of nuclear power production is put into perspective in the global context.
+The operation of nuclear plants with respect to changing grid system demand is explained with
+some constraints identified. The chapter concludes with a brief review of safety and risk which
+are critical aspects in the design and operation of nuclear plants.
+Table of Contents
+1 Nuclear Reactor Principles...................................................................................................... 3
+1.1 Fission Energy...................................................................................................................... 3
+1.2 Nuclear Reactor Principles.................................................................................................. 5
+2 Reactor Types.......................................................................................................................... 7
+2.1 Prototype Reactors ............................................................................................................. 7
+2.2 Commercial Reactors .......................................................................................................... 8
+3 World-Wide Commercial Power Reactors ............................................................................ 12
+3.1 Reactor Development ....................................................................................................... 12
+3.2 Commercial Reactors in Service........................................................................................ 13
+3.3 Recent Past and Near Future ............................................................................................ 16
+3.4 Status of Large Reactors.................................................................................................... 17
+4 Power Production ................................................................................................................. 18
+4.1 Energy Transfer ................................................................................................................. 18
+4.2 Power Output.................................................................................................................... 19
+4.3 Operating Constraints ....................................................................................................... 21
+4.4 Fuel Burnup....................................................................................................................... 21
+5 Safety and Licensing.............................................................................................................. 22
+5.1 Radiation Hazards ............................................................................................................. 22
+5.2 Risk Assessment ................................................................................................................ 23
+5.3 Licensing Principles ........................................................................................................... 23
+6 Problems ............................................................................................................................... 24
+7 Bibliography .......................................................................................................................... 24
+8 Acknowledgments................................................................................................................. 25
+List of Figures
+Figure 1 Range of stable and unstable nuclides.............................................................................. 3
+Figure 2 Binding energy per nucleon .............................................................................................. 42 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Figure 3 Fission and absorption characteristics of uranium ........................................................... 5
+Figure 4 Nuclear reactor components ............................................................................................ 7
+Figure 5 Diagrammatic cross section of a typical BWR................................................................... 8
+Figure 6 Diagrammatic cross section of a typical PWR................................................................... 9
+Figure 7 Diagrammatic cross section of a typical PHWR (CANDU) ............................................... 10
+Figure 8 Diagrammatic cross section of a typical AGR.................................................................. 11
+Figure 9 Diagrammatic cross section of a typical RBMK (LGR) ..................................................... 11
+Figure 10 Simplified flow diagram of a nuclear plant ................................................................... 19
+Figure 11 Lagging and leading plant operation............................................................................. 20
+List of Tables
+Table 1 Nuclear reactors in service and planned .......................................................................... 14
+Table 2 Nuclear reactors in service in 2012 .................................................................................. 16
+Table 3 Projected reactors in service in 2022 ............................................................................... 17
+Table 4 New large reactors (1000 MWe and greater)................................................................... 17
+Table 5 Decommissioned large reactors (1000 MWe and greater) .............................................. 18Introduction to Nuclear Reactors 3
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 20151Nuclear Reactor Principles
+1.1 Fission Energy
+All atoms consist of a nucleus of protons and neutrons surrounded by a cloud of electrons.
+Generally, for elements of low atomic mass numbers, there are equal numbers of neutrons and
+protons in the nucleus because this arrangement represents the most stable configuration. As
+the atomic mass number increases, however, the increasing weak repulsive forces of similarly
+charged protons in the nucleus are compensated for by an increasing number of neutrons which
+contribute additional strong nuclear forces that bind adjacent protons and neutrons together.
+Therefore, at high atomic mass numbers, there are approximately one and one-half times as
+many neutrons as protons in the nucleus, as shown in Figure 1.
+Figure 1 Range of stable and unstable nuclides
+4 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Should an element of high atomic mass number split, during a fission process, into two ele-
+ments of lower atomic mass number, not as many neutrons will be required to create a stable
+configuration, and the surplus neutrons will be released.
+The nucleons (neutrons and protons) in the nucleus are bound together by nuclear forces.
+When a nucleus is assembled, the binding energy attracting the individual nucleons is released.
+Conversely, energy is required to separate individual nucleons from one another or from the
+nucleus. This is analogous to the attraction of magnets to one another, but with a different type
+of force. This binding energy is a maximum per nucleon for elements near the middle of the
+range of atomic mass numbers and is somewhat less for elements with high atomic mass
+numbers, as shown in Figure 2. This means that, if a heavy element fissions or splits into two
+mid-range elements, the nucleons are bound together with a greater amount of binding energy
+per nucleon. The surplus energy is released as the nucleons come together more strongly. This
+is analogous to masses with potential energy falling into deeper holes and releasing this energy.
+Because of the well-known relationship between mass and energy, the release of binding
+energy is accompanied by a very slight decrease in the total mass of the constituents.
+Figure 2 Binding energy per nucleon
+Elements with high atomic mass numbers are unstable and become more so as the atomic mass
+number increases. If a neutron is added to the nucleus of a very heavy element, the additional
+binding energy brought into the nucleus may excite it to the extent that it fissions. This occurs
+in two isotopes of uranium and two isotopes of plutonium. Of these four fissile materials, only
+uranium-235 is naturally occurring. Furthermore natural uranium contains only 0.7 percent of
+U-235. Nevertheless, uranium-235 is the primary fuel of all commercial power producing
+nuclear reactors.
+Introduction to Nuclear Reactors 5
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015When a U-235 nucleus fissions, the release of binding energy amounts to about 200 MeV, or 32
+x 10-12J. Although a very small amount, this translates into a heat production rate of 950 MW if
+1 kg of U-235 is totally consumed per day. In a typical nuclear power plant operating on a
+conventional steam cycle, this could be converted into an electrical power output of about 300
+MW.
+1.2 Nuclear Reactor Principles
+Some heavy elements, such as uranium-235, can be induced to fission by adding a neutron to
+their nuclei. When fission occurs, the resultant lighter elements do not require as many neu-
+trons in their nuclei to maintain a stable configuration and, on average, between two and three
+surplus neutrons are released. These neutrons can cause further fissioning of other U-235
+nuclei and so establish a chain reaction. Such a reaction can be allowed to diverge, as in an
+atomic bomb, or be controlled, as in a nuclear reactor. Under steady state conditions, just one
+neutron on average from each fission should go on to produce another fission event.
+When fission occurs, the release of energy drives the lighter elements or fission products and
+the surplus neutrons away from one another at high velocity. Most of the energy is thus trans-
+formed into kinetic energy carried by the fission products. As heavy strongly charged particles,
+they do not travel any significant distance and dissipate their kinetic energy in the fuel by
+interaction with other atoms, thus increasing the temperature of the fuel. The high energy fast
+neutrons, being uncharged, readily pass through the fuel and other reactor materials.
+Figure 3 Fission and absorption characteristics of uranium
+There are varying probabilities that they will be absorbed by different nuclei. The probability of
+absorption by another U-235 nucleus to cause fission increases if the neutron velocity is re-
+duced, and therefore reducing neutron energies is advantageous. Figure 3 shows the variation
+of the fission cross section, that is, the probability of a fission reaction, of U-235 versus neutron
+energy as a dotted line. The probability increases by a factor of nearly 500 as the neutron
+energy is reduced from the fissioning release energy to the natural energy of neutrons in the
+local environment, a process known as thermalization. This can be achieved by allowing theU-235
+U-238U-235
+U-238f
+f
+ft
+ttt
+as= Scattering
+= Radiative capture
+= FissionInteractions of Importance
+= Absorption1 / v Resonance Smooth
+region region region1 meV 1 eV 1 keV 1 MeV1000
+100
+10Crosssection(barns)
+16 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015neutrons to experience a series of non-absorbing collisions with light nuclei, which during an
+elastic collision receive some of the energy from the neutrons. The resulting low energy slow
+neutrons are then absorbed in U-235 nuclei to cause further fissions. Some elements that can
+slow down or moderate neutrons effectively without significant absorption are hydrogen,
+deuterium, helium, beryllium, and carbon. Hence, light water (H 2O), heavy water (D 2O), and
+graphite (C) all make good moderators in nuclear reactors.
+The solid lines in Figure 3 show the total probability of absorption (resulting in both fission and
+capture) in U-235 and U-238. In the resonance region (where neutron and nucleus frequencies
+coincide) are large spikes with very high probability of capture for U-238, so it is best to avoid
+this region during the neutron slowing down process. This can be achieved to some degree by
+ensuring that the moderation process is carried out away from the fuel. This leads to a reactor
+consisting of a matrix of fuel elements within the moderator with a discrete distance between
+fuel elements. Furthermore, to promote heat transfer from the fuel, the fuel elements them-
+selves consist of bundles of small fuel rods. This is illustrated diagrammatically in Figure 4.
+Most of the heat from fission is generated by dissipation of the kinetic energy of the fission
+products. Because this occurs in the fuel near the point of fission, it follows that the fuel
+becomes the main source of heat in the reactor. To maintain a thermodynamic cycle to produce
+work, this heat must be removed continuously as it is produced. A suitable coolant is therefore
+required to flow over the fuel elements and remove the heat. The coolant must not readily
+absorb neutrons and must have suitable thermal properties. Coolants such as light water, heavy
+water, helium, and carbon dioxide meet these requirements.
+Finally, to ensure steady state operation, the number of neutrons allowed to go on to produce
+fission must be the same as the number in preceding generations of neutrons. To achieve the
+required balance, the reactor as a whole is designed to generate excess neutrons in each
+generation and to have a system for absorbing the excess so as to maintain and control the
+reactor at a steady load. This also enables the number of neutrons in successive generations to
+be increased when more power is required or to be decreased when power must be reduced.
+Such control is usually achieved by having movable neutron-absorbing control rods partially
+inserted into the reactor. By fully inserting the control rods, the reactor can be shut down.
+Therefore, a typical nuclear reactor consists of the following main components as shown in
+Figure 4:
+Fuel in which fission occurs and heat is generated
+Moderator to reduce the energy of the neutrons
+Coolant to remove the heat from the fuel elements
+Control rods to maintain the proper neutron balance.Introduction to Nuclear Reactors 7
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Figure 4 Nuclear reactor components
+These components are usually arranged in a two-dimensional matrix so that neutrons generat-
+ed by fission in one fuel rod pass through the moderator before entering the next fuel rod. The
+spacing of the fuel rods depends upon the moderator properties and the distance required to
+reduce the energy of the neutrons. The fuel rods are made small enough to promote heat
+removal and are surrounded by coolant. Often the coolant serves as a moderator as well. The
+control rods are made to penetrate between the fuel rods to capture excess neutrons effective-
+ly. Naturally, some neutrons leak through the boundaries of the system, and many are absorbed
+by the reactor materials or in the fuel without causing fission, meaning that the control rods do
+not have to absorb a significantly large number of neutrons compared with the number causing
+fission. The actual configuration of the matrix and the spacing of the fuel rods depend upon the
+fuel and moderator characteristics.
+2Reactor Types
+2.1 Prototype Reactors
+As nuclear reactors developed around the key elements of fuel, moderator, and coolant, many
+different types were proposed and constructed as demonstration models in an endeavour to
+prove their technical and commercial viability. Some designs had serious technical problems,
+while others had uniquely advanced features. However, due to arbitrary political decisions, one
+or two good designs did not go beyond the prototype stage, while others with insurmountable
+technical difficulties were abandoned. Nevertheless, some prototypes did operate successfully
+for many years, providing valuable technical and operational experience while producing power.
+Ultimately, the field narrowed to certain proven designs which were adopted on a commercial
+basis. Currently, there are six main types, which are listed below in order of numbers in service.
+The first five have proven to be commercially viable, while the sixth can be considered to be still
+in the prototype stage, but to hold promise for the future as a reactor which can breed new
+fissile fuel:
+8 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015PWR Pressurized Water Reactor
+BWR Boiling Water Reactor
+PHWR Pressurized Heavy Water Reactor (CANDU)
+GCR Gas Cooled Reactor
+LGR Liquid Graphite Reactor
+LMFBR Liquid Metal Fast Breeder Reactor.
+2.2 Commercial Reactors
+The reactors listed above will be described briefly in the following paragraphs for comparison,
+starting with the simplest concept.
+2.2.1 Boiling water reactor (BWR)
+The boiling water reactor consists of a pressure vessel containing the fuel rods in vertical
+elements, with each element surrounded by a channel. The channels are flooded with light
+water which serves as the moderator and coolant. Pumps circulate water upwards through the
+channels, and steam is generated within the channels. The exit steam quality is about 13%, and
+the steam is separated from the water in cyclone separators above the reactor core. This
+saturated steam is sent directly to the steam turbines.
+Figure 5 Diagrammatic cross section of a typical BWR
+This simple direct cycle has the disadvantage that steam from the reactor is passed through the
+turbine and the condensate is returned through the feedwater heaters, making the whole
+steam circuit slightly radioactive during operation. A simplified diagram of a boiling water
+reactor is given in Figure 5.
+Introduction to Nuclear Reactors 9
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 20152.2.2 Pressurized water reactor (PWR)
+The pressurized water reactor overcomes the problem of a slightly radioactive steam circuit by
+having an intermediate heat exchanger to separate the reactor coolant circuit from the turbine
+steam circuit. Steam is generated in this steam generator and is sent to the turbine as saturated
+steam under conditions similar to those in the boiling water reactor. The reactor coolant circuit
+is maintained at high pressure to prevent any boiling in the reactor and operates at a slightly
+higher temperature than the BWR to promote heat transfer to the secondary steam circuit.
+Because no boiling occurs in the reactor core, it is more compact and does not require channels.
+The fuel rods of the individual elements form a continuous vertical matrix in the core. This is
+flooded with an upward flow of circulating light water which serves as coolant and moderator.
+A simplified diagram of a pressurized water reactor is given in Figure 6.
+2.2.3 Pressurized heavy water reactor (PHWR) (CANDU)
+The pressurized heavy water reactor is similar to the pressurized water reactor in that it has a
+primary coolant circuit and secondary steam circuit with a steam generator producing saturated
+steam. The reactor, however, is different in that it has individual pressure tubes passing hori-
+zontally through the reactor core. Fuel rods in the form of bundles are contained within these
+pressure tubes. The heavy water coolant flows through these tubes and is then circulated
+through the steam generator. The pressure tubes are surrounded on the outside by heavy
+water at low pressure and low temperature, which serves as the moderator. This is contained in
+a large vessel or calandria at ambient pressure. The advantage of this system is that it does not
+require a very heavy pressure vessel as in the BWR and PWR. The Canadian version is known as
+the CANDU. Other variations such as the steam generating heavy water reactor (SGHWR) had
+light water coolant and vertical channels and generated steam in the core. A simplified diagramFigure 6 Diagrammatic cross section of a typical PWR
+10 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015of a pressurized heavy water reactor is given in Figure 7.
+2.2.4 Gas cooled reactor (GCR)
+The gas cooled reactor, like the pressurized water reactor, has separate reactor coolant and
+steam generating circuits with an intermediate steam generator. The coolant, however, is gas,
+which enables higher coolant temperatures to be achieved. This enables superheated steam to
+be generated and a high efficiency steam circuit similar to that of a fossil fuel fired plant to be
+used. Due to the high temperatures and large core volume required with a gas coolant, graphite
+is more suitable than water as a moderator. This is installed in the form of blocks with holes to
+form channels into which the fuel elements are placed and through which the gas coolant flows.
+The early reactors of this type were known as Magnox from the type of fuel used, and later ones
+were called advanced gas cooled reactors (AGRs), which run at higher temperatures with a
+different type of fuel. By changing the coolant from carbon dioxide to helium, even higher
+temperatures could be achieved, hence the designation high temperature reactor (HTR). This
+type gave the ultimate advantage of large gas cooled reactors, which have a cycle efficiency as
+high as any fossil fuel fired plant.
+Later developments in this field, such as the pebble bed modular reactor (PBMR), use a direct
+cycle, with the helium coolant passing directly to a helium turbine with the promise of even
+better cycle efficiency. A simplified diagram of an advanced gas cooled reactor is given in Figure
+8.Figure 7 Diagrammatic cross section of a typical PHWR (CANDU)
+Introduction to Nuclear Reactors 11
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Figure 8 Diagrammatic cross section of a typical AGR
+2.2.5 Liquid graphite reactor (LGR)
+The liquid graphite reactor has a graphite block core similar to that of a gas cooled reactor.
+Pressure tubes similar to those of the pressurized heavy water reactor pass through vertical
+holes in the graphite, which serves as the moderator. Fuel elements made up of clusters of rods
+are located within these vertical tubes, and light water coolant flows upwards over the fuel and
+within the tubes. Boiling occurs in the fuel as in the boiling water reactor. The resulting steam
+is separated from the water in an external drum and the water recirculated. As with the boiling
+water reactor, saturated steam is sent to the turbine. This type of reactor of Russian design is
+known as the RBMK. A simplified diagram of a liquid graphite reactor is given in Figure 9.
+Figure 9 Diagrammatic cross section of a typical RBMK (LGR)
+12 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 20152.2.6 Liquid metal fast breeder reactor (LMFBR)
+The liquid metal fast breeder reactor is different from the others in many ways. The coolant is a
+liquid metal, usually sodium, which flows directly over the fuel rods of the vertical fuel elements
+in an upward direction. The heat carried in this primary circuit is transferred to a secondary
+sodium circuit in a heat exchanger. This secondary circuit then transfers the heat to the steam
+circuit in a steam generator. Because sodium remains a liquid at high temperatures without
+being pressurized, heavy pressure vessels are not required, and high temperature superheated
+steam can be produced to provide good cycle efficiency. There is no moderator to reduce the
+energy of the neutrons, hence the term “fast”, and surplus neutrons are used to convert non-
+fissile material into fissile fuel, hence the term “breeder”. This type of reactor has not yet
+reached the commercially viable stage, and therefore there is no typical design.
+3World-Wide Commercial Power Reactors
+3.1 Reactor Development
+Following the Second World War, the development of nuclear reactors followed different paths
+in different countries depending upon the facilities developed during the war and the perceived
+military needs of certain countries following the war. The first nuclear reactors served to
+generate plutonium-239, another fissile material formed when uranium-238, the major consti-
+tuent of natural uranium, absorbs excess neutrons. Pu-239 could be easily separated from the
+original uranium fuel and was needed for atomic bombs. U-235 is also used in nuclear wea-
+pons, but is difficult to separate from U-238.
+The United States had isotope separation facilities for uranium and therefore was able to pursue
+the development of light water reactors requiring the use of uranium fuel slightly enriched in U-
+235. The United Kingdom did not have such facilities and therefore was forced to develop
+reactors using natural uranium. Canada had developed expertise in heavy water technology as
+a result of the war effort and was therefore well positioned to develop heavy water moderated
+reactors also using natural uranium.
+When using natural uranium as a fuel, the low concentration of U-235 and the absorption of
+neutrons in U-238 necessitate use of a moderator with an extremely low absorption cross
+section to establish a continuous chain reaction. Only heavy water (deuterium and oxygen) and
+graphite (carbon) have the required physical and neutron properties. This led Britain to develop
+graphite moderated natural uranium metal fueled reactors with carbon dioxide as a coolant.
+Later, when they had uranium enrichment facilities, they were able to switch to uranium dioxide
+as the fuel. Canada, which had supplies of heavy water, was able to develop heavy water
+moderated natural uranium dioxide fueled reactors. Heavy water is the only moderator that
+can be used directly with natural uranium dioxide fuel to sustain the required fission chain
+reaction. Although heavy water is an excellent moderator, especially with respect to neutron
+absorption, it is very expensive to separate from ordinary water. If enriched uranium is availa-
+ble, as was the case in the United States, there is wider scope in the choice of a moderator
+because more neutron absorption can be tolerated. Therefore, light water (hydrogen and
+oxygen) can be used as a moderator. An advantage of light water as a moderator is that it is
+very effective per unit distance in slowing down neutrons, leading to a smaller moderator
+volume and a more compact reactor than with the other moderators. However, light water has
+the inherent disadvantage of absorbing a greater fraction of neutrons than graphite or heavyIntroduction to Nuclear Reactors 13
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015water.
+Of the three moderators mentioned above, graphite is the least effective in reducing neutron
+energy and requires the largest volume. Graphite moderated reactors are therefore the largest,
+leading to high capital costs. Considering capital cost, moderator costs, and enriched fuel
+supply and cost, all three of these became economically viable in their respective countries, and
+commercial reactors for power plants subsequently evolved.
+Over time, enriched uranium became more easily available, and commercial reactors were sold
+to other countries which did not have fuel enrichment resources, leading to a free choice of
+reactors. It is of interest to review the world use of nuclear reactors for electric power produc-
+tion.
+3.2 Commercial Reactors in Service
+Table 1 shows the number, type, and output of reactors operating and committed or under
+construction in different countries. The first column under the two latter headings is for reac-
+tors currently in service and the second column for those reactors to be added in the coming
+years. This table is representative of current commercial technology because most prototype
+and early commercial reactors have served their useful life and been decommissioned.14 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Table 1 Nuclear reactors in service and planned*
+BWR–Boiling (Light) Water Reactor
+GCR–Gas Cooled Reactor
+LGR–Light Water Graphite Reactor
+LMFBR–Liquid Metal Fast Breeder Reactor
+PWR–Pressurized (Light) Water Reactor
+PHWR–Pressurized Heavy Water Reactor
+Country Reactor TypeNumber Operational +
+PlannedExisting Capacity +
+New Capacity (MWe)
+Argentina PHWR 2 1 935 692
+Armenia PWR 1 375
+Belgium PWR 7 5 885
+Brazil PWR 2 1 1 901 1 275
+Bulgaria PWR 2 2 1 906 2 000
+Canada PHWR 22 15 137
+China PWR 12 41 9 748 42 230
+PHWR 2 1 300
+GCR 1 200
+LMFBR 1 20
+Czech Republic PWR 6 3 678
+Finland PWR 2 1 976 1 600
+BWR 2 1 740
+France PWR 58 1 63 130 1 600
+Germany PWR 7 9 486
+BWR 2 2 572
+Hungary PWR 4 1 889
+India PWR 2 1 834
+BWR 2 300
+PHWR 18 4 4 091 2 560
+LMFBR 1 500
+Iran PWR 1 915
+Japan PWR 24 19 286
+BWR 26 2 24 818 2 756
+Kazakhstan LMFBR 1 70Introduction to Nuclear Reactors 15
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Country Reactor Type Number Operational +
+PlannedExisting Capacity +
+New Capacity (MWe)
+Mexico BWR 2 1 300
+Netherlands PWR 1 487
+Pakistan PWR 2 1 600 300
+PHWR 1 125
+Romania PHWR 2 3 1 300 1 869
+Russia PWR 16 11 11 914 9 810
+LGR 15 10 219
+LMFBR 1 1 560 750
+Slovakia PWR 4 2 1 816 810
+Slovenia PWR 1 666
+South Africa PWR 2 1 800
+South Korea PWR 17 7 15 975 8 600
+PHWR 4 2 722
+Spain PWR 6 6 004
+BWR 2 1 510
+Sweden PWR 3 2 799
+BWR 7 6 504
+Switzerland PWR 3 1 700
+BWR 2 1 538
+Taiwan PWR 2 1 780
+BWR 4 2 3 104 2 600
+Turkey PWR 4 4 600
+Ukraine PWR 15 3 13 107 2 850
+United Arab Emirates PWR 4 5 600
+United Kingdom PWR 1 1 188
+GCR 17 8 732
+United States PWR 69 8 68 459 8 990
+BWR 35 2 34 935 2 700
+* Adapted from Nuclear News, March 2012
+It is evident from Table 1 that certain types of reactors became dominant in certain countries,
+particularly in those developing their own reactors, for example, PWRs and BWRs in the United
+States, GCRs in the United Kingdom, PHWRs in Canada, and LGRs in Russia. However, in later
+years, certain types of reactors have been favoured by countries without their own develop-
+mental program, leading to the spread of some of these types to other countries. The PWR,
+however, has become the most common type and is currently produced by various manufactur-16 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015ers around the world.
+3.3 Recent Past and Near Future
+Table 2 gives a summary of the situation at the beginning of 2012. It shows that PWRs make up
+61% of operational reactors and 67% of total nuclear capacity, due mainly to their larger size
+relative to PHWRs and GCRs.
+Table 2 Nuclear reactors in service in 2012*
+Reactor Type Number in
+Service% Total Capacity
+(MWe)%
+PWR 267 61 246 555 67
+BWR 84 19 78 321 21
+PHWR 51 12 25 610 7
+GCR 17 4 8 732 2
+LGR 15 4 10 219 3
+LMFBR 1 0 560 0
+TOTAL 435 100 369 997 100
+*Adapted from Nuclear News, March 2012.
+A similar review done in 1998 indicated that during the intervening 14 years, the number of
+reactors in service had only increased by two, but that total capacity had increased by 11%. This
+was due primarily to the decommissioning of smaller older reactors which had reached the end
+of their economic life. It does not reflect a lack of new plants coming on-line because the
+number of PWRs increased by 17, even though 10 were taken out of service during this period.
+Looking forward over 10 years to 2022, Table 3 shows the total number of reactors currently in
+service and committed for commissioning or construction. Although the table does not consid-
+er possible decommissioning of some reactors, it also does not take account of new orders
+which will be completed before 2022. In this context, it should be noted that 80% of new
+construction is due to be on-line by 2017, leaving time for new commitments which will likely
+overcompensate for possible decommissionings.Introduction to Nuclear Reactors 17
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Table 3 shows a dramatic increase of 25% and 29% respectively in the number of reactors in
+service and available capacity over the following 10 years.
+Table 3 Projected reactors in service in 2022*
+Reactor Type Number in
+ServiceChange (%) Total Capacity
+(MWe)Change (%)
+PWR 356 +33 339 569 +38
+BWR 90 +7 86 377 +10
+PHWR 59 +16 30 722 +20
+GCR 18 +6 8 932 +2
+LGR 15 0 10 219 0
+LMFBR 5 +400 2 076 +271
+TOTAL 543 +25 477 895 +29
+*Adapted from Nuclear News, March 2012
+3.4 Status of Large Reactors
+Table 4 New large reactors (1000 MWe and greater)*
+Country Reactor Type Number
+CommittedNew Capacity
+(MWe)
+Brazil PWR 1 1 275
+Bulgaria PWR 2 2 000
+China PWR 38 36 400
+Finland PWR 1 1 600
+France PWR 1 1 600
+Russia PWR 6 6 900
+South Korea PWR 7 8 600
+Taiwan PWR 2 2 600
+Turkey PWR 4 4 600
+United Arab Emirates PWR 4 5 600
+United States PWR 8 8 990
+BWR 2 2 700
+*Data extracted from Nuclear News, March 2012
+Most reactors currently under construction or on order are of large capacity, that is, 1000 MWe
+or greater. Considering only reactors of this size, Table 4 shows the type of reactor, total capaci-
+ty, and country where these are being built or to be built.
+For comparison, the number of large units taken out of service to date is given in Table 5. This18 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015table shows the capacity, date taken out of service, and number of years in service.
+Table 5 Decommissioned large reactors (1000 MWe and greater)*
+Country Reactor Type Capacity
+(MWe)Date Years of
+Service
+France LMFBR 1 200 1998 12
+Germany PWR 1 219 2001 14
+BWR 1 346 2011 27
+PWR 1 345 2011 32
+PWR 1 240 2011 34
+PWR 1 167 2011 36
+United States PWR 1,095 1992 16
+PWR 1 040 1998 24
+PWR 1 040 1998 25
+TOTAL 10 692 220
+*Data extracted from Nuclear News, March 2012
+The average service life of these excluding the LMFBR is 26 years. Typically with refurbishment
+the life expectancy of such reactors would be at least double this.
+4Power Production
+4.1 Energy Transfer
+Heat, energy, and work all have the same units (joules), but somewhat different meanings, and
+power is the rate of doing work (watts). What is important is that not all heat can be converted
+into work. Although the first law of thermodynamics states that all work can be dissipated as
+heat, the second law states that not all heat can be converted into work. In a typical water
+cooled nuclear plant (CANDU, PWR and BWR) approximately 30% of the heat released by the
+fuel is ultimately converted into electrical energy. The rest must be discharged as low grade
+(low temperature) heat.
+During the fission process, heat is generated in the fuel. This heat is removed by the reactor
+coolant flowing over the fuel rods and transported in the primary circuit to the steam generator,
+where it flows inside the tubes and its heat is transferred to the secondary circuit through the
+walls of the tubes in the steam generator. Water in the secondary circuit outside the tubes
+absorbs this heat and is converted into steam under saturated conditions. This steam is passed
+to the turbine where it expands to low pressure while being directed onto the turbine blades
+and in so doing transfers its energy to the turbine rotor. The rotor drives the electrical genera-
+tor which produces electric power. The exhaust steam is condensed by cooling water passing
+through the condenser tubes and in so doing discharges the bulk of the heat which cannot be
+converted into work. The condensate is returned to the steam generator after being preheated
+in the feedwater heating system. A simple flow diagram for a nuclear plant is shown in Figure
+10. Note that in the BWR and RBMK, steam is generated directly in the reactor, so there is noIntroduction to Nuclear Reactors 19
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015separate steam generator.
+Figure 10 Simplified flow diagram of a nuclear plant
+4.2 Power Output
+Consider a very simple system with a nuclear reactor, steam generator, and turbine generator
+supplying electric power to an isolated electrical grid, as shown in Figure 11. This power must
+be generated at the moment it is required by the consumers connected to the grid. Power
+production must follow demand exactly, and any mismatch will cause the grid frequency to fall
+or rise as demand increases or decreases. A basic control system works as follows to maintain
+appropriate power output from the plant. In the event of an increase in demand the mismatch
+will cause the grid frequency to fall. Because the turbine generator is synchronized to the grid,
+its speed will drop accordingly. This will be sensed by the turbine governor which will open the
+governor valves to admit more steam to increase the power output of the turbine generator.
+The additional flow of steam to the turbine will cause a reduction in steam pressure in the
+steam generator. This in turn will be sensed by the reactor regulating system which will with-
+draw control rods from the reactor core until the increased fission rate generates sufficient
+additional heat to restore the steam generator pressure. In the event of a decrease in demand
+the reverse occurs. This is known as the reactor following or turbine leading mode of operation
+(or normal mode in some plants because it is a natural way of maintaining stable conditions).
+Such a system, however, cannot maintain a specified frequency (60 Hz in North America) exactly
+without large unstable oscillations, and therefore a certain speed droop is incorporated into the
+turbine governor. This enables a progressive increase in governor valve opening (steam flow) as
+the turbine speed (grid frequency) falls. A typical droop setting is 4%, which means that, if the
+turbine was initially at zero load and full speed, its speed would have to drop to 96% before the
+governor valve would be fully open. Such a speed is not acceptable for the turbine due to
+possible blade vibration, nor to the grid due to loss in speed of connected motors. Therefore,
+the governor is adjusted to bring the speed back to 100% at full load. In the event of a turbine
+trip or load reduction to zero under these conditions, the reverse would occur, and the turbine
+speed would rise to 104% of full speed.
+20 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015Figure 11 Lagging and leading plant operation
+In the mode of operation just described, the nuclear reactor output follows the electrical grid
+demand, and therefore its power level oscillates continuously. This can have adverse effects
+depending upon the type and design of the reactor. Excessive oscillations impose temperature
+transients on the fuel, which can cause premature failures of the fuel cladding. Large oscilla-
+tions near full power can cause power limits to be exceeded, thus tripping the reactor and
+losing power production as well as imposing restart transients on it and the turbine. Due to
+high capital cost and low fuel cost it is desirable to run nuclear reactors at full power most of the
+time. An alternative mode of operation is therefore often used at nuclear plants where the
+reactor power output is fixed. This is known as reactor leading or turbine lagging operation. To
+maintain stable operation, the reactor power is controlled at a given value by measuring the
+neutron flux and adjusting the control rods accordingly. Pressure in the steam generator must
+be maintained at the proper value to ensure stable conditions in the reactor coolant circuit.
+This is done by opening or closing the turbine governor valves to control steam flow from the
+Introduction to Nuclear Reactors 21
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015generators. The turbine then delivers power according to the steam flow and the generator
+sends this power into the grid system regardless of the grid frequency. The grid frequency must
+then be controlled by other turbine generators which feed into the grid system and operate in
+the turbine leading mode.
+By referring to the figure showing the two modes of operation, it can be seen that steam
+generator pressure is a key control parameter in both modes. This highlights the importance of
+the steam generator, where a balance of heat input and heat output must be maintained to
+maintain pressure. Furthermore, the difference in temperature between the primary coolant
+and the secondary working fluid determines the rate of heat transfer. Hence the reactor coo-
+lant temperature is determined by saturation temperature and thus by steam generator pres-
+sure.
+4.3 Operating Constraints
+During operation, parts of the reactor, steam system, and turbine are subject to high tempera-
+tures. If these parts have thick walls or have a substantial solid mass they will likely suffer
+thermal stress during the heating and cooling that arises during startup and shutdown and also
+during load transients. If a thick component is heated on one side, that side will tend to ex-
+pand. If the side is constrained by the still cold base material so that it cannot expand an
+internal stress will be set up. The reverse happens during cooling. Therefore, large rigid com-
+ponents which are subject to transient and uneven heating and cooling will suffer low cycle
+fatigue damage and may ultimately fail. This effect can be minimized by slow heating and
+cooling to reduce temperature differences in single components such as reactor pressure
+vessels, steam generators, steam pipes, turbine casings and turbine rotors. This means that all
+these components must be preheated slowly before startup and the unit must be loaded slowly.
+Similarly, load changes on the unit should be carried out slowly. This requirement imposes
+operating restrictions on reactors and turbines. Generally, the larger the unit, the longer the
+time to start it up and load it. This makes large units less flexible in operation than smaller
+units.
+In the reactor, temperature transients in the fuel cause structural changes within the fuel and
+stress on the cladding and therefore must be minimized to avoid premature fuel failures. In the
+turbine, uneven heating and cooling of the rotor can cause bending, which in turn causes
+excessive vibration and in the extreme case contact with the casing and therefore must be
+monitored very carefully.
+A nuclear reactor is also subject to xenon transients which may inhibit operation for a certain
+period. When the load on a reactor is suddenly reduced, xenon, a fission product that absorbs
+neutrons very strongly, builds up in the fuel and may force a reactor shutdown. The xenon
+eventually decays after about 40 hours, and the reactor can be restarted. During this time,
+there is a loss in electrical power production, and the larger the unit, the more serious is this
+loss in revenue generating output.
+4.4 Fuel Burnup
+As the fuel in the reactor is used up, the concentration of uranium-235 decreases. This reduces
+the number of fissions occurring with a given number of neutrons. Furthermore, some of the
+fission products produced absorb neutrons, thus reducing the number of neutrons available to
+produce fission. These changes can be accommodated by withdrawing the control rods from22 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015the reactor and allowing more neutrons to be available in the fuel. After a long period of
+operation, however, such changes can no longer be accommodated, and the fuel may have
+become depleted in U-235 to the point where a continuous chain reaction can no longer be
+sustained. At this point, the reactor has to be refuelled with fresh fuel.
+With reactors that are partially refuelled once a year, the control rods do not provide an ade-
+quate range of control, and therefore a soluble neutron absorber is added in small quantities to
+the moderator. Its concentration is gradually reduced over time to compensate for fuel burnup.
+Some reactors are designed for continuous on-load refuelling. This is advantageous because the
+effects of fuel burnup and fission product production are negligible with regard to overall
+reactor conditions.
+5Safety and Licensing
+5.1 Radiation Hazards
+Many types of radiation, both natural and human generated, are encountered in everyday life.
+Even the human body contains radioactive materials. This radiation can be divided into two
+categories. The first is electromagnetic radiation, which is assumed to travel in waves of dis-
+crete frequencies, for example, X-rays, γ-rays, and UV rays.  The second is particulate radiation 
+consisting of high-energy particles moving at high velocity, such as -particles, -particles,
+neutrons, etc. Charged particles such as -particles and -particles are easily stopped by
+ionization of surrounding material, but γ-rays and neutrons can be very penetrating due to their 
+low interaction with most materials.
+Radiation causes damage to biological structures such as cells. However, cells are in a continual
+state of dying and being replaced, so such damage is naturally repaired provided that it is not
+excessive. Of concern though is possible damage to DNA structures and subsequent genetic
+effects. For this reason exposure to radiation is controlled much more rigidly than exposure to
+toxic materials and dangerous chemicals.  Although γ-rays and neutrons can penetrate the 
+human body, -radiation and -radiation are generally damaging only if materials that emit
+these particles are ingested or come into contact with skin.
+In the core of a nuclear reactor, the fission process produces neutrons and highly reactive fission
+products which emit -particles and -particles as well as γ-radiation as they decay to stable 
+isotopes.  Neutrons and γ-rays are emitted from the core, but are attenuated to low and safe 
+levels by adequate shielding around the reactor. The fission products are held within the fuel
+and therefore do not pose a hazard unless released to the environment through leakage from
+the fuel or rupture of the fuel.
+During operation of a nuclear plant, small amounts of leakage inevitably occur because some
+fission products are gaseous and attenuation cannot eliminate all radiation. Therefore, the
+entire operational area within and surrounding the plant as well as the local environment is
+continuously monitored to ensure that radiation is kept well within safe limits and usually kept
+much lower.
+In the event of a serious accident, for example, fuel overheating and rupture of reactor compo-
+nents, the design of all reactors makes provision for barriers to contain these fission products
+and prevent their release to the environment. Such barriers may not be perfect, and some
+radioactive products may be released. If people in the surrounding area ingest such products,Introduction to Nuclear Reactors 23
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015they will be subject to -radiation or -radiation emitted by these products, along with some γ-
+radiation resulting from the decay process. The design of the plant has, as a key objective, the
+provision of safety devices and containment barriers to ensure that radiation exposure to the
+public is kept well below acceptable limits in the event of an accident.
+5.2 Risk Assessment
+Humankind is subject to many risks, both natural and human generated. These risks have been
+analyzed, and if the severity of an accident is compared with the probability of its occurrence, it
+is generally found that the probability of an accident occurring is much higher if the number of
+deaths per accident is low (motor vehicle accidents) than if the number of deaths is high (air-
+craft accidents). Because the consequences of a serious nuclear accident (for example, the
+Chernobyl accident) can be very severe, the probability of its occurrence must be kept very low.
+This puts great pressure on the nuclear industry to minimize the risk of serious accidents to
+levels far below those of other industries. The result is that the nuclear industry is the most
+regulated of all industries. Highly sophisticated design and accident analysis techniques and
+requirements are in place to ensure public safety.
+5.3 Licensing Principles
+All nuclear plants are subject to a rigorous licensing process by an independent regulatory
+authority to ensure safety of operating personnel and the general public and to ensure that
+there are no detrimental effects to the surrounding environment. All aspects of the plant are
+checked and assessed with regard to the effects of possible failures of key components. Initially
+this assessment was based on the maximum credible accident due to a single failure. In the
+event of the worst possible accident, the likely damage to the plant was assessed and the
+containment barriers reviewed to determine the likely amount of radioactive fission product
+release to the environment. This release was to be kept below specified values. This concept
+did not take account of the possible (though very unlikely) failure of a component deemed not
+to fail, nor did it take account of multiple minor failures which could have a cumulative or
+cascading effect, causing an otherwise unpredicted failure of a key component.
+The modern approach, based on the probability of failure of a key component and the conse-
+quences of such a failure, overcomes the shortcomings mentioned above. A component
+deemed not to fail can be given a very low but still finite probability of failure. Moreover,
+multiple components which are all associated with one type of accident can each be given a
+certain probability of failure, and hence the probability of simultaneous failure can be assessed.
+Ultimately the entire plant can be assessed to determine the probability of an accident leading
+to a certain release of radioactive fission products. Hence, the safety of the surrounding envi-
+ronment and population can be ensured to a very high degree, that is, a very low probability of
+damage to the environment or excessive radiation exposure to the population.
+The transition to a probabilistic approach as opposed to the deterministic method was initially
+difficult due to a lack of statistical data and because certain failures could have different root
+causes. However, as the industry has matured, more statistical data have become available
+from test results and operating experience. Nevertheless, the process remains complex.
+Another consideration is the relative importance of component failure and human error. A
+quick analysis done many years ago indicated that roughly half of various incidents and acci-
+dents in operating nuclear plants around the world were caused by human error and roughly24 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015half by component failure. Many component failures could be ascribed to human error during
+component design or manufacture. Rigorous quality control, quality assurance, and quality
+management procedures can minimize manufacturing and construction defects. Proper train-
+ing, assessment, and licensing of plant operators can minimize human error during operation.
+This all contributes to a lower risk of accident and increased safety in nuclear plants.
+A further development in the nuclear industry is the concept of passive safety. This means that
+in the event of a failure leading to accident conditions, the reactor will naturally revert to a safe
+shutdown condition and maintain that condition with minimal operator intervention, even in
+the event of the loss of key services. Some newer designs, for example, can maintain reactor
+cooling after shutdown by natural coolant circulation and natural heat convection to the envi-
+ronment.
+6Problems
+1 Explain why the fission of very heavy elements results in release of neutrons as well as
+production of excess energy.
+2 Explain the purpose of the key components of a nuclear reactor and show how these are
+arranged to ensure adequate heat removal and satisfactory control.
+3 Describe the key similarities and differences between a CANDU and a PWR as well as be-
+tween a CANDU and a BWR.
+4 Explain how fission heat is converted into electrical energy and identify all key interfaces and
+points of energy conversion in the process.
+7Bibliography
+[Cameron1982] I. R. Cameron, Nuclear Fission Reactors , Plenum Press, New York, 1982.
+[El-Wakil1982] M. M. El-Wakil, Nuclear Energy Conversion , 3rded., American Nuclear Society, La
+Grange Park, IL, USA, 1982.
+[Foster1983] A. R. Foster and R. L. Wright, Basic Nuclear Engineering , 4thed., Prentice-Hall,
+Englewood Cliffs, NJ. USA, 1983.
+[Glasstone1994] S. Glasstone and A. Sesonske, Nuclear Reactor Engineering: Volume 2, Reactor
+Systems Engineering, 4thed., Chapman & Hall, New York, NY , USA, 1994.
+[Knief1992] R. A. Knief, Nuclear Engineering, 2nded., Hemisphere Publishing Corporation,
+Washington, DC, USA.
+[Lamarsh2001] J. R. Lamarsh and A. J. Baratta, Introduction to Nuclear Engineering , 3rded.,
+Prentice-Hall, New Jersey, USA, 2001.Introduction to Nuclear Reactors 25
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 20158Acknowledgments
+The following reviewers are gratefully acknowledged for their hard work and excellent com-
+ments during the development of this Chapter. Their feedback has much improved it. Of course
+the responsibility for any errors or omissions lies entirely with the author.
+Bob Tapping
+Jeremy Whitlock
+Bhaskar Sur
+Terry Rogers
+George Bereznai
+Thanks are also extended to Diana Bouchard for expertly editing and assembling the final copy.26 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Introduction to Nuclear Reactors – June 2015

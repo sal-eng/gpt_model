@@ -1,0 +1,1088 @@
+1
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016CHAPTER 2
+Genealogy of CANDU Reactors
+prepared by
+Dr. Robin Chaplin
+Summary :
+This chapter discusses the historical beginnings and evolution of the CANDU reactor. The
+research and prototype reactors leading to the CANDU design are described with some of their
+principle technical parameters. Reasons for the choice of key parameters are given. This leads
+into a review of the evolution of the design of increasingly larger commercial CANDU reactors.
+The CANDU 6 reactor design has been chosen as a reference and a brief description of its main
+components with typical design parameters follows with a comparison with the CANDU 9
+reactor. The chapter includes a note on the advantages of the CANDU reactor compared with
+other water cooled reactors and a general review of reactor safety as applicable to most water
+cooled reactors. It concludes with some technical details of the proposed Advanced CANDU
+reactor for comparison with existing commercial CANDU reactors.
+Table of Contents
+1 Canadian Historical Review..................................................................................................... 3
+1.1 Canadian Nuclear Beginnings........................................................................................... 3
+2 Canadian Research Reactors................................................................................................... 4
+2.1 Small Research Reactors................................................................................................... 4
+2.2 The NRX Reactor............................................................................................................... 4
+2.3 The NRU Reactor .............................................................................................................. 5
+3 Development of the CANDU Reactor...................................................................................... 6
+3.1 The NPD Reactor............................................................................................................... 6
+3.2 Douglas Point.................................................................................................................... 6
+4 Commercial CANDU Reactors ................................................................................................. 7
+4.1 Commercial Reactor Development .................................................................................. 7
+4.2 CANDU Reactors in Service............................................................................................. 11
+4.3 Direct Steam Generation ................................................................................................ 13
+5 The Current CANDU Reactor Design ..................................................................................... 14
+5.1 Plant Arrangement ......................................................................................................... 14
+5.2 Fuel Channel Conditions................................................................................................. 16
+5.3 Comparison of CANDU Reactors .................................................................................... 16
+5.4 Power Density................................................................................................................. 17
+6 CANDU Technical Parameters ............................................................................................... 18
+6.1 Reference Plant............................................................................................................... 18
+6.2 Reactor Core Arrangement............................................................................................. 19
+6.3 Coolant Loop Arrangement ............................................................................................ 262 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 20166.4 Steam Generators........................................................................................................... 29
+6.5 Steam Turbines ............................................................................................................... 30
+6.6 Technical Data................................................................................................................. 32
+7 Possible CANDU Reactor Development ................................................................................ 32
+7.1 CANDU Advantages ........................................................................................................ 32
+7.2 Future Prospects............................................................................................................. 33
+7.3 Safety Aspects................................................................................................................. 34
+7.4 The Advanced CANDU Reactor....................................................................................... 35
+8 Problems ............................................................................................................................... 38
+9 References and Bibliography................................................................................................. 39
+10 Acknowledgements............................................................................................................... 40
+List of Figures
+Figure 1 Diagrammatic cross section of a typical CANDU (PHWR)............................................... 14
+Figure 2 Moderator and coolant circuits ...................................................................................... 15
+Figure 3 Point Lepreau nuclear generating station....................................................................... 19
+Figure 4 Reactor vault and assembly ............................................................................................ 20
+Figure 5 37-element fuel bundle .................................................................................................. 21
+Figure 6 CANDU 6 reactor assembly............................................................................................. 23
+Figure 7 Reactor cross section ...................................................................................................... 24
+Figure 8 Reactor longitudinal section ........................................................................................... 25
+Figure 9 Reactor plan view............................................................................................................ 26
+Figure 10 Fuel channel end fittings on reactor face ..................................................................... 27
+Figure 11 Feeder tube assembly on reactor face.......................................................................... 28
+Figure 12 Steam generator for CANDU system............................................................................. 29
+Figure 13 600 MW steam turbine for nuclear unit ....................................................................... 31
+Figure 14 Turbine generator for nuclear unit................................................................................ 31
+Figure 15 Typical capacity factors of CANDU and other reactors ................................................. 33
+Figure 16 ACR 1000 nuclear systems schematic........................................................................... 36
+Figure 17 ACR CANFLEX fuel bundles............................................................................................ 36
+Figure 18 Comparison of core sizes .............................................................................................. 38
+List of Tables
+Table 1 Technical data for NRX........................................................................................................ 5
+Table 2 Canadian CANDU reactors: capacity and service date ..................................................... 12
+Table 3 Foreign CANDU 6 reactors: capacity and service date ..................................................... 13
+Table 4 Comparison of CANDU reactor types ............................................................................... 18
+Table 5 CANDU core parameters................................................................................................... 22
+Table 6 CANDU coolant system parameters ................................................................................. 28
+Table 7 CANDU steam generator parameters............................................................................... 30
+Table 8 Steam turbine parameters................................................................................................ 32
+Table 9 Advanced CANDU reactor parameter comparison........................................................... 37Genealogy of CANDU Reactors 3
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 20161Canadian Historical Review
+1.1 Canadian Nuclear Beginnings
+During the first part of the 20thCentury, significant discoveries were made in the field of nuclear
+physics and chemistry, leading to the splitting of the atom and release of energy. Canada
+became an important player in the development of nuclear technology during and after World
+War II as a result of the Allied war effort to develop the atomic bomb. Although not directly
+involved in the development of the bomb, Canada contributed a significant amount of related
+nuclear research.
+Canadian history in nuclear physics essentially started in 1898 when Ernest Rutherford, a New
+Zealand born British scientist, was appointed Professor of Experimental Physics at McGill
+University. His early work here was related to radioactivity, and he won a Nobel Prize for this
+contribution to scientific knowledge in 1908. One of his students, John Cockcroft, who received
+a Nobel Prize jointly with Ernest Walton in 1951, subsequently came to Canada in 1944 to direct
+the Montreal Laboratory which had been set up in 1942 as a joint British-Canadian effort. In the
+intervening period, much fundamental research had been done, and consideration was then
+being given to the design and building of a reactor which would require more extensive labora-
+tories to be located at Chalk River.
+Concurrent work in the United States had led to the building of the first nuclear reactor, in
+which a self-sustaining nuclear reaction took place in 1942. This reactor was built of graphite
+blocks in which were distributed lumps of uranium. It was known as a pile due to the method of
+construction.
+During the war years, emphasis in the United States was directed towards the development of
+the atomic bomb. This required highly enriched uranium or plutonium. Whereas the former
+required extensive isotope separation facilities, the latter could be created from non-fissile
+uranium in a reactor and chemically separated from the spent fuel. There was therefore a
+concerted effort in the United States to build suitable reactors. Therefore, after the war, nuclear
+research was also directed towards the design of reactors for power production.
+After the war, Britain, without enrichment facilities and with no source of heavy water, followed
+the route of graphite moderated natural uranium reactors to produce plutonium for nuclear
+weapons, while at the same time developing reactors for power production. As a result, Calder
+Hall became the first commercial nuclear power plant in the world when the first of four 60
+MWe units was connected to the grid on 27 August 1956. It continued to operate until 2003. In
+the United States, with uranium enrichment facilities in place, the focus was on the develop-
+ment of light water moderated reactors using enriched uranium. Such reactors were highly
+suitable for submarine propulsion because the reactors were very compact. Furthermore, the
+vessels could remain submerged for extended periods and could operate extensively between
+refuellings. The expertise thus developed in steam system components for submarine propul-
+sion greatly influenced and facilitated the design of Canadian power reactors. Canada had
+supported the war effort by research related to heavy water physics and therefore had the
+expertise to direct its efforts into the development of heavy water moderated reactors using
+natural uranium as fuel. In summary, each country focused its efforts in different directions
+depending upon its relative expertise and resources.
+Work in Canada was directed towards use of heavy water as a moderator, and to test the4 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016concept, a Zero-Energy Experimental Pile known as ZEEP was built at Chalk River. It was essen-
+tially an aluminum cylinder 2 m in diameter and 2.5 m in height surrounded by blocks of graph-
+ite. Uranium metal rods clad in aluminum were hung vertically from the top, and heavy water
+could be pumped in slowly at the bottom. ZEEP was completed and went critical on 5 Septem-
+ber 1945, with almost exactly the amount of heavy water that had been predicted by theory. It
+was the first nuclear reactor to operate outside the United States. This confirmed the design
+parameters that would be used for the fuel rod lattice for the first functional reactor, designated
+NRX. ZEEP , however, continued to be used in later years for experimental studies of neutron
+behaviour.
+2Canadian Research Reactors
+2.1 Small Research Reactors
+The Zero-Energy Experimental Pile or ZEEP , which had an operating power of just 1 W, enabled
+tests to be carried out to determine the characteristics of heavy water and uranium lattices. It
+was also used to determine the neutron energy spectrum in various regions of a fuel bundle.
+A larger version of ZEEP , known as ZED-2, was used for studies of fuel and irradiation effects as
+well as a variety of possible lattices for power reactors. Fuel bundle designs from 7-element to
+37-element assemblies were tested to determine their performance.
+The Pool Test Reactor, or PTR, was constructed, as its name implies, near the bottom of a deep
+pool of light water. Because this light water was both moderator and coolant, slightly enriched
+uranium had to be used as fuel. This arrangement with an easily accessible core made it possi-
+ble to shuttle samples of fuel and other materials in and out of the reactor core to determine
+their effect on reactivity as well as to study short term radiation effects on materials.
+2.2 The NRX Reactor
+The first Canadian nuclear reactor to be designed to operate with a positive power output due
+to its generation of excess heat was the NRX. This reactor started operation in 1947 with a
+design thermal power rating of 10 MW, which was increased to 42 MW by 1954. At the time of
+its construction, it was the most powerful nuclear research reactor in the world and became the
+most intense source of neutrons available anywhere. It also suffered one of the first major
+nuclear reactor accidents in the world (power excursion to 80 MW and partial core meltdown),
+but was rebuilt and restarted within two years. It continued in service until 1993, which was
+quite a remarkable achievement for an experimental reactor.
+The NRX reactor consisted of a vertical cylindrical aluminum calandria with a diameter of 8 m
+and a height of 3 m. The calandria contained the heavy water moderator. The core consisted of
+a hexagonal array of approximately 175 tubes with a diameter of 60 mm. These tubes held fuel
+elements, control rods, and experimental devices. Of these, 12 held control rods made of steel
+tubes containing boron carbide powder. The fuel elements consisted of uranium metal rods 3.1
+m in length and 31 mm in diameter sheathed in aluminum. Each was surrounded by an alumi-
+num tube through which flowed cooling water from the Ottawa River. An air flow in the gap
+between the calandria tube and the coolant tube was maintained to limit heat flow to the
+moderator to maintain it at a low temperature.
+The key technical parameters for the NRX reactor are given in Table 1. The modern CANDUGenealogy of CANDU Reactors 5
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016reactor has all these key elements in a similar but horizontal arrangement.
+Table 1 Technical data for NRX
+Parameter Characteristic
+Reactor shape cylindrical
+Reactor orientation vertical
+Calandria diameter 8 m
+Calandria height 3 m
+Fuel channel arrangement vertical hexagonal array
+Number of fuel channels ~175
+Fuel channel diameter 60 mm
+Fuel channel material aluminum
+Fuel uranium metal
+Fuel rod length 3.1 m
+Fuel rod diameter 31 mm
+Fuel rod mass 55 kg
+Fuel cladding material aluminum
+Moderator heavy water
+Moderator quantity 14 m3
+Coolant light water
+Coolant flow 250 kg/s
+Annulus gas air
+Annulus flow 8 kg/s
+Control rods steel tubes containing boron
+carbide
+2.3 The NRU Reactor
+The National Research Universal (NRU) Reactor was a significantly advanced version of the NRX.
+Design was started in 1949 after NRX had been put into operation, and it started self-sustained
+operation in 1957, some 10 years after NRX. It was designed for a thermal output of 200 MW
+using natural uranium, but was converted to 60 MW using highly enriched uranium in 1964 and
+converted again to 135 MW using low enriched uranium in 1991. The NRU supported the
+Canadian Neutron Beam Centre and served as a test bed for the development of the CANDU
+reactor. Like NRX, it was when built the most powerful source of neutrons in the world and
+became the world’s leading supplier of radioactive isotopes. It suffered an accident in 1958
+when a fuel rod caught fire on removal from the reactor and caused radioactive contamination
+within the building and to a lesser degree on the surrounding site. As with NRX, the NRU was
+designed to use natural uranium as fuel and heavy water as moderator, but was cooled by heavy
+water. With a view to later commercial power applications, it was designed for on-load refuel-6 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016ling.
+3Development of the CANDU Reactor
+3.1 The NPD Reactor
+The Nuclear Power Demonstration or NPD Reactor was partially modelled on the NRU reactor
+and was intended to be the first Canadian nuclear power reactor and a prototype for the
+CANDU design. Design work commenced in 1955, with the important components being
+designed and fabricated by Canadian General Electric. As a power producer, it had to operate at
+high temperatures sufficient to generate steam to drive a power producing turbine. These
+requirements presented some unique technical challenges due to the pressures under which
+the systems would have to operate. The design electrical output was to be 22 MW. Use of
+heavy water as a coolant and on-load refuelling had been proven with the NRU reactor, but the
+higher temperatures and pressures had to be accommodated by some significant changes.
+Firstly, the fuel was changed from uranium metal to uranium dioxide, which could withstand
+higher temperatures and was dimensionally stable over long irradiation periods. Secondly, the
+fuel cladding was changed from aluminum to zirconium alloy, which could also withstand higher
+temperatures and was corrosion resistant as well as being essentially transparent to neutrons.
+Thirdly, the fuel channels rather than the calandria were pressurized, leading to a pressure tube
+design rather than a pressure vessel design, and these pressure tubes would be of zirconium
+alloy. The pressure tube design led to further considerations to accommodate on-load refuel-
+ling. With horizontal pressure tubes rather than vertical tubes as in the NRX and NRU reactors,
+the fuel could be made into easily handled bundles which could be pushed in from one end and
+recovered from the other during refuelling while the reactor was at full power. Several unique
+safety features, such as safety shutdown systems with testability during operation, decay heat
+removal by natural circulation after shutdown, and a containment to prevent the release of
+radioactive material in the event of an accident, were incorporated. The NPD reactor started
+operation in 1962 and was taken out of service in 1987, by which time it had fulfilled its original
+purpose as a prototype and would have required re-tubing. It had also been an important
+training centre for future CANDU nuclear plant operators.
+3.2 Douglas Point
+The Douglas Point plant was the first full-scale CANDU nuclear generating station and was built
+on the shores of Lake Huron where the Bruce Nuclear Power Complex is now located. The
+proposed electrical output was 200 MW, and approval was given in 1959. It was basically a
+scale-up of the NPD reactor with similar design and components. It delivered power to the
+Ontario Hydro electrical grid system from 1967 until 1984, when replacement of the pressure
+tubes became necessary and could not be justified on economic grounds. Valuable experience
+was gained on this plant which was subsequently applied to later CANDU nuclear power plants.Genealogy of CANDU Reactors 7
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 20164Commercial CANDU Reactors
+4.1 Commercial Reactor Development
+The design of the CANDU reactor began with the Nuclear Power Demonstration (NPD) plant.
+Certain parameters had to be established within the constraints of existing technology. Basi-
+cally, the reactor had to be fuelled with natural uranium, with heavy water as a moderator. This
+required a heterogeneous core arrangement with an array of fuel channels through which
+coolant flowed. Initial studies suggested a fuel channel cross section of 50 cm2, which trans-
+lated into a standard size fuel channel 3.25 in (83 mm) in diameter. To promote good heat
+transfer from the fuel, a modified hexagonal array of 19 rods or elements was chosen. The
+minimum spacing between rods based on laboratory testing was determined to be 0.050 in
+(1.27 mm). Based on irradiation testing, uranium dioxide was shown to have better dimensional
+stability and corrosion resistance than uranium metal at high burnup levels. This choice did,
+however, reduce the uranium concentration in the fuel and increased the need for good neu-
+tron economy. Zirconium had been selected as fuel cladding due to its corrosion resistance and
+low neutron absorption, but the quantity of it around the fuel had to be reduced as much as
+possible. Although a cladding thickness of 0.020 in (0.51 mm) was recommended by the tube
+supplier, further experimental work led to a thickness of 0.015 in (0.38 mm) and later to 0.013
+in (0.33 mm). This resulted in collapsible cladding where the tube wall was compressed onto
+the fuel once in service.
+A major decision was to adopt a pressure tube design rather than a pressure vessel design to
+avoid the difficulty of constructing a sufficiently large vessel for a heavy water moderated
+reactor. Zirconium alloy pressure tubes had sufficient neutron transparency to make this
+possible. A further major decision was to orient the fuel channels horizontally instead of
+vertically to facilitate on-load refuelling. The fuel could be made in the form of bundles which
+could be pushed through the channels with no need to link them together. These decisions on
+reactor configuration made the CANDU unique with regard to other commercial reactor devel-
+opments. Although some were designed with pressure tubes or separate fuel bundles, only the
+CANDU has horizontal fuel channels.
+With a selected fuel channel length of 4 m, the next question was the optimum number of fuel
+bundles. A significant advantage of separate fuel bundles was that the entire fuel channel need
+not be refuelled at one time. Low burnup fuel could be retained while new fuel was added. An
+analysis of diminishing returns indicated that having more than eight bundles would not yield
+any advantage, assuming a cosine neutron flux distribution along the fuel channel. This gave a
+fuel bundle length of 50 cm in a 4 m long fuel channel. This translated into a standard fuel
+bundle length of 19.5 in (495 mm), which was adopted for future CANDU reactors.
+A fuelling machine was required at each end of the fuel channel. One supplied fresh fuel from
+one end, while the other received spent fuel at the other end. They had to connect to each fuel
+channel in turn and remove and re-insert closure plugs at the beginning and end of the refuel-
+ling process. The fuel configuration in the form of separate bundles facilitated the design of
+these machines because they did not have to handle a very long fuel assembly. In fact, the
+design of the fuel string and machines was dictated by the space available in the rock excava-
+tion, which had been dimensioned on the assumption that the reactor would have a vertical
+orientation. Of necessity, therefore, the fuelling machines were designed each with a rotating8 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016magazine with slots to hold each bundle separately. A significant advantage of this arrangement
+was that fuelling could take place from either end of the reactor. Such bi-directional fuelling
+made it possible to balance the tendency for flux skewing in a partially refuelled channel by
+fuelling in the opposite direction in an adjacent channel. In the NPD design, coolant flowed in
+the direction opposite to the fuelling direction, so that the fuel bundles were held in place by
+the flow of coolant. This established the characteristic bi-directional coolant flow in CANDU
+reactors.
+The calandria vessel and calandria tubes were of aluminum. Initially, there was no spacer
+between the calandria tubes and the fuel channel pressure tube, but as the design for Douglas
+Point evolved, a single spacer in the form of an Inconel wire garter spring was introduced. This
+enabled the pressure tubes to withstand the effect of creep sag. The calandria had a light water
+neutron reflector surrounding it in a radial direction. To bring about a shutdown, the heavy
+water moderator could be rapidly drained into a dump tank, which for a small reactor was an
+effective way of ensuring safe shutdown in the event of an accident.
+The heat transport system which removed heat from the reactor core and generated steam in a
+steam generator required pumps to circulate the coolant. Originally, completely enclosed
+canned pumps were proposed, but these were later changed to conventional vertical pumps
+with shaft seals. These had the advantage of being able to incorporate a flywheel to provide
+increased rotational inertia, which would extend the rundown period after a power failure and
+enable extra core cooling during the initial stages of high decay heat. The steam generator
+design was based on those being designed for United States nuclear submarines. It consisted
+essentially of a U-shaped horizontal heat exchanger in which the heavy water coolant trans-
+ferred heat to the light water of the steam system. Because the latter operated at a lower
+pressure, some steam was generated around the tubes. Risers and downcomers circulated the
+steam and water mixture to a steam drum and returned the water to the heat exchanger. The
+long circular horizontal steam drum was similar to that of a conventional fossil fuel fired boiler
+and had internal cyclones for effective steam separation. The overall configuration required
+inlet and outlet headers at each end of the reactor to accommodate bi-directional coolant flow.
+The former were supplied by three 50% capacity pumps, and the latter delivered coolant to a
+single steam generator.
+The NPD reactor was followed very closely by the Douglas Point reactor, the latter being essen-
+tially an enlarged version capable of operating like a commercial power plant and producing
+electric power to the grid system on a commercial scale. The site chosen was on Lake Huron,
+where there was an adequate supply of cooling water to sustain large scale power production.
+The most significant change was an upgrade in power from 20 MW electrical to 200 MW
+electrical. This naturally required a larger and more robust calandria, and therefore the struc-
+tural material was changed from aluminum alloy to stainless steel and the calandria tubes from
+aluminum alloy to zirconium alloy. Because stainless steel is a stronger neutron absorber than
+aluminum, the calandria diameter was further enlarged to accommodate an internal heavy
+water reflector instead of an external light water reflector. The axial shields were moved
+inwards so that the fuel channel end fittings would be outside the shield and therefore more
+easily accessible.
+The increased size of the Douglas Point reactor required fuel channels with a length of 5 m. This
+meant more fuel bundles per channel. The one-eighth length fuel bundle was based on a
+cosine flux distribution, but with flux flattening, such short lengths were not required, and oneGenealogy of CANDU Reactors 9
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016third length bundles would give virtually optimum fuel burnup. Because the same standard
+length fuel bundles would be used, the fuelling machines were therefore redesigned to handle
+two bundles in each slot. This enabled the magazine to be smaller in diameter, but able to
+accommodate 39 in (991 mm) of fuel with each fuel movement. Other changes in fuelling-
+machine design provided positive control from both ends of the fuel channel during refuelling
+and enabled refuelling in the same direction as coolant flow. The advantage of this was that
+fresh fuel, which would give a higher local power output, would be in contact with cooler water
+when only part of the fuel channel had been refuelled.
+The larger output required increased steam generating capabilities. Furthermore, the longer
+reactor put the inlet and outlet of each channel further apart. Therefore, it was decided to put
+steam generators and circulating pumps at each end of the reactor. The same concept of
+separate heat exchangers and steam drums was retained, but instead of one horizontal heat
+exchanger, several vertical hairpin tube exchangers were used to feed a single steam drum in a
+way similar to that in which steam is generated in the water walls of a fossil fuel fired boiler.
+The multiple smaller heat exchangers could be replaced more easily than a single large one
+should tube problems arise. With steam generators and circulating pumps at each end of the
+reactor and with bi-directional flow, the “figure of eight” configuration for the heat transport
+system was established for this and all future CANDU reactors. A further feature of Douglas
+Point was the introduction of horizontal inlet and outlet headers above the highest fuel chan-
+nels, but below the steam generators and circulating pumps. This would enable the system to
+be partially drained for maintenance on the circulating pumps and steam generators while still
+maintaining fuel cooling to remove decay heat. In normal operation, pressure was maintained
+in the heat transport system by a feed-and-bleed system to minimize heavy water inventory.
+Pickering was the first large scale multi-unit commercial CANDU plant. This was yet a further
+scale-up from the 200 MW Douglas Point plant to a 4 x 500 MW plant. The 500 MW electrical
+unit size was consistent with that of the coal fired units on the Ontario Hydro system. Signifi-
+cant changes to the reactor included longer and wider fuel channels to accommodate the
+increased fuel inventory. The fuel channels were 6 m in length instead of 5 m. Rather than
+increasing the number of fuel channels excessively, it was decided to increase the diameter to a
+nominal 4 in (102 mm) while retaining the fuel element or rod diameter. This resulted in fuel
+bundles with 28 instead of 19 elements. This required a fuel channel 4.07 in (103 mm) in
+diameter to maintain the standard minimum element spacing, which was maintained by pads
+brazed to the element cladding. This then became the standard for all future CANDU reactors.
+The end shields were redesigned, and the annular space between the pressure tube and calan-
+dria tube filled with inert gas to minimize the risk of corrosion.
+A further change was the adoption of a double “figure of eight” coolant loop with two hydrauli-
+cally independent loops. This had the advantage of limiting the consequences of a loss of
+coolant accident due to a pressure tube or feeder tube break because the fuel channels in half
+the reactor would remain flooded without the need for emergency coolant injection. The
+moderator dump system for emergency shutdown was retained, but due to the time needed to
+drain the large calandria, it was supplemented with gravity operated shutoff rods. The latter
+system was able to handle most reactor trips, and therefore a dump arrest system was added to
+prevent dumping, enabling a faster reactor restart for such non-accident related trips.
+The larger reactor introduced the possibility of flux oscillation, in which the peak flux wanders
+from one region of the reactor to another, induced by xenon transients. To overcome this, the10 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016reactor was divided into 14 zones, each with a neutron flux detector and a chamber in which an
+appropriate amount of light water could act as a stronger neutron absorber than the surround-
+ing heavy water moderator and thus achieve local flux control. This regional neutron flux
+control system became a standard feature of all subsequent CANDU reactors.
+An innovative change was the introduction of vertical steam generators which incorporated the
+vertical U-tube heat exchange surface and steam separation cyclones into a single vessel with
+provision for water recirculation and feedwater preheating. This design became the standard
+for CANDU reactors and many pressurized light water reactors, or PWRs.
+For a multi-unit station, the concept of a containment surrounding each reactor was maintained
+and extended by linking the separate containments to a common vacuum building. In the event
+of a major reactor accident and release of steam inside any containment, the vacuum building
+would act to suck out and condense the steam, thus establishing a negative pressure in the
+containment to prevent egress of radioactive material.
+Bruce was the next large multi-unit nuclear generating station to be built. This involved a
+change in the heat transport system. In previous designs, the outlet conditions of the fuel
+channels varied due to the different power ratings of the channels across the reactor core. To
+create more uniform conditions at the channel outlets, the central core region required a
+greater degree of subcooling at the inlet. This was accomplished by having separate preheaters
+outside some steam generators rather than integral preheaters and passing coolant for the
+central region only through these preheaters. This complicated the flow system, but obtained
+better matching of coolant outlet conditions. Another change was made to the steam genera-
+tors, where the large U-tube heat exchanger as used in Pickering was retained, but without the
+integral upper steam separating section. Instead, a single long horizontal steam drum was
+attached to the top of all steam generators at each end of the reactor. The larger water-steam
+interface reduced level control problems, but introduced thermal stress problems. This design
+was used on Bruce A, while Bruce B reverted to the separate integral design as used at
+Pickering.
+Studies had indicated that a moderator dump system was too slow for a large reactor, and
+therefore this was eliminated in favour of faster acting gravity shutoff rods. Because dumped
+moderator would not be available for channel cooling in the event of loss of coolant, a new
+system was developed for the next generation of reactors, but applied at Bruce. This was the
+injection of high pressure water into the heat transport system headers from gas pressurized
+storage tanks. For Bruce, the initial supply pressure was 800 lbf/in2(5.52 MPa), but this was
+reduced to 600 lbf/in2(4.14 MPa) in subsequent reactors.
+A further safety issue arose with regard to the shutdown system. Bearing in mind that the
+CANDU design is a neatly balanced configuration of fuel and moderator, any disruption of this
+configuration will render the reactor subcritical and inoperable. In the event of failure of the
+shutdown system to operate in an overpower situation, the reactor would disassemble and shut
+itself down. Further consideration of the core disassembly philosophy led to addition of a
+second shutdown system which would remove the need to consider core disassembly for
+licensing purposes. Because the shutoff rods operated in a vertical plane, a new system operat-
+ing entirely independently on a horizontal plane was developed. Solid rods were considered,
+but might suffer mechanical interference, so liquid rods were favoured. However, their effect
+would be too localized, so liquid dispersion in the moderator was the ultimate choice. ByGenealogy of CANDU Reactors 11
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016injecting neutron absorbing gadolinium nitrate solution into the moderator through an array of
+nozzles in the reactor core, a very quick shutdown could be ensured. This system was driven by
+helium in pressurized storage tanks and became standard on all CANDU reactors. Because
+removal of the gadolinium nitrate from the moderator was a lengthy process, this became the
+secondary shutdown system, while the shutoff rods remained the primary shutdown system
+which operates first in adverse transient conditions requiring a reactor trip.
+The next generation of CANDU units included Point Lepreau and Gentilly-II as well as a number
+of overseas plants. A design for single unit stations was needed for these to be attractive to
+small utilities. The major change was the requirement for a single large containment for the
+reactor and heat transport system, including the steam generators, which would condense
+released steam and contain radioactive products in the event of a large break and loss of
+coolant accident. Other changes followed a natural evolution in reactor design. The fuel
+bundles were modified from 28 to 37 element bundles by using smaller diameter elements.
+The increased heat transfer surface thus created enabled a power increase from 500 MW to 600
+MW electrical, while reducing the number of fuel channels from 390 to 380. This reactor
+therefore became known as the CANDU 600. Furthermore, from 12 steam generators and 16
+coolant pumps at Pickering, the design had evolved to 4 steam generators and 4 coolant pumps.
+Experience in steam generator design had enabled larger components to be built. Comprehen-
+sive testing had shown that some boiling could be permitted within the fuel channels, thus
+increasing substantially the heat removal capability of the coolant. Darlington followed the
+design of the CANDU 600, but with a degree of scaling up. The heat transport system main-
+tained the same arrangement of two loops in a figure-of-eight configuration, with each loop
+having a steam generator and a circulating pump at each end. For increased output, the reactor
+was designed for 480 fuel channels instead of 380. For future reactors of this size, a change in
+the figure-of-eight arrangement has been proposed. Instead of the two loops being in separate
+halves of the reactor, they would be interleaved alternately between adjacent channels
+throughout the reactor. The advantage of this would be to avoid a flux tilt and power pulse in
+the event of a loss of coolant accident in one loop while still maintaining the advantages of the
+two loop concept.
+4.2 CANDU Reactors in Service
+Table 2 lists the CANDU reactors in service in Canada with their commercial service start dates.
+Of these, Point Lepreau and Gentilly 2 are both CANDU 600 or CANDU 6 reactors, which was the
+basic reference design for reactors sold abroad. Table 3 lists CANDU 6 reactors in operation in
+foreign countries. In this text, Point Lepreau has been selected as the reference plant because it
+is typical of CANDU reactors on a worldwide basis.12 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Table 2 Canadian CANDU reactors: capacity and service date
+Country Station Name Gross (MWe) Net (MWe) Service Date
+Canada Pickering 1 542 515 1971
+Canada Pickering 2 542 515 1971
+Canada Pickering 3 542 515 1972
+Canada Pickering 4 542 515 1973
+Canada Bruce 1 836 781 1977
+Canada Bruce 2 836 781 1977
+Canada Bruce 3 836 781 1978
+Canada Bruce 4 836 781 1979
+Canada Point Lepreau* 680 635 1983
+Canada Gentilly 2* 675 635 1983
+Canada Pickering 5 540 516 1983
+Canada Pickering 6 540 516 1984
+Canada Pickering 7 540 516 1985
+Canada Pickering 8 540 516 1986
+Canada Bruce 5 877 822 1985
+Canada Bruce 6 877 822 1984
+Canada Bruce 7 877 822 1986
+Canada Bruce 8 877 822 1987
+Canada Darlington 1 935 881 1992
+Canada Darlington 2 935 881 1990
+Canada Darlington 3 935 881 1993
+Canada Darlington 4 935 881 1993
+*CANDU-6 ReactorGenealogy of CANDU Reactors 13
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Table 3 Foreign CANDU 6 reactors: capacity and service date
+Country Station Name Gross (MWe) Net (MWe) Service Date
+Argentina Embalse 1 648 600 1984
+China Quinshan 4 700 640 1984
+China Quinshan 5 700 640 2002
+Romania Cernavoda 1 706 655 1996
+Romania Cernavoda 2 706 655 2007
+South Korea Wolsong 1 679 629 1983
+South Korea Wolsong 2 700 650 1997
+South Korea Wolsong 3 700 650 1998
+South Korea Wolsong 4 700 650 1999
+4.3 Direct Steam Generation
+Some reactors, such as the boiling water reactor or BWR, generate steam within the reactor
+core. Due to the cost of heavy water and the formation of tritium, heavy water cannot be used
+in the steam cycle because some leakage from this cycle is inevitable. Therefore, light water
+must be used as the coolant. The CANDU with its separate moderator and coolant circuits
+(unlike the light water PWR and BWR reactors in which the moderator and coolant are the same
+and in a single loop) can be adapted for direct steam generation by using heavy water as mod-
+erator in the calandria and light water as coolant in the fuel channels. Some boiling already
+occurs in CANDU fuel channels, and this can be increased with vertical channels, where the
+natural buoyancy effect enhances the forced circulation generated by the circulating pumps.
+Steam is separated in horizontal steam drums similar to those in the early CANDU reactors.
+Hence, we have the heavy water-light water reactor, or HWLWR.
+The most successful of these was the 100 MWe Steam Generating Heavy Water Reactor, or
+SGHWR, built in the United Kingdom. This reactor operated as a commercial prototype and
+produced reliable power to the national grid system from 1968 to 1990, when it reached the
+end of its design life. It had some novel design aspects, including direct injection of emergency
+coolant into the centres of the fuel bundles in the event of a loss of coolant accident, and
+served as a testing ground for various types of fuel. Because light water, which absorbs more
+neutrons than heavy water, was used as coolant, slightly enriched uranium in the form of
+uranium dioxide was required. The steam became slightly radioactive due to formation of
+nitrogen-16 in the reactor, and therefore certain precautions had to be taken by operational and
+maintenance staff when working around the steam turbine and feedwater system. Gentilly-1, a
+similar Canadian design, designated the CANDU Boiling Water Reactor or CANDU-BWR and also
+known as the CANDU Boiling Light Water Reactor or CANDU BLW, was modelled on the SGHWR,
+but fuelled with natural uranium. Built for an output of 250 MWe, first power was produced in
+1971, and full power was achieved in 1972. However, it did not operate successfully. The
+reactor had a strong positive power coefficient of reactivity when additional voidage due to
+steam formation in the coolant channels occurred. Although this could be corrected by ab-
+sorber rods in the core, the reactor remained difficult to control, and its operation was sporadic14 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016due to other problems such as condenser corrosion. It was shut down in 1979 and eventually
+decommissioned in 1984.
+5The Current CANDU Reactor Design
+5.1 Plant Arrangement
+The general arrangement of the plant is shown in Figure 1. The active part of the reactor is
+cylindrical in shape and set horizontally. The moderator is contained in the calandria, which is
+about 6.0 m long and about 7.6 m in diameter for the CANDU 6. Because of the low internal
+pressure in the calandria, the thickness of its shell and its tubes needs to be sufficient only to be
+structurally sound and to support the weight of the moderator. Only the pressure tubes located
+within the calandria tubes are pressurized. These pressure tubes, which contain the fuel and
+through which the coolant flows, are arranged horizontally in an axial direction. The coolant is
+fed to and from the pressure tubes by feeder tubes, which in turn are connected to headers
+situated above the reactor. The headers in turn are connected to steam generators in which
+heat from the coolant is used to generate steam. Circulating pumps, usually known as heat
+transport pumps, drive the coolant around the primary circuit. A pressurizer maintains pressure
+in the primary system to suppress large scale boiling and maintain operating temperatures.
+Figure 1 Diagrammatic cross section of a typical CANDU (PHWR)
+The moderator absorbs some energy from the neutrons as they are slowed down and also
+receives some heat by conduction and radiation through the annulus gas between the pressure
+tubes and calandria tubes as well as conduction through the tubes themselves. The low con-
+Genealogy of CANDU Reactors 15
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016ductivity of the annulus gas provides the greatest resistance to heat transfer. Cooling of the
+moderator is therefore required to maintain a temperature of about 70°C, which means that a
+circulating and cooling system is required. This is shown diagrammatically in Figure 2.
+Figure 2 Moderator and coolant circuits
+One characteristic when using heavy water as a moderator is that the neutron slowing down
+distance is relatively long. This determines the spacing between the fuel channels because
+neutrons need to be able to reach thermal equilibrium with the moderator before entering the
+next fuel channel. Too short a distance results in under-moderation and too long a distance in
+16 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016over-moderation. CANDU reactors are slightly over-moderated, but while this has some disad-
+vantages, it does provide additional space between the fuel channels for various control de-
+vices. Over-moderation enables additional neutrons to be absorbed in the moderator, and
+when voidage occurs in the fuel channels, fewer neutrons are absorbed, thus increasing the
+number of neutrons and giving a positive void coefficient of reactivity which must be counter-
+acted in other ways. With a separate calandria, the moderator temperature can be kept rela-
+tively low compared with the fuel and coolant. This is advantageous in reducing neutron energy
+and promoting the fission process due to the increased fission cross section of uranium at lower
+temperatures. In all CANDU reactors, the moderator in the calandria is maintained at atmos-
+pheric pressure and a temperature of about 70°C.
+5.2 Fuel Channel Conditions
+In the CANDU reactor, coolant enters the fuel channels of the core in a subcooled state, but not
+excessively subcooled. It leaves the most highly rated fuel channels with a vapour content of a
+few percent, with boiling having occurred. The lower rated channels have little or no boiling. In
+this way, nearly constant reactor coolant outlet temperatures can be maintained even though
+some channels produce more heat than others. Furthermore, the outer channels with the
+lowest rating can have their flow slightly restricted to enhance their coolant outlet tempera-
+tures. Note in this context that for good thermodynamic efficiency, the cycle working fluid
+should receive heat at the highest possible temperature. Hence, the reactor primary coolant
+should be at the highest possible temperature so that it can supply heat to the secondary
+working fluid at a suitably high temperature as well. Limited boiling in some fuel channels of a
+CANDU reactor enables the average temperature of the coolant entering the steam generators
+to be very near saturated conditions. An alternative view of the above review is that, by allow-
+ing some boiling to occur in the fuel channels, the pressure of the primary circuit can be lower
+while still maintaining desired steam generator temperatures. This has significant benefits in
+the design and manufacture of a rather complex primary system with multiple pressure tubes
+and feeder pipes.
+Within individual fuel channels where boiling does occur, conditions are not uniform across the
+fuel bundles. The circular arrangement of fuel elements in each bundle leads to irregularly
+shaped and sized coolant channels. More boiling occurs in narrow channels than in wider ones.
+The horizontal arrangement of the fuel bundles also creates non-uniform mixing between the
+coolant channels because the lighter vapour tends to migrate upwards, resulting in some
+vertical segregation of vapour and liquid across the channel. Although turbulence, particularly
+at the abutting ends of fuel bundles, tends to equalize conditions, some fuel pins are subject to
+more boiling than others. Boiling does enhance heat transfer, but excessive vapour is detrimen-
+tal, and therefore fuel sheath temperatures do vary slightly across any particular fuel bundle.
+5.3 Comparison of CANDU Reactors
+The CANDU reactor has evolved progressively and has been marketed in several other coun-
+tries. Three standardized versions, CANDU 300, CANDU 600, and CANDU 900, with different
+capacities were developed. These are now known as CANDU 3, CANDU 6, and CANDU 9 respec-
+tively. The original numbers indicate roughly the electrical output in megawatts, but later
+developments have enabled much greater outputs to be achieved by the respective models.
+Table 4 gives key technical parameters and shows the range in outputs available from theseGenealogy of CANDU Reactors 17
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016three models built up with similar basic components.
+Although the CANDU 6, for example Point Lepreau, is representative of CANDU reactors in
+general and most existing CANDU reactors are of this capacity, the CANDU 3 and CANDU 9, for
+example Bruce and Darlington, were marketed as alternate capacities to suit smaller or larger
+electrical utility systems respectively. The CANDU 9 is very similar to the CANDU 6, being simply
+larger in diameter and with increased heat transport capacity. It therefore has the benefit of
+economies of scale. The CANDU 3, however, was a novel development to minimize the adverse
+effects of economies of scale, but no examples have been built. It is like a half CANDU 6 with a
+single loop instead of a “figure of eight” loop with two steam generators at one end and two
+heat transport pumps at the other, thus maintaining essentially the same size components as
+the CANDU 6. Coolant flow is in one direction only, and only one refuelling machine is used,
+which is located at the coolant outlet end so that coolant flow aids the discharge of fuel bun-
+dles. A comparison of these three basic designs is given in Table 4. The technical parameters
+given in Table 4 and those given in Section 6 were extracted from the Atomic Energy of Canada
+publication “Technical Summary CANDU Nuclear Generating Station” which gives the parame-
+ters for the 600 MW and 950 MW units (subsequently the CANDU 6 and CANDU 9). The com-
+plete tabulated parameters are given in Appendix C to this chapter. Since publication these
+parameters have been revised as new developments have allowed the design to evolve particu-
+larly with regard to channel power. The parameters given for CANDU 9 (950 MW unit) are
+therefore not representative of the latest plants for example Darlington which has a lesser
+number of fuel channels each of which have a higher power rating. However Appendix C is
+useful for comparison of the two unit sizes and serves well for educational purposes as the data
+is based on the same design philosophy. A later AECL publication in 1997 “CANDU Technical
+Summary” gives some technical parameters for the CANDU 6 but not for the CANDU 9.
+As the CANDU design evolved with the proposed Bruce B and the later Darlington nuclear plants
+these were nominally in the 800 MW range resulting in the CANDU 8 design. The AECL publica-
+tion in 1989 “CANDU 8 Technical Outline” lists the net output of Bruce B as 825 MW and of
+Darlington as 881 MW. Subsequently the terminology was rationalized as in Appendix B
+“CANDU: The Evolution”. This shows the development of the CANDU up to the four-unit CANDU
+600 MW class (Pickering) and the subsequent division into the single-unit CANDU 6 or 700 MW
+class (Point Lepreau onwards) and the four-unit CANDU 900 MW class (Bruce A & B and Darling-
+ton) with the further development of the single-unit CANDU 9 also 900 MW class.
+5.4 Power Density
+Power density is a measure of how much power is generated per unit volume of core. Gener-
+ally, the higher the power density, the more compact is the reactor and the lower the capital
+cost. In all reactors, therefore, there is an incentive firstly to maintain a high neutron flux (to
+achieve a high heat release rate) right across the reactor core and secondly to maintain a high
+heat flux (to achieve a high heat removal rate) everywhere in the reactor.
+All CANDU reactors contain roughly the same amount of in-core fuel per channel, but the major
+differences are in the fuel bundles themselves and in the number of channels. The total design
+power output of a CANDU reactor can be fixed by selecting an appropriate number of fuel
+channels for the reactor. In a CANDU 3 reactor there are 232 fuel channels, in the CANDU 6
+reactor the number of channels is increased to 380, while in the CANDU 9 reactor there are 600
+fuel channels.18 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016A new development is the Advanced CANDU Reactor, known as the ACR, which uses slightly
+enriched uranium as fuel and light water as coolant. This has the benefit of significantly reduc-
+ing the heavy water inventory. In the proposed ACR, the power density is increased by a smaller
+calandria diameter, but with an increased number of elements in the fuel bundle and a smaller
+channel pitch, resulting in a more compact reactor.
+Table 4 Comparison of CANDU reactor types
+Parameter Units CANDU 3 CANDU 6 CANDU 9
+Moderator D2O D2O D2O
+Coolant D2O D2O D2O
+Number of fuel channels 232 380 600
+Fuel UO 2 UO 2 UO 2
+Number of elements in bundle 37 37 37
+Number of bundles in channel 12 12 12
+Number of steam generators 2 4 8
+Number of heat transport
+pumps2 4 4
+Reactor outlet pressure MPa 10.0 10.3 10.3
+Reactor outlet temperature °C 310 312 312
+Reactor coolant flow rate kg/s 5 300 7 600 13 500
+Steam pressure MPa 4.7 4.7 5.1
+Steam temperature °C 260 260 265
+Steam flow rate kg/s 700 1 050 1 610
+Total fission heat MW 1 441 2 156 3 394
+Net heat to steam cycle MW 1 390 2 060 3 347
+Gross turbine generator output MW 470 676 1 121
+Net electrical output MW 450 626 1 031
+6CANDU Technical Parameters
+6.1 Reference Plant
+Point Lepreau has been chosen as the reference for this text because it is a typical CANDU 6
+reactor. Technical parameters for other CANDU reactors are given here for comparison to show
+the main differences, but other chapters will generally refer to Point Lepreau characteristics.
+Figure 3 shows an external view of Point Lepreau. Appendix A shows a cutaway view of a
+CANDU 6 reactor plant.Genealogy of CANDU Reactors 19
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 3 Point Lepreau nuclear generating station
+6.2 Reactor Core Arrangement
+The reactor core is cylindrical, but is set horizontally, as shown in Figure 4, with horizontal fuel
+channels. The heavy water moderator is contained in a cylindrical calandria with multiple tubes
+set in a square array and in an axial direction so that the moderator surrounds all the tubes.
+Pressure tubes containing the fuel bundles pass through the calandria tubes. Heavy water
+coolant under a pressure of about 10 MPa flows through the pressure tubes to remove heat
+from the fuel bundles. Because the coolant is heavy water, there is minimal absorption of
+neutrons. Each pressure tube contains twelve fuel bundles, each of which has 37 fuel elements
+arranged in a circular pattern, as shown in Figure 5. The fuel elements consist of zirconium-alloy
+tubes filled with natural uranium dioxide pellets. A feature of the CANDU is that individual fuel
+channels can be refuelled while the reactor is at full power by pushing new fuel elements in at
+one end of the pressure tube and removing spent fuel elements at the other end, using special
+refuelling machines which can be attached to the ends of any pressure tube.
+20 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 4 Reactor vault and assembly
+Genealogy of CANDU Reactors 21
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 5 37-element fuel bundle
+Control of the reactor is achieved by varying the amount of light water in special liquid level
+tubes in separate control zones in the calandria and by manipulation of control rods which are
+inserted into special vertical channels within the calandria and pass at right angles between the
+calandria tubes. Typical parameters for 600 MWe (electrical) and 950 MWe (electrical) CANDU
+reactor cores are given in Table 5.
+22 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Table 5 CANDU core parameters
+Parameter CANDU 600 CANDU 900
+Number of fuel channels in core 380 600
+Number of fuel bundles per channel 12 12
+Number of fuel elements per bundle 37 37
+Number of pellets per rod 30 30
+Fuel pellet material UO 2sintered UO 2sintered
+Fuel cladding material Zircaloy-4 Zircaloy-4
+Fuel channel array square square
+Fuel channel lattice pitch 286 mm 286 mm
+Fuel element configuration circular circular
+Fuel bundle length 495 mm 495 mm
+Fuel bundle diameter 102.4 mm 102.4 mm
+Fuel element diameter 13.08 mm 13.08 mm
+Fuel pellet diameter 12.16 mm 12.16 mm
+Mass of uranium dioxide in core 95 Mg 153 Mg
+Mass of uranium in core 84 Mg 135 Mg
+Fuel type natural U natural U
+Average core power density ~ 11 MW/m3~ 11 MW/m3
+Active core length 5.94 m 5.94 m
+Extrapolated core length 6.06 m 6.06 m
+Equivalent core diameter 6.27 m 7.90 m
+Total core fission power 2 180 MW 3 394 MW
+Total core thermal power 2 060 MW 3 237 MW
+Maximum channel power 6.5 MW 6.5 MW
+Maximum bundle power 0.8 MW 0.8 MW
+Active heat transfer area ~ 3 430 m2~ 5 420 m2
+Average heat flux ~ 600 kW/m3~ 600 kW/m3
+Maximum heat flux ~ 1 000 kW/m3~ 1 000 kW/m3
+The reactor core includes monitoring and control devices to measure neutron flux and to
+modify the flux profile if required to obtain the best power distribution. Safety devices to bring
+about rapid shutdown, such as the shutoff rods and poison injection system, are also built into
+the core. The general arrangement of these is shown in Figure 6, and their locations are shown
+in the three views given in Figures 7, 8, and 9.Genealogy of CANDU Reactors 23
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 6 CANDU 6 reactor assembly
+24 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 7 Reactor cross section
+Genealogy of CANDU Reactors 25
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 8 Reactor longitudinal section
+26 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 9 Reactor plan view
+6.3 Coolant Loop Arrangement
+The pressure tubes contain heavy water coolant at about 10 MPa and form part of the coolant
+Genealogy of CANDU Reactors 27
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016loop. Flow in the pressure tubes is arranged to be in opposite directions in adjacent fuel chan-
+nels. Thus, at each end of the reactor, there are sets of inlets and outlets to and from each fuel
+channel, as shown in Figure 10. To carry the coolant to and from each of these inlets and
+outlets, small diameter feeder tubes are used, as shown in Figure 11. These are linked to twin
+common headers above each end of the reactor core. Coolant from the outlet headers at each
+end passes to the steam generators, then through the coolant pumps and back to the inlet
+headers at the same end of the reactor core. After a second pass through the fuel channels, the
+coolant passes to steam generators and coolant pumps at the other end of the reactor core.
+The complete coolant loop thus has a double figure-of-eight configuration. Typically, there are
+two steam generators and two coolant pumps at each end of the reactor core, making a total of
+four of each. Although each pair of steam generators and its associated coolant loop has a
+separate figure-of-eight configuration, the headers are cross-connected so that the whole
+system operates at the same pressure. Pressure is maintained by a single pressurizer connected
+to one of the coolant loops. The pressurizer is a tall cylindrical vessel containing half water and
+half steam and maintained at saturation conditions. By varying the temperature in the vessel
+with heaters or water sprays, the pressure in the entire coolant system can be controlled.
+Typical parameters for 600 MWe (electrical) and 950 MWe (electrical) CANDU coolant systems
+are given in Table 6. Full technical details are given in Appendix C Single Unit Station Data.
+Figure 10 Fuel channel end fittings on reactor face
+28 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 11 Feeder tube assembly on reactor face
+Table 6 CANDU coolant system parameters
+Parameter CANDU 600 CANDU 900
+Number of pressure tubes 380 600
+Pressure tube material Zirconium-niobium alloy Zirconium-niobium alloy
+Pressure tube diameter (ID) 103.38 mm 104 mm
+Number of primary pumps 4 4
+Pump flow rate (each) 2.228 m3/s 3.959 m3/s
+Pump total heat (each) 215 m 245 m
+Coolant flow rate through core 7 600 kg/s 13 500 kg/s
+Coolant inlet temperature 267°C 266°C
+Coolant outlet temperature 312°C 312°C
+Coolant inlet pressure 11.04 MPa 11.17 MPa
+Coolant outlet pressure 10.03 MPa 10.29 MPa
+Genealogy of CANDU Reactors 29
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 20166.4 Steam Generators
+The purpose of the steam generators
+is to transfer heat from the primary
+coolant system to the secondary
+steam system and thus supply the
+required heat to operate the steam
+cycle. Like those of the PWR, the
+steam generators are tube or surface
+heat exchangers, with high pressure
+coolant passing inside the tubes and
+lower pressure steam being generated
+on the outside of the tubes. The
+steam pressure is typically 5 MPa. The
+usual configuration is a vertical cylin-
+der with inverted U-tubes in the lower
+part and steam-water separators in
+the upper part, as shown diagram-
+matically in Figure 12. Steam gener-
+ated within the tube bundle rises and
+promotes natural circulation. At the
+top of the vessel, the steam-water
+mixture passes through cyclone type
+primary separators where the steam is
+separated from the circulating water.
+The water returns down an annulus
+between the tube bundle and the
+steam generator shell. The separated
+steam passes through secondary
+separators or steam dryers to remove
+moisture and so improve its quality
+before passing out at the top of the
+vessel. Incoming feedwater enters at the bottom of the steam generator. This cooler feedwater
+is confined within baffles and made to flow in a criss-cross manner over that part of the tube
+bundle near the primary coolant outlet. In this way, the feedwater temperature is raised to
+saturation conditions before mixing with the circulating water in the steam generator. This
+arrangement improves thermodynamic performance, but limits the range of temperature at
+which feedwater can be introduced to the steam generator. A sudden drop in feedwater
+temperature during normal operating conditions could cause thermal shock to the vessel and
+tubes. Typical parameters for 600 MWe (electrical) and 950 MWe (electrical) CANDU reactor
+steam generators are given in Table 7.Figure 12 Steam generator for CANDU system
+30 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Table 7 CANDU steam generator parameters
+Parameter CANDU 600 CANDU 900
+Number of steam generators 4 8
+Heat transfer capacity (total) 2 064 MW 3 258 MW
+Primary side water flow (total) 7 600 kg/s 13 500 kg/s
+Primary side operating pressure ~ 10 MPa ~ 10 MPa
+Primary side inlet temperature 312°C 312°C
+Primary side outlet temperature ~ 267°C ~ 266°C
+Secondary side steam flow (total) 1 047 kg/s 1 612 kg/s
+Secondary side feedwater flow (total) 959 kg/s 1 536 kg/s
+Secondary side operating pressure 4.69 MPa 5.07 MPa
+Secondary side inlet temperature 187°C 177°C
+Secondary side outlet temperature 260°C 265°C
+Steam outlet wetness 0.25% 0.25%
+Number of tubes (each) 4 663
+Heat transfer area per steam generator ~ 3 066 m3
+Tube diameter (OD) 22.23 mm 15.9 mm
+Tube material Inconel 600 Incoloy 800
+6.5 Steam Turbines
+Each CANDU unit has a single steam turbine and electrical generator on a single shaft. The
+steam turbine consists of a high pressure turbine receiving saturated steam from the steam
+generators and three low pressure turbines receiving steam, after moisture separation and
+reheating, from the high pressure turbine. Saturated steam from the steam generator is used
+for reheating, and the reheated steam becomes superheated at the lower pressure. This is
+required to avoid too high a moisture content in the turbine exhaust. Three low pressure
+turbines are required due to the large increase in steam specific volume as it expands to con-
+denser conditions. Figure 13 shows the 600 MW steam turbine at Point Lepreau viewed from
+the steam inlet end, with the steam inlet valves and high pressure turbine in the foreground and
+the low pressure turbines further back. Figure 14 shows the same turbine from the electrical
+output end, with the exciter and generator in the foreground and the low pressure turbines
+behind them. Typical parameters for 600 MW (electrical) and 950 MW (electrical) steam
+turbines are given in Table 8.Genealogy of CANDU Reactors 31
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 13 600 MW steam turbine for nuclear unit
+Figure 14 Turbine generator for nuclear unit
+32 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Table 8 Steam turbine parameters
+Parameter CANDU 600 CANDU 900
+Number of HP cylinders 1 double flow 1 double flow
+Number of LP cylinders 3 double flow 3 double flow
+Main steam flow rate 1047 kg/s 1612 kg/s
+Live steam flow to valves 957 kg/s 1533 kg/s
+Live steam flow to reheater 90 kg/s 77 kg/s
+HP steam inlet pressure 4.55 MPa 4.93 MPa
+HP steam inlet temperature 258°C 263°C
+HP steam exhaust pressure 0.665 MPa 0.545 MPa
+HP steam exhaust quality 88.2% 86.5%
+LP steam inlet pressure 0.588 MPa 0.500 MPa
+LP steam inlet temperature 242°C 247°C
+LP steam exhaust quality 89.5% 91.0%
+Steam cycle efficiency 32.8% 34.4%
+Electrical generator gross output 678 MW 1121 MW
+6.6 Technical Data
+The technical data in this chapter were obtained from various sources, including references in
+the bibliography and public relations brochures from Atomic Energy of Canada Limited, and
+therefore are not necessarily applicable to a particular nuclear power plant. Some data may be
+inconsistent or in conflict due to evolution of the design or to differences between design and
+operational data. Furthermore, some missing data were deduced by simple calculation for
+illustrative purposes and are indicated as an approximate value, meaning that what is presented
+is typical rather than specific.
+7Possible CANDU Reactor Development
+7.1 CANDU Advantages
+Refuelling can be done while the reactor is on power by pushing new fuel bundles in at one end
+of a fuel channel while spent fuel bundles are removed at the other end. This allows the
+CANDU reactors to achieve high capacity factors compared with those reactors which have to be
+shut down periodically for refuelling. Figure 15 shows a typical annual analysis of capacity
+factors for CANDU reactors and other light water reactors in the early years of their life before
+major maintenance or refurbishment became necessary. This shows that in that year in the top
+25 reactors worldwide, with regard to capacity factor performance, there are proportionately
+twice as many CANDU reactors listed as in the general population of water cooled reactors.
+One year within the first ten years of operation Point Lepreau was actually ranked first on this
+list. This was due to only one short planned annual shutdown for routine maintenance of
+systems not able to be accessed during normal operation during the initial years of operation.Genealogy of CANDU Reactors 33
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Furthermore the relative simplicity of the fuel bundles and the use of natural uranium leads to
+low fuel costs for CANDU reactors. With no heavy reactor pressure vessel and the possibility of
+modular construction the erection time of a CANDU reactor can be shorter than that of some
+other reactor systems. Having been developed to use natural uranium in conveniently small
+fuel bundles, the CANDU reactor has the ability of utilizing low enriched fuel from other sources
+such as light water reactors and also blended fuel from nuclear weapons. This makes it attrac-
+tive as part of a fuel reprocessing and recycling scheme involving different nuclear plants and
+facilities.
+The refurbishment of CANDU reactors has been proven. Steam generators and reactor pressure
+tubes can be replaced. This has the potential of effectively doubling the life of the plant ena-
+bling it to operate efficiently for 50 to 60 years. The overall capital investment including the
+cost of refurbishment can make the CANDU reactor an attractive investment for bulk base load
+power production.
+Figure 15 Typical capacity factors of CANDU and other reactors
+7.2 Future Prospects
+Future prospects for the CANDU reactor are good. About one third of CANDU reactors in
+operation are of the CANDU 6 type and all have performed well. The few larger reactors have
+also provided good service. A CANDU reactor would be a good choice for any future nuclear
+34 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016reactors built in Canada. However it would be in competition with light water reactors espe-
+cially the PWR where later designs are under construction.
+Of particular note is the modular construction proposed for new reactors. The advantage that
+this modular construction offers is a decreased construction time and hence lower costs. It also
+allows specific parts of the reactor to be more easily replaced during the life of the plant.
+New fuel bundles with 43 fuel elements have been developed and tested. The increased
+surface area and smaller diameter elements resulting from this change allow for increased heat
+transfer and hence more power per bundle. Such design developments are able to reduce the
+capital and operating costs of the current CANDU system.
+7.3 Safety Aspects
+The primary way to avoid reactor accidents is through use of duplicate safety systems, core
+cooling systems, and engineered safeguards built into the reactor design. The CANDU reactor
+has evolved to be inherently safe, with consideration given to all conceivable accidents. Acci-
+dents to early reactors, as mentioned earlier, have highlighted the need for very conservative
+and safe design requirements.
+In case of an adverse transient which could lead to a potential accident, there are two inde-
+pendent shutdown systems. The SDS1 system consists of mechanical shutoff rods which drop
+into the core by gravity when a trip signal is received. The SDS2 system consists of an array of
+nozzles which inject gadolinium nitrate under gas pressure into the moderator on receipt of a
+trip signal.
+In the event of loss of coolant from the reactor heat transport system, an emergency core
+cooling system injects cooling water into the headers to ensure a water supply to maintain fuel
+cooling. This is backed up by alternative systems to maintain cooling for an extended period.
+Use of multiple pressure tubes instead of a single large pressure vessel permits thinner walls
+and simpler manufacture to the required pressure threshold. Any leaks can be detected by
+monitoring moisture content and pressure in the gap between the pressure tube and the
+calandria tube, which is done on a continuous basis. When detected, a faulty pressure tube can
+be readily replaced.
+The heavy water moderator and reflector in the calandria surrounding the pressure tubes are at
+a relatively low temperature compared with that of the coolant flowing in the pressure tubes.
+Because of this lower temperature, the moderator and reflector act as an energy sink in case of
+certain reactor accidents. This heat sink is an important feature in the CANDU design because it
+means that if the emergency core cooling system fails, some heat can be transferred from the
+fuel to the moderator. The calandria itself is surrounded by light water in the reactor vault, thus
+creating an additional short term heat sink for the moderator.
+Most important are the engineered safeguards that protect the public from possible release of
+fission products in the event of a component failure. As in most nuclear power plants, there are
+four barriers that prevent the release of significant quantities of fission products to the envi-
+ronment. These barriers are: the fuel itself, the fuel cladding, the primary heat transport system
+boundary, and the containment building.
+The first barrier is the uranium dioxide fuel, which is chemically inert even in high temperature
+water and has a high melting point. Even under high temperature conditions, about 99% of allGenealogy of CANDU Reactors 35
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016radioactivity is trapped in the uranium dioxide matrix. This means that almost all solid fission
+products are contained in the fuel under normal non-melting conditions.
+The second barrier is the fuel cladding, which is a zirconium alloy sheath. This sheath is de-
+signed to withstand the stress associated with fuel expansion and buildup of trapped fission
+gases. Zirconium would be subject to damage should dryout and elevated temperatures occur
+in the fuel channel. Provided the fuel bundles are kept flooded with coolant during accident
+conditions, this barrier will remain intact.
+The third barrier is the primary heat transport system boundary. This provides containment for
+the coolant, which may contain fission products in the event of fuel cladding leakage. The
+primary circuit is a closed loop and does not allow any fission products to go any further unless
+it in turn has a leak.
+The fourth and final barrier to fission product release is the prestressed low leakage concrete
+containment building. The building is maintained under a slightly negative pressure and is lined
+with a plastic coating which limits the leakage of fission products in the event of overpressure
+due to an accident. In addition, air exchange filters in the ventilation system remove any fission
+products in the circulating air which is discharged to the atmosphere.
+7.4 The Advanced CANDU Reactor
+A possible new development of the CANDU reactor is the Advanced CANDU Reactor (ACR 1000),
+with a nominal net electrical output of 1000 MWe. The general arrangement is very much the
+same as the basic CANDU reactor, as shown in Figure 16, but some significant technical changes
+have been included.
+These reactors have been designed so that they can be built within a four-year period and have
+an expected plant life of 60 years, with an overall lifetime capacity factor of over 90%. They use
+light water instead of heavy water as coolant, thus simplifying several supporting auxiliary
+systems. This necessitates use of low enrichment fuel to compensate for increased neutron
+absorption in the coolant. The fuel bundles are of the CANFLEX 43 element design, as shown in
+Figure 17, which provides increased power output per bundle and hence per channel. This
+design has fuel elements of two different sizes. There are 8 central elements 13.5 mm in
+diameter and 35 outer elements 11.5 mm in diameter. A quick comparison between the
+CANDU 6 and Darlington Generating Station shows the general trend of the conventional
+CANDU design towards larger capacities, while a comparison between Darlington and the ACR
+1000 shows somewhat of a reversal of this trend with current technical changes. Table 9 shows
+some key technical parameters which illustrate this trend.36 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Figure 16 ACR 1000 nuclear systems schematic
+Figure 17 ACR CANFLEX fuel bundles
+Genealogy of CANDU Reactors 37
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016Table 9 Advanced CANDU reactor parameter comparison
+Parameter Units CANDU 6 Darlington ACR 1000
+Reactor power output MWt 2 064 2 657 3 187
+Moderator D2O D2O D2O
+Coolant D2O D2O H2O
+Fuel Nat UO 2 Nat UO 2Enriched UO 2
+Heavy water inventory in moderator Mg 265 312 250
+Heavy water inventory in coolant Mg 192 280 0
+Number of fuel channels 380 480 520
+Number of bundles per fuel channel 12 13 12
+Number of elements per bundle 37 37 43
+Fuel burnup MWd/tU 7 500 7 791 20 000
+Calandria diameter m 7.6 8.5 7.5
+Lattice pitch mm 286 286 240
+Pressure tube wall thickness mm 4 4 6.5
+Inlet header pressure MPa 11.2 11.3 12.5
+Inlet header temperature °C 260 267 275
+Outlet header pressure MPa 9.9 9.9 11.1
+Outlet header temperature °C 310 310 319
+Maximum channel flow kg/s 28 27 28
+Number of heat transport pumps 4 4 4
+Pump motor rating (each) MWe 6.7 9.6 10.0
+Pump rated flow (each) m3/s 2.228 3.240 4.300
+Number of steam generators 4 4 4
+Tube diameter mm 15.9 15.9 17.5
+Steam pressure MPa 4.6 5.0 5.9
+Steam temperature °C 260 265 276
+Steam quality % 99.75 99.75 99.90
+Net power to turbine generator MWt 2 060 2 650 3 180
+Steam cycle efficiency 35.3 35.3 ~ 36.6
+Gross electrical power output MWe 728 935 1 165
+Net electrical power output MWe 666 881 1 085
+Turbine inlet steam temperature °C 258 263 273
+Final feedwater temperature °C 187 177 217
+Condenser vacuum kPa 4.9 4.2 4.9
+The table clearly shows the evolution of the ACR 1000. The 43-element fuel bundle provides an
+average channel power of 6.13 MW (12 bundles) as opposed to 5.43 MW (12 bundles) and 5.54
+MW (13 bundles). This in turn enables fewer channels to be used for an equivalent output,
+resulting in a smaller reactor for the same output. Furthermore, the channel pitch has been38 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016reduced by 16% resulting in an even smaller reactor. The overall result is that the ACR 1000
+reactor is about the same size as the CANDU 6, as illustrated in Figure 18. The heavy water
+inventory has been reduced accordingly. The light water coolant eliminates a pressurized heavy
+water circuit altogether, thereby effecting a further and major saving in inventory and heavy
+water support systems. The low enriched uranium increases the burnup by a factor of about 2.5
+and consequently decreases the amount of spent fuel. An additional reserve water system
+provides a passive safety feature, making this a Generation III+ design. Other than these
+important changes, there are many small improvements in the general operating conditions of
+the heat transport system and steam cycle, giving an improvement in overall efficiency from
+35.3% to 36.6%, which ultimately saves on fuel consumption.
+Figure 18 Comparison of core sizes
+8Problems
+1 Sketch a typical figure-of-eight CANDU heat transport system showing all key components
+and describe the functions of these components.
+2 Sketch a typical CANDU reactor core and show in the sketch where, with respect to the fuel
+channels, the various control devices are installed. Identify the devices and state their purpose.
+3 Describe the structure and characteristics of a CANDU fuel channel and the fuel within the
+channel. Describe also what happens in the fuel channel as the coolant flows through it.
+4 Sketch a CANDU steam generator showing the key components and explain the function of
+each component and why they are arranged in this particular configuration.
+Genealogy of CANDU Reactors 39
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 20169References and Bibliography
+[AECL1989] Atomic Energy of Canada Limited, CANDU 8 Technical Outline. September 1989.
+[AECL1989] Atomic Energy of Canada Limited, CANDU 3 Technical Outline , Document Number
+74-01010-TED-001, Revision 9, 1989.
+[AECL1991] Atomic Energy of Canada Limited, Technical Summary CANDU Nuclear Generating
+Station . 1991.
+[AECL1997] Atomic Energy of Canada Limited, CANDU Technical Summary, 1997.
+[AECL1997a] Atomic Energy of Canada Limited, Canada Enters the Nuclear Age , AECL, McGill-
+Queen’s University Press, 1997.
+[AECL1997b] Atomic Energy of Canada Limited, CANDU 6 Technical Outline , Document Refer-
+ence CO/MISC-0131, Revision 1, 1997.
+[AECL2007] Atomic Energy of Canada Limited, ACR 1000 Technical Summary . 2007.
+[Brooks1993] Brooks, G. L., A Short History of the CANDU Nuclear Power System , Ontario Hydro
+Demand/Supply Hearing, Canada, January 1993.
+[Brooks2001a] Brooks, G. L., CANDU Origins and Evolution – Part 2 of 5 – Why CANDU , AECL
+Retirees Group, Canada, February 2001. [CANTEACH, https://canteach.candu.org]
+[Brooks2001b] Brooks, G. L., CANDU Origins and Evolution – Part 3 of 5 – ‘Figure of Eight’ Heat
+Transport System Arrangement , AECL Retirees Group, Canada, February 2001.
+[CANTEACH, https://canteach.candu.org]
+[Brooks2001c] Brooks, G. L., CANDU Origins and Evolution – Part 4 of 5 – Emergency Core
+Cooling Systems , AECL Retirees Group, Canada, February 2001. [CANTEACH,
+https://canteach.candu.org]
+[Brooks2001d] Brooks, G. L., CANDU Origins and Evolution – Part 5 of 5 – Origins and Evolution
+of the Second Shutdown System , AECL Retirees Group, Canada, February 2001.
+[CANTEACH, https://canteach.candu.org]
+[Chaplin1973] Chaplin, R. A., “The Winfrith Steam Generating Heavy Water Reactor”, South
+African Mechanical Engineer , May 1973.
+[Chaplin2006a] Chaplin, R. A., “Pressurized Heavy Water Reactors”, Chapter 3.6.2.3 in Nuclear
+Energy and Reactors , Encyclopedia of Life Support Systems by UNESCO, EOLSS Publish-
+ers, Oxford, UK, 2006.
+[Chaplin2006b] Chaplin, R. A., “Heavy Water Light Water Reactors”, Chapter 3.6.2.4 in Nuclear
+Energy and Reactors , Encyclopedia of Life Support Systems by UNESCO, EOLSS Publish-
+ers, Oxford, UK, 2006.
+[Dyke2006] Dyke, J. M. and Garland, W. J., “Evolution of CANDU Steam Generators – A Historical
+View”, Canada, May 2006. [CANTEACH, https://canteach.candu.org]
+[Foster2001] Foster, J. S. & Brooks, G. L., CANDU Origins and Evolution – Part 1 of 5 – An Over-
+view of the Early CANDU Program , AECL Retirees Group, Canada, February 2001.
+[CANTEACH, https://canteach.candu.org]
+[Laurence1980] Laurence, G. C., Early Years of Nuclear Research in Canada. AECL, Chalk River40 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Genealogy of CANDU Reactors – September 2016ON, May 1980.
+10Acknowledgements
+Acknowledgements are extended to Atomic Energy of Canada Limited and to NB Power for use
+of information, diagrams and photographs to support the text of this chapter.
+The following reviewers are gratefully acknowledged for their hard work and excellent com-
+ments during the development of this Chapter. Their feedback has much improved it. Of course
+the responsibility for any errors or omissions lies entirely with the author.
+Bob Tapping
+Jeremy Whitlock
+Bhaskar Sur
+Terry Rogers
+George Bereznai
+Thanks are also extended to Diana Bouchard for expertly editing and assembling the final copy.

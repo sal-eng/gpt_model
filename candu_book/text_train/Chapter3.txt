@@ -1,0 +1,2116 @@
+1
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015CHAPTER 3
+Nuclear Processes and Neutron Physics
+prepared by
+Dr. Guy Marleau
+École Polytechnique de Montréal
+Summary :
+In this section, we first describe the nucleus, including its composition and the fundamental
+forces that affect its behaviour. Then, after introducing the concepts of radioactivity and
+nuclear decay, we discuss the various interactions between radiation and matter that can take
+place in and around a nuclear reactor. We finish with a presentation of neutron physics for
+fission reactors.
+Table of Contents
+1 Introduction .............................................................................................................................3
+1.1 Overview......................................................................................................................... 3
+1.2 Learning Outcomes......................................................................................................... 4
+2 Structure of the Nucleus..........................................................................................................4
+2.1 Fundamental Interactions and Elementary Particles...................................................... 4
+2.2 Protons, Neutrons, and the Nuclear Force ..................................................................... 6
+2.3 Nuclear Chart.................................................................................................................. 7
+2.4 Nuclear Mass and the Liquid Drop Model.................................................................... 10
+2.5 Excitation Energy and Advanced Nuclear Models ........................................................ 12
+2.6 Nuclear Fission and Fusion ........................................................................................... 15
+3 Nuclear Reactions ..................................................................................................................16
+3.1 Radioactivity and Nuclear Decay .................................................................................. 16
+3.2 Nuclear Reactions ......................................................................................................... 20
+3.3 Interactions of Charged Particles with Matter.............................................................. 22
+3.4 Interactions of Photons with Matter ............................................................................ 24
+3.5 Interactions of Neutrons with Matter .......................................................................... 30
+4 Fission and Nuclear Chain Reaction.......................................................................................34
+4.1 Fission Cross Sections ................................................................................................... 35
+4.2 Fission Products and the Fission Process...................................................................... 36
+4.3 Nuclear Chain Reaction and Nuclear Fission Reactors ................................................. 40
+4.4 Reactor Physics and the Transport Equation ................................................................ 42
+5 Bibliography ...........................................................................................................................44
+6 Summary of Relationship to Other Chapters.........................................................................45
+7 Problems ................................................................................................................................46
+8 Acknowledgments .................................................................................................................462 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015List of Figures
+Figure 1 Nuclear chart, where N represents the number of neutrons and Z the number of
+protons in a nucleus. The points in red and green represent respectively stable and
+unstable nuclei. The nuclear stability curve is also illustrated. ..............................................8
+Figure 2 Average binding energy per nucleon (MeV) as a function of the mass number (number
+of nucleons in the nucleus)......................................................................................................9
+Figure 3 Saxon-Wood potential seen by nucleons inside the uranium-235 nucleus. ...................13
+Figure 4 Shell model and magic numbers......................................................................................14
+Figure 5 Decay chain for uranium-238 (fission excluded).  The type of reaction (β or α-decay) 
+can be identified by the changes in N and Z between the initial and final nuclides.............20
+Figure 6 Microscopic cross section of the interaction of a high-energy photon with a lead atom.24
+Figure 7 Photoelectric effect..........................................................................................................26
+Figure 8 Compton effect. ...............................................................................................................28
+Figure 9 Photonuclear cross sections for deuterium, beryllium, and lead....................................29
+Figure 10 Cross sections for hydrogen (left) and deuterium (right) as functions of energy..........32
+Figure 11 Cross sections for235
+92U(left) and238
+92U(right) as functions of energy. ........................33
+Figure 12 Effect of temperature on238U absorption cross section around the 6.64-eV
+resonance...............................................................................................................................34
+Figure 13 Capture and fission cross sections of235
+92U(left) and238
+92U(right) as functions of
+energy.....................................................................................................................................36
+Figure 14 Relative fission yield for235
+92Uas a function of mass number........................................37
+Figure 15 Fission spectrum for235
+92U..............................................................................................39
+List of Tables
+Table 1 Properties of the four fundamental forces .........................................................................5
+Table 2 Properties of leptons and quarks ........................................................................................6
+Table 3 Main properties of protons and neutrons. .........................................................................6
+Table 4 Energy states in the shell model, where gis the degeneracy level of a state...................14
+Table 5 Comparison of the energy, U, required for a fission reaction in a compound nucleus
+with the energy, Q, available after a neutron collision with different isotopes. ...................35
+Table 6 Average numbers of neutrons produced by the fission of common heavy nuclides........37
+Table 7 Distribution of kinetic energy among the particles produced by a fission reaction.........38
+Table 8 Maximum values of the elastic scattering and absorption cross sections for1
+1H,2
+1D,
+and12
+6Cin the energy range 0.1 eV < E <0.1 MeV. ...............................................................41Nuclear Processes and Neutron Physics 3
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 20151Introduction
+Energy production in an operating nuclear reactor is mainly the result of fission reactions
+initiated by neutrons. Following these reactions, radiation is produced in the form of alpha
+particles, electrons ( ߚ-particles), photons, and neutrons, as well as a large number of unstable
+nuclei (including actinides and fission products) that may decay, thereby producing additional
+radiation and energy. The neutrons generated directly in the fission reaction as well as those
+resulting from fission product decay are a key factor in maintaining and controlling the chain
+reaction as discussed in Chapters 4 and 5. Radiation also has an impact on the properties of
+the various materials in the core as well as on living cells. It is therefore important to under-
+stand how radiation interacts with matter if one needs, for example, to evaluate the radio-
+toxicity of burned fuel (Chapter 19) or to determine the kind of barrier that must be put in
+place to protect the public, the environment, or the personnel in a nuclear power plant
+(Chapter 12). Moreover, the energy produced by these decays contributes to heating the fuel,
+whether it is still in the reactor or in the spent fuel pools. The aim of this chapter is to provide
+the reader with an overview of the nuclear processes that take place in and around a reactor.
+1.1 Overview
+Several very important processes take place simultaneously in a nuclear reactor, including
+neutron slowdown as a result of collisions with nuclei, nuclear fission, and decay of radioactive
+nuclei with radiation emissions that subsequently lose energy or are absorbed.
+To understand how all these physical processes take place, it is important to possess a general
+knowledge of the physics of the nucleus, including its composition and the fundamental forces
+that affect its behaviour. Although one rarely uses a description of the nucleus in terms of
+elementary particles and their interaction in power-reactor applications, such a description
+provides a practical background for a study of nuclear structure. In fact, the nucleus is such a
+complex object that it can be described only through simplified models that provide useful
+information. For example, the liquid drop model (Section 2.4) gives an empirical description of
+how one can extract energy from a nucleus by breaking it into smaller components (fission or
+decay) or by combining nuclei (fusion). These models are also used to predict the stability of a
+nucleus under various decay processes, the energy associated with its excited states, and the
+associated gamma-ray spectrum. In Section 2, an overview of the structure of the nucleus is
+provided, starting from a fundamental description and progressing to more practical models.
+We will also introduce some language specific to nuclear physics that will be useful throughout
+this book.
+The majority of the fission reactions taking place in a reactor are initiated following the
+absorption of a neutron by a heavy nucleus. Radioprotection also involves the interaction
+between radiation, in the form of alpha particles, electrons, photons, and neutrons, and
+matter. Two important points must then be addressed before describing the physics of
+neutrons in a nuclear reactor: the source of this radiation and its behaviour over time, and the
+interaction of the emitted particles with matter. Therefore, Section 3 is divided into three
+parts: it starts with a description of radioactivity and the decay of nuclei, continues with a
+description of the interaction of ionizing radiation with matter (everything but neutrons),
+which is a very important topic for radiation protection studies, and ends with a brief discus-
+sion of the interaction of neutrons with matter.4 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015The last section of this chapter is dedicated to the nuclear chain reaction. It starts by giving an
+extensive description of the fission reaction and discusses the need to slow down neutrons.
+This is followed by a description of the neutron transport equation that can be used to charac-
+terize the behaviour of neutrons inside a reactor.
+1.2 Learning Outcomes
+The goal of this chapter is for the reader to:
+Understand the fundamental forces in nature and the structure of the nucleus;
+Learn how to compute the mass of a nucleus based on the liquid drop model and to
+evaluate the energy released by the fission and fusion processes;
+Understand how to evaluate the activity and radio-toxicity of spent fuel;
+Become familiar with nuclear cross-section databases for neutrons and ionization radiation
+and the computation of reaction rates between particles and matter;
+Recognize the need to slow down neutrons in thermal reactors and to evaluate the effec-
+tiveness of a moderator.
+2Structure of the Nucleus
+2.1 Fundamental Interactions and Elementary Particles
+Four forces, or interactions, are currently sufficient to understand and explain nature from
+particle physics to astrophysics, including chemical and biological processes. These forces are
+classified relative to their intensity at the nuclear level (distances of the order of 1 fm) as
+follows:
+The strong force: responsible for the cohesion of the proton as well as the nucleus. This
+force is always attractive.
+The electromagnetic force: governs the physics of the atom and the associated chemical
+and biological processes. This force can be both attractive and repulsive.
+The weak force: responsible for the existence of the neutron as well as many other radio-
+active nuclei. This force is always attractive.
+The gravitational force: governs the large-scale structure of the universe. This force
+ensures the stability of the solar system as well as the fact that people can keep their feet
+on the ground. This force is always attractive.
+From the point of view of physics, these forces arise from the specific intrinsic properties of
+the particles on which they act. For example, the electromagnetic force arises between two
+particles that have electric charges, while the gravitational force appears between two parti-
+cles with masses (or more generally, between two particles with energy). For the strong force,
+the so-called “colour” of the particle plays a role equivalent to that of electric charge in
+electromagnetic interactions, while the weak force is the result of the interaction of two
+particles having a “weak” charge. Table 1 provides a brief description of the general proper-
+ties of the four fundamental forces, where the ߙ’s are dimensionless coupling constants
+related to the intensity of the interaction and the spatial dependence of the force is expressed
+in powers of ݎ, the distance between the two interacting particles [Halzen1984]. For example,
+the electromagnetic force between two particles of charge ݁ݖandܼ݁is given by:Nuclear Processes and Neutron Physics 5
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 20152
+2 2
+0| | ( ) ,4 | |  
+
+ee zZ zZF r cr r(1)
+where݁= 1.6 × 10ିଵଽCis the charge of an electron, ߝ଴= 8.854 × 10ିଵଶF/m is the electric
+permittivity of vacuum, ℏ=1.0546×10ିଷସJ × s is the reduced Planck constant, and
+ܿ= 2.9979 × 10଼m/s is the speed of light. For the gravitational force, the coupling constant
+is expressed in terms of proton masses. One can immediately see that the range of the
+gravitational and electromagnetic forces is substantially larger than that of the weak force due
+to theirଵ
+௥మdependence. Accordingly, the weak force is important only when two particles
+with weak charges are in close contact. On the other hand, the strong (colour) force remains
+significant irrespective of the distance between particles with colour charge. This observation
+led to the concept of colour confinement, meaning that it is impossible to isolate a particle
+having a net colour charge different from zero [Halzen1984].
+Table 1 Properties of the four fundamental forces
+Force Equivalent charge Coupling constant Spatial dependence
+Strong Colour charge ߙ௦≈1 ≈ݎ଴
+Electromagnetic Electric charge ߙ௘≈1/137 ݎିଶ
+Weak Weak charge ߙ௪≈10ି଺ݎିହtoݎି଻
+Gravitational Mass ߙீ≈10ିଷଽݎିଶ
+In the standard model of particle physics [Halzen1984, Le Sech2010], these forces are repre-
+sented by 12 virtual particles of spin 1 called “gauge bosons”:
+the massless photon that carries the electromagnetic interaction;
+eight massless gluons that carry the strong (colour) force;
+three massive bosons (W±and Z଴) that mediate the weak interaction.
+These bosons are exchanged between the 12 “physical fermions” (spin 1/2 particles) that
+make up all the matter in the universe:
+six light fermions or leptons that have a weak charge. Three of these have no electric
+charge (the neutrinos), while three are charged (electron, muon, and tau);
+six heavy fermions or quarks that have colour, weak, and electric charges. These fermions
+cannot exist freely in nature because of colour confinement and must be combined in trip-
+lets of quarks or quark-antiquark pairs to form respectively baryons (protons, neutrons)
+and mesons (pion, kaon) that have no net colour charge.6 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015Table 2 Properties of leptons and quarks
+Leptons Quarks
+Particle Mass (GeV/c2) Charge Particle Mass (GeV/c2) Charge
+݁ 0.000511 −1ݑ ≈0.003 2/3
+ߥ௘ <2.5×10ିଽ0݀ ≈0.006 −1/3
+ߤ 0.1057 −1ܿ ≈1.2 2/3
+ߥఓ < 0.000170 0ݏ ≈0.1 −1/3
+߬ 1.7777 −1ݐ ≈173 2/3
+ߥఛ <0.018 0ܾ ≈4.1 −1/3
+Table 2 provides a description of the main properties of leptons and quarks with the masses
+given in GeV/c2, with 1 GeV/c2≈1.782661×10ିଶ଻kg, and the charges in terms of the charge
+of one electron [Le Sech2010].
+2.2 Protons, Neutrons, and the Nuclear Force
+The two lightest baryons that can be created out of a quark triplet are the positively charged
+proton, which is composed of two ݑquarks and one ݀quark, and the neutral neutron, made
+up of two݀quarks and one ݑquark. These are present in the nucleus of all the elements
+present naturally in the universe. The main properties of the proton and the neutron are
+provided in Table 3 [Basdevant2005]. One can immediately see that the masses of the proton
+and neutron are very large compared with those of the ݑand݀quarks. In fact, most of their
+mass is a result of the strong colour force (gluon interaction). One can also observe that
+protons are stable, while neutrons are unstable and decay relatively rapidly into protons
+through the weak interaction. A second observation is that the magnetic moment, which is
+created by the movement of charged particles, is negative for the neutron. This confirms, at
+least partially, the theory that neutrons are made of quarks because even though the neutron
+is neutral, the distribution of charge inside it is not uniform.
+Table 3 Main properties of protons and neutrons.
+Property Proton Neutron
+Mass (GeV/c2) ݉௣=0.938272 ݉௡=0.939565
+Charge (electron charge) 1 0
+Magnetic moment ( ߤN)ߤ௣=2.792847 ߤ௡=−1.913042
+Spin 1/2 1/2
+Mean-life (s) ߬௣>10ଷ଺߬௡=881 .5
+Although the proton and neutron have a neutral colour, they interact through the nuclear
+force, which is a residual of the strong colour force. However, instead of exchanging gluons
+directly, as do the quarks inside the proton or neutron, they interact by exchanging of virtual
+pion. As a result, the nuclear force is much weaker than the strong force in the same way thatNuclear Processes and Neutron Physics 7
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015the Van der Waals force between neutral atoms is weaker than the electromagnetic force.
+Moreover, in contrast to the strong colour force, the magnitude of the nuclear force decreases
+rapidly with distance, the nuclear interaction being given approximately by the Yukawa poten-
+tial:
+VYukawa(r)= -aNce-mpcr
+
+r, (2)
+where݉గis the mass of the pion (140 MeV/c2) andߙே≈14.5is a constant that controls the
+strength of the nuclear interactions between baryons (protons or neutrons). The minus sign
+here indicates that the resulting force ( ܨ⃗=−∇ሬሬܸ⃗)is always attractive. This potential is identi-
+cal for proton-proton, proton-neutron, and neutron-neutron interactions.
+The strength of this force at short distances is so intense that it can compensate for the
+repulsive electromagnetic force between protons, leading to the formation of bonded nuclei
+as well as inhibiting neutron decay. For example, the helium nucleus, which is composed of
+two protons and two neutrons, is stable. Similarly, the stable deuteron is composed of one
+proton and one neutron. The absence in nature of a nucleus composed of two protons is not a
+result of the fact that the electromagnetic force is greater than the strong force, but rather
+due to the exact structure of the nuclear force. In addition to having a spatial behaviour
+provided by the Yukawa potential, this potential is also spin-dependent and repulsive between
+particles with anti-parallel spins (a nucleus with two protons having parallel spins is not
+permitted because of Pauli’s exclusion principle). This also explains why stable nuclei contain-
+ing only neutrons are not seen in nature.
+2.3 Nuclear Chart
+As indicated in the previous section, not all combinations of neutrons and protons can lead to
+bonded states. Figure 1 provides a list of all bonded nuclei [Brookhaven2013, KAERI2013].
+The points in red represent stable nuclei, while those in green indicate radioactive nuclei. The
+straight black line indicates nuclei having the same number of neutrons and protons. Note
+that this chart is quite different from the periodic table, where the classification of the ele-
+ments is based on the number of electrons surrounding the nucleus. Because the number of
+electrons surrounding the nucleus is identical to ܼ, the number of protons inside the nucleus,
+each element corresponds to a combination of the nuclei that are found on a horizontal line of
+the nuclear chart. The nomenclature used to classify these nuclei is the following:
+The number of protons in the nucleus is used to identify the element. For example, all
+nuclei withܼ= 8 are known as oxygen (atomic symbol O), independently of the number
+of neutrons present in the nucleus.
+For a given element, the specific isotope is identified by ܣ=ܼ+ܰ, whereܣis known as
+the mass number and ܰis the number of neutrons in the nucleus. For example, oxygen-
+17, denoted byଵ଻O, corresponds to an oxygen atom where the nucleus has eight protons
+and nine neutrons. Instead of the notationேା௓X, with X the element associated with ܼ,
+the notation௓ேା௓X is also found in the literature.
+Two other terms are less frequently used: isobars, corresponding to nuclei having the same
+mass numbers, but different values for ܼandܰ; and isotones, corresponding to nuclei
+having the same number of neutrons, but a different number of protons.8
+©UNENE, all rights reserved. For educational use only, no assumed liability.Several conclusions can be reached
+Isotopes containing a small number of protons (
+andܼare nearly equal. If the difference
+unstable. For combination of protons and neutrons with large values
+can be formed.
+For nuclei with values of ܼranging from 20 to 82, the number of excess neutron
+required to create bonded nuclei increases
+cific value of ܼǡseveral stable nuclei can be produced with different numbers of neutrons.
+No stable nucleus exists with ܼ
+still be found in nature because they decay at a very slow r
+remains in nature.
+Approximately 3200 bonded nuclei have been identified
+stability of a nucleus is ensured by the presence of a sufficient number of neutrons to co
+pensate for the effect of the Coulomb force between protons
+only at short distances, while the Coulomb force has a longer range, additional neutrons are
+required when the radius ܴof the nucleus increases
+ons (protons and neutrons):
+whereܴ௢isthe average radius of a single nucleon.
+Figure 1 Nuclear chart, where N represents the number of neutrons and Z the number of
+protons in a nucleus. The points in red and green represent respectively stable and unstable
+nuclei. The nuclear stability curve is also illustrated.
+The Essential
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear PhysicsSeveral conclusions can be reached from Figure 1 :
+Isotopes containing a small number of protons ( ܼ൏ʹͲ) will generally be stable only if
+If the difference ȁܰെܼȁis slightly too large , the nucle
+For combination of protons and neutrons with large values of|ܰെܼ
+ranging from 20 to 82, the number of excess neutron
+required to create bonded nuclei increases steadily. One can also observ e that for a sp
+several stable nuclei can be produced with different numbers of neutrons.
+> 83 , although some radioactive nuclides with
+still be found in nature because they decay at a very slow r ate. No isotope with
+3200 bonded nuclei have been identified ,out of which 266 are stable
+nucleus is ensured by the presence of a sufficient number of neutrons to co
+of the Coulomb force between protons . Because the nuclear force acts
+only at short distances, while the Coulomb force has a longer range, additional neutrons are
+of the nucleus increases because of the presence of more nucl
+1/3
+0, R A R
+the average radius of a single nucleon.
+Nuclear chart, where N represents the number of neutrons and Z the number of
+protons in a nucleus. The points in red and green represent respectively stable and unstable
+nuclei. The nuclear stability curve is also illustrated.
+The Essential CANDU
+Nuclear Physics – June 2015) will generally be stable only if ܰ
+, the nucle us becomes
+ܼ|,no nuclei
+ranging from 20 to 82, the number of excess neutron s (ܰെܼ)
+e that for a sp e-
+several stable nuclei can be produced with different numbers of neutrons.
+, although some radioactive nuclides with ܼ൏ͻ͵can
+No isotope with ܼabove 92
+out of which 266 are stable . The
+nucleus is ensured by the presence of a sufficient number of neutrons to co m-
+the nuclear force acts
+only at short distances, while the Coulomb force has a longer range, additional neutrons are
+the presence of more nucl e-
+(3)
+Nuclear chart, where N represents the number of neutrons and Z the number of
+protons in a nucleus. The points in red and green represent respectively stable and unstableNuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability.The stability of a nuc leus does not only depend on the number of nucleons it contains but also
+on how these protons and neutrons are paired
+159 contain an even number of protons and of neutrons,
+53 have an even number of protons
+50 have an odd number of protons and an even number of neutrons, and
+only 4 are made up of an odd number of protons and of neutrons.
+In addition, for values of ܼorܰequal to 8, 20, 50, 82, and 126, the number of stable nuclei is
+very high. These numbers are known as “magic numbers”
+and protons, just like electrons in atoms, are more tightly bonded when they fill a quantum
+energy shell (see Section 2.5).
+The mass݉ಿశೋXof a nucleus produced by combining
+the sum of the masses of its constituents
+ N Zm Z m Nm AB c
+whereܤ൐Ͳ, the average binding energy per nucleon, is the result of the negative potential
+that binds the nucleons inside the nuclei
+function of ܣis provided for stable nuclei,
+reaching a maximum around ܣൌ60
+the average, nucleons are more tightly bonded inside nuclei having intermediate values of
+(ʹͲ൏ܣ<120) than for very low or very high values.
+Figure 2 Average binding energy per nucleon (MeV) as a function o
+(number of nucleons in the nucleus).
+Information on the atomic mass of over 3000 isotopes is available in
+that the atomic mass is different from the nuclear mass of an isotope
+the mass and t he binding energy of the
+simple way to compute the atomic mass is using
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physicsleus does not only depend on the number of nucleons it contains but also
+on how these protons and neutrons are paired .For example, out of the 266 stable nuclei
+159 contain an even number of protons and of neutrons,
+53 have an even number of protons , but an odd number of neutrons,
+50 have an odd number of protons and an even number of neutrons, and
+only 4 are made up of an odd number of protons and of neutrons.
+equal to 8, 20, 50, 82, and 126, the number of stable nuclei is
+These numbers are known as “magic numbers” .They suggest that the neutrons
+and protons, just like electrons in atoms, are more tightly bonded when they fill a quantum
+produced by combining ܼprotons and ܰneutrons is
+constituents :
+2
+   / ,N Z p n Xm Z m Nm AB c
+, the average binding energy per nucleon, is the result of the negative potential
+that binds the nucleons inside the nuclei . As can be seen in Figure 2 , where a plot of
+is provided for stable nuclei, ܤfirst increases rapidly for low mass numbers,
+60,and then decreases slowly with ܣ. Th is means that, on
+the average, nucleons are more tightly bonded inside nuclei having intermediate values of
+120) than for very low or very high values.
+Average binding energy per nucleon (MeV) as a function o f the mass number
+(number of nucleons in the nucleus).
+Information on the atomic mass of over 3000 isotopes is available in [Livermore2013]
+that the atomic mass is different from the nuclear mass of an isotope because it includes both
+he binding energy of the ܼelectrons gravitating around the nucleus
+simple way to compute the atomic mass is using
+9
+Nuclear Physics – June 2015leus does not only depend on the number of nucleons it contains but also
+For example, out of the 266 stable nuclei :
+equal to 8, 20, 50, 82, and 126, the number of stable nuclei is
+They suggest that the neutrons
+and protons, just like electrons in atoms, are more tightly bonded when they fill a quantum
+neutrons is less than
+(4)
+, the average binding energy per nucleon, is the result of the negative potential
+, where a plot of ܤas a
+first increases rapidly for low mass numbers,
+is means that, on
+the average, nucleons are more tightly bonded inside nuclei having intermediate values of ܣ
+f the mass number
+[Livermore2013] . Note
+it includes both
+electrons gravitating around the nucleus . One
+10 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 201512
+     ,/N Z n X HM Z M Nm AB c (5)
+where the mass of the proton has been replaced by that of the hydrogen atom, which includes
+the electron mass as well as its binding energy. The approximation sign comes from the fact
+that the binding energy of each of the ܼelectrons around a heavy nucleus is different from
+that of a single electron attached to a proton in the hydrogen atom.
+Finally, the natural composition of a given element will include stable as well as some radioac-
+tive isotopes. Assuming that the relative atomic abundance of isotope ݅of atomic mass ܯ௜in
+the natural element is ߛ௜, then the mass of the natural element is given by:
+.X i i
+iM M (6)
+In reactor physics, one often works with the mass (or weight) fraction for the abundance of an
+isotope, defined as:
+.i i
+i
+XMwM (7)
+For completeness, one can compute the isotopic concentration ܰXof an element (atoms/cm3)
+with atomic mass ܯX(g/moles) and density ߩ(g/cm3) using:
+    ,X A
+XNM (8)
+whereℕA= 6.022 × 10ଶଷatoms/moles is the Avogadro number. The concentration of
+isotope݅is then given by:
+    .i i A i X
+XN NM    (9)
+More information related to the isotopic contents of natural elements can be found in
+[KAERI2013, WebElements2013].
+2.4 Nuclear Mass and the Liquid Drop Model
+As discussed in Section 2.3, the mass of the nucleus is smaller than its classical mass (the mass
+of its constituents) because the strong force linking the nucleons reduces the global energy of
+the nuclear system, the binding energy being related to the missing mass Δ݉Xaccording to
+2Δ .Xm c AB (10)
+This missing mass is very difficult to compute based on theoretical models because the form of
+the nuclear potential is known only approximately and because quantum models involving
+more than two particles in interaction cannot be solved exactly. For evaluation of the missing
+mass, one generally relies on a semi-empirical model known as the liquid drop model. The
+main assumption used in this model is that the nuclear force is identical for protons and
+neutrons.
+The liquid drop model first assumes that each of the ܣnucleons in the nucleus sees the same
+nuclear potential [Basdevant2005]. Moreover, this potential is independent of the number of
+nucleons in the nucleus. This second assumption can be justified by the fact that the range of
+the nuclear force is small, and therefore each nucleon feels the effect of only the limitedNuclear Processes and Neutron Physics 11
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015number of nucleons that are close by. Accordingly, the contribution to the missing mass from
+theܣnucleons is given by:
+2Δ ,V Vm c a A (11)
+where the constant ܽ௏≈15.753 MeV has been determined experimentally. This contribution
+is known as the volume effect because the volume of a nucleus can be assumed to be propor-
+tional to the number of nucleons it contains. This term would be sufficient if the nucleus had
+an infinite size. However, this is not the case, and the protons and neutrons that are located
+near the boundary of the nucleus will interact with a smaller number of nucleons. If the
+surface of the nucleus is given by 4ܴߨଶ∝ܣଶ/ଷ, one can assume that the ܣଶ/ଷnucleons near
+the outer surface of the nucleus see a reduced uniform potential. This leads to a negative
+surface contribution to the mass defect of the form:
+2 2/3Δ ,S Sm c a A (12)
+whereܽௌ≈17.804 MeV.
+Until now, only the nuclear force has been taken into account. However, the protons present
+inside the nucleus repel each other through the Coulomb force, thereby decreasing the
+binding energy. Because the potential associated with this force is long-range ( ܸ(ܴ)∝1/ܴ∝
+1/ܣଵ/ଷ), each of the ܼprotons will interact with the remaining ܼ−1protons, leading to a
+contribution of the form:
+2
+2
+1/3 1/3( 1)Δ ,C C CZ Z Zm c a aA A  (13)
+where only the dominant term in ܼhas been preserved, and ܽ஼≈0.7103 MeV.
+It can be observed in the nuclear chart that stable nuclei with a low mass number generally
+contain an equal number of protons and neutrons. As the number of excess neutrons or
+protons in a nucleus increases, it becomes more and more unstable until no bonded state can
+be produced. This means that nuclear binding should decrease as a function of |ܰ−ܼ|=
+|ܣ−2ܼ|, the form of the contribution being
+2
+2 ( 2 )Δ ,A AA Zm c aA (14)
+whereܽ஺≈23.69 MeV is known as the asymmetry term. The nuclear chart also shows that
+few stable nuclei with an odd number of neutrons and protons (odd-odd nuclei) can be found
+in nature, while the number of isotopes with an even number of protons and neutrons (even-
+even nuclei) dominates. This means that the binding energy should be large for even-even
+and small for odd-odd nuclei. Assuming that the contribution to the missing mass presented
+previously remains valid only for odd-even or even-odd nuclei ( ܣodd), an additional empirical
+correction of the form
+2
+3/4(1 1 )Δ(1)2A
+Z
+P Pm c aA (15)
+is required. Here, ܽ௉≈33.6 MeV is known as the pairing term.
+The final formula for the missing mass is therefore12 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 20152 2 2
+2 3
+1 3/4
+3(1 1 ) ( 2 )Δ (1) ,2A
+Z
+X V S C A PZ A Zm c a A a A a a aA AA   (16)
+which is known as the Bethe-Weizsäcker or semi-empirical mass formula (SEMF). Even if this
+mechanistic model is relatively simple, it provides a very good approximation to the mass of
+the nuclei found in nature. It can also be used to determine the value of ܣthat minimizes the
+mass of a nucleus for a specific value of ܼ, thereby maximizing the probability that it is stable.
+Neglecting the pairing term, one then obtains
+2
+2
+34
+Z A .
+8 2A n p
+A CAa A m m c
+a a A
+
+(17)
+This equation, which is also illustrated in Figure 1 (the nuclear stability curve), closely follows
+the nuclear stability profile.
+The main weakness of the liquid drop model is its lack of predictive power. For example, it
+neither explains the presence of “magic numbers”, nor the gamma-ray absorption spectrum,
+nor the decay characteristics of different nuclei. These explanations can be obtained only by
+looking at the interactions between protons and neutrons using quantum theory, as explained
+in the next section.
+2.5 Excitation Energy and Advanced Nuclear Models
+All chemists and physicists are familiar with atomic “magic numbers”, even though the explicit
+term is rarely used. For example, the number of electrons in noble gases could be considered
+“magic” because these gases are odourless, colourless, and have very low chemical reactivity.
+For such atoms, all the states associated with principal quantum energy levels 1to݊are
+occupied by electrons (closed or filled shells). In addition, the absorption (emission) spectrum
+of light by different atoms is the result of electrons being excited (de-excited) from one elec-
+tronic shell to another. One can therefore expect nuclear magic numbers to have a similar
+nature, namely, that only specific energy levels are permitted for the protons and neutrons
+when they are bonded inside a nucleus (which would explain also the photon emission and
+absorption spectra). These energy levels are not uniformly distributed, but occur in bands
+called shells . The fact that all the quantum states in a shell (a neutron or proton shell) are
+occupied by a nucleon increases the stability of the nucleus compared to nuclides with par-
+tially filled shells.
+To obtain the energy levels permitted for protons and neutrons inside the nucleus, one needs
+to solve the quantum-mechanics Schrödinger equation for ܣstrongly coupled nucleons
+[Griffiths2005]. However, when trying to solve this equation, two problems arise:
+the Schrödinger equation has no analytic solution for problems where three or more
+particles are coupled;
+the interaction potential between nucleons is not known exactly.
+As a result, this many-body problem is generally simplified using the following assumptions
+that are inherent to the shell model [Basdevant2005]:
+each nucleon in the nucleus is assumed to move independently without being affected by
+the displacement of other nucleons;Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability.a nucleon moves in a potential
+increases sharply near its out er surface, namely when
+Note that in this model, there are no one
+means that instead of solving the Schrödinger equation for
+problem is redu ced to the solution of
+nucleon with an averaged potential
+model is the Saxon- Wood potential (see
+whereܸ଴≈30 MeV is the potential depth and
+Figure 3 Saxon- Wood potential seen by nucleons inside the uranium
+The energy levels are then very similar to those associated with the
+namely
+where݉௡is the mass of a nucleon (proton or neutron),
+݊ൌͳǡʹǡڮthe principal quantum number
+number that takes into account spin
+independent of the magnetic quantum number
+is important when determining the probability of interaction between a nucleus (spin
+other particles, is a combination of its internal spin and
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physicsa nucleon moves in a potential ܸ(ݎ)that is relatively uniform inside the nucleus and
+er surface, namely when ݎൎܴ(mean field approximation).
+Note that in this model, there are no one -to-one interactions between the nucleons
+means that instead of solving the Schrödinger equation for ܣstrongly coupled nucleons, the
+ced to the solution of ܣindependent Schrödinger equations for a single
+an averaged potential .The conventional nuclear potential used in the shell
+Wood potential (see Figure 3 ), which has the form [Basdevant2005]
+ 0 /1,
+1 
+  
+R r RV r V
+e
+30 MeV is the potential depth and ܣןܴଵȀଷis the radius of the nucleus in
+Wood potential seen by nucleons inside the uranium -235 nucleus.
+The energy levels are then very similar to those associated with the harmonic potential,
+02 3,2 
+nNVE N
+R m
+is the mass of a nucleon (proton or neutron), ܰൌሺʹ݊൅݈െʹሻൌ0
+the principal quantum number , and 0,1,2,lthe angular momentum quantum
+number that takes into account spin -orbit coupling. In general, one assumes that the energy is
+independent of the magnetic quantum number ݉. The spin݆of each of the nucleons, which
+is important when determining the probability of interaction between a nucleus (spin
+other particles, is a combination of its internal spin and its angular momentum:
+13
+Nuclear Physics – June 2015that is relatively uniform inside the nucleus and
+(mean field approximation).
+one interactions between the nucleons . This
+strongly coupled nucleons, the
+independent Schrödinger equations for a single
+The conventional nuclear potential used in the shell
+[Basdevant2005] :
+(18)
+is the radius of the nucleus in fm.
+235 nucleus.
+harmonic potential,
+(19)
+0,1,2,⋯with
+the angular momentum quantum
+In general, one assumes that the energy is
+of each of the nucleons, which
+is important when determining the probability of interaction between a nucleus (spin ܬ) and14
+©UNENE, all rights reserved. For educational use only, no assumed liability.The energy states of the shel l model are presented in
+tween the magic numbers and these states is illustrated
+The model is never used to evaluate the mass of nuclei (the SEMF model
+purpose ), but it is useful for classifyi
+(௓ேା௓X)∗)and for determining the magic numbers.
+Table 4 Energy states in the shell model, where
+ࡺ 0 1
+࢔ 1 1
+࢒ 0 1
+ࢍ 2 6
+orbital 1s 1p
+Figure 4 Shell model and magic numbers.
+The second model that is often used is the collective model of the nucleus
+looking at the motion of the individual nucleons, one considers the
+vibration movement of the nucleus
+the shape of an ellipsoid (only nuclei that contain magi
+spherical). Distorted nuclei can then acquire rotational and vibrational motions
+quantized energy levels can be associated
+having a moment of inertia Iand an angular momentum
+Wong2004]:
+The Essential
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics1.2j l
+l model are presented in Table 4 , whereas the association b
+tween the magic numbers and these states is illustrated inFigure 4 .
+The model is never used to evaluate the mass of nuclei (the SEMF model is used
+), but it is useful for classifyi ng the energy levels of excited nuclei (denoted
+the magic numbers.
+Energy states in the shell model, where gis the degeneracy level of a state.
+2 2 3 3 4 4 4
+1 2 1 2 1 2 3
+2 0 3 1 4 2 0
+10 2 14 6 16 10 2
+1d 2s 1f 2p 1g 2d 3s
+Shell model and magic numbers.
+The second model that is often used is the collective model of the nucleus .Here, instead of
+looking at the motion of the individual nucleons, one considers the overall rotation and
+of the nucleus .The justification for this model is that most nuclei take
+the shape of an ellipsoid (only nuclei that contain magi c numbers of protons and neutrons are
+Distorted nuclei can then acquire rotational and vibrational motions
+quantized energy levels can be associated .In classical mechanics, the energy of a rotating solid
+and an angular momentum ܬis given by [Basdevant2005,
+2
+,2JEI
+The Essential CANDU
+Nuclear Physics – June 2015(20)
+the association b e-
+is used for this
+ng the energy levels of excited nuclei (denoted as
+is the degeneracy level of a state.
+Here, instead of
+rotation and
+The justification for this model is that most nuclei take
+c numbers of protons and neutrons are
+Distorted nuclei can then acquire rotational and vibrational motions , to which
+In classical mechanics, the energy of a rotating solid
+[Basdevant2005,
+(21)Nuclear Processes and Neutron Physics 15
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015In quantum mechanics, the angular momentum is quantized, with the energy levels being
+given by
+EJ=2J J+1()
+2I, (22)
+withܬ=0,1,2,⋯. For nucleus having an ellipsoid shape, only even values of ܬare allowed,
+and the energies satisfy the following relation:
+2 4 6 83 1 1
+10 17 1,2E E E E (23)
+with
+E2=152
+2MR2, (24)
+whereܯandܴare respectively the mass and radius of the nucleus. These energy levels are
+generally much smaller than those associated with the shell model.
+2.6 Nuclear Fission and Fusion
+Let us look back at Figure 2 , where the average binding energy per nucleon is provided as a
+function of mass number. As mentioned previously, this curve indicates that the total binding
+of one heavy nuclide containing ܣ> 180 nucleons, which is given by
+,AE AB A (25)
+is larger than that of two identical nuclides containing ܣ/2protons and neutrons:
+/2 . 22A AAE AB E (26)
+In physical terms, this means that two lighter nuclides generally represent a lower energy state
+than a heavier nucleus. Accordingly, a spontaneous reaction where the heavy nuclide, ܪ,
+breaks down into two smaller components ( ܮଵandܮଶ)is permitted from an energy-
+conservation point of view, with the energy released by the reaction given by ܧ௅భ+ܧ௅మ−ܧு.
+This spontaneous reaction, called fission, has been observed experimentally for long-lived
+actinides such asଶଷଶTh,ଶଷହU,andଶଷ଼U,even though this is not their preferential decay
+mode (seven in 109decays ofଶଷହUfollow this path). For example, the spontaneous fission
+reaction
+92235UÞ201n+50133Sn+42100Mo, (27)
+which releases 116 MeV, has been observed.
+A second observation is that, even if a spontaneous fission reaction is very improbable, the
+fission process can be initiated externally by an absorption collision between a projectile and a
+heavy nuclide. For example, the neutron-induced reaction,
+1 235 1 133 100
+0     92 0    50    42    3      ,n U n Sn Mo (28)
+is possible even with very low-energy neutrons and produces the same amount of energy as
+the spontaneous fission reaction above. This reaction is facilitated by the fact that the main16 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015interaction between the neutron and a nucleus is the attractive nuclear force. The fact that
+several neutrons are generally produced following such reactions finally leads to the concept
+of a controlled chain reaction, if sufficient neutrons are produced following a fission reaction
+to initiate another fission reaction. The conditions required to achieve and maintain such a
+chain reaction are discussed in Section 4.
+Figure 2 also indicates that the nucleons inside very light nuclides are loosely bonded com-
+pared to intermediate-mass nuclei. Combining two such nuclides could therefore result in a
+nucleus that is more strongly bonded, again releasing energy. This process is called nuclear
+fusion. Examples of such exothermal fusion reactions are
+2 3 1 4
+1 1 0 2        ,H H n He (29)
+2 3 1 4
+1 2 1 2        ,H He H He (30)
+which release respectively 17.6 and 18.3 MeV in the form of kinetic energy for the final fusion
+products. Producing such reactions is much more difficult than neutron-induced fission
+because the two initial nuclides have positive charges and must overcome the Coulomb force
+to come into close contact. This can be achieved by providing sufficient kinetic energy (plasma
+temperature) for a sufficient long time (confinement) to ensure that the energy released by
+fusion is greater than the energy required to reach these conditions (the break-even point).
+The two main technologies that are currently able to attain the conditions necessary for
+controlled nuclear fusion are based respectively on confinement by magnetic fields (Tokamak)
+and inertial confinement (fusion by laser).
+3Nuclear Reactions
+From the nuclear chart ( Figure 1 ), it is clear that only 266 nuclides are stable. This means that
+most of the bonded nuclei that can be created will decay. This raises two questions:
+How do they decay?
+How are they created?
+Another observation is that if one succeeds in creating a nucleus (stable or not), it may not
+necessarily be in its fundamental (ground) energy state (see Section 2.5). These are the main
+questions to answer in the first part of this section. We start by discussing the decay process
+before continuing with a description of nuclear reactions. The second topic involves the
+interaction of particles with matter, with most of these particles being produced during the
+decay process.
+3.1 Radioactivity and Nuclear Decay
+Nuclear decay, the emission of radiation from an unstable nucleus or radioisotope, is a sto-
+chastic process controlled by the laws of statistics and physics. Therefore, it cannot take place
+unless several fundamental quantities are conserved [Basdevant2005, Smith2000]:
+total energy (including mass, which is a form of energy according to special relativity);
+linear momentum;
+angular momentum;
+electric charge;
+leptonic charge; and
+baryonic charge.Nuclear Processes and Neutron Physics 17
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015The latter two are required because of the intrinsic properties of quarks and leptons. For
+common nuclear reactions, these last two conservation relations can be translated to:
+conservation of electrons and neutrinos where the electron and the neutrino have a
+leptonic charge of +1 and the positron (anti-electron) and anti-neutrino have a leptonic
+charge of -1; and
+conservation of the total number of protons plus neutrons (mass number).
+A decay process transforms, through emission of particles, a parent nucleus into a more stable
+daughter nucleus (a nucleus with a lower mass where the nucleons are more strongly bonded
+or equivalently have a lower mass). In fact, if one considers a nucleus at rest that decays
+according to the following reaction:
+1      ,i
+iN
+C A B
+Z W V
+iX Y b
+ (31)
+then total energy conservation implies that
+2 2 2
+         
+1,A B B C C i iZ W W V Vi iN
+X Y Y b b
+im c m c T m c T
+  (32)
+whereܶis the kinetic energy of the different decay products. This reaction can take place
+spontaneously only if
+2 2 2
+         
+1 10,B C A B C i iW Z W V Vi iN N
+Y X Y b b
+i iT T m c m c m c
+     (33)
+1,N
+i
+iZ W V
+ (34)
+1,N
+i
+iA B C
+(35)
+that is, when the energy balance is favourable (the last two equations are for mass number
+and charge conservation). For a nucleus in an excited state, the daughter nucleus will often be
+the same as the parent nucleus, but at a different energy level (ground or lower-lying excited
+state), the secondary particle being a photon (a ߛ-ray because the photon is produced follow-
+ing a nuclear reaction).
+Nuclear decay is characterized by a constant ߣdefined according to [Smith2000, Nikjoo2012]:
+Δ0Δ()
+( )lim ,ΔtN t
+N t
+t
+
+ (36)
+whereܰ(ݐ)is the number of nuclei present at time ݐ,Δܰ(ݐ)is the change (negative because
+of the decay process) in the number of nuclei after time Δݐ,andߣis known as the decay
+constant. This definition leads to the Bateman equation [Bell1982]:
+( )( ),dN tN t S tdt (37)18 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015whereܵ(ݐ)represents the net rate of production of nuclei (from the decay of other nuclei or
+from nuclear reactions). One can also define
+, A t N t (38)
+the activity of a radionuclide that represents the number of decays per second taking place at
+timeݐ. This activity is generally stated in Becquerels (Bq), where 1 Bq corresponds to one
+decay per second. For the case where ܵ(ݐ)= 0, the solution to the Bateman equation has the
+form
+Δ
+0 0(Δ , )tN t t N t e (39)
+whereܰ(ݐ଴)is the number of nuclei at time ݐ଴.
+Two other concepts related to decay constants are also commonly used. The mean life, ߬,
+defined as
+1, (40)
+represents the average time required for the final number of nuclei to reach a value of
+ܰ(ݐ଴)/݁:
+0
+0( ) .N tN te (41)
+Similarly, the half-life, ݐଵ/ଶ,
+1/2( 2)2 ,lnt ln  (42)
+represents the average time required for the initial number of nuclei to decrease to a value of
+ܰ(ݐ଴)/2.
+For some radionuclides, several decay reactions (decay channels) may be observed, each being
+characterized by a specific relative production yield ܻ௝such that
+11.J
+j
+jY
+ (43)
+The decay constant associated with each channel is given by ߣ௜=ܻߣ௜. For example, potas-
+sium-40 (ଵଽସ଴K), which has a mean life of 1.805 × 10ଽyears, decays 89.28% of the time into
+calcium-40 ( ܻమబరబCa= 0.8928 ) and 10.72% of the time into argon-40 ( ܻభఴరబAr= 0.1072 ).
+Note that the decay constant, ߣ, associated with a reaction can be evaluated using Fermi’s
+second golden rule [Schiff1968]:
+2' 2| | ( , Ξ) Ξ,
+ff H i f d  (44)
+where |݅⟩is the wave function associated with the initial state, ⟨݂|is the wave function associ-
+ated with a final state, and ܪᇱis the interaction potential associated with the reaction. The
+integral is over phase space ݀Ξ, with the term ߩ(݂,Ξ)being the density of state for the final
+wave function.
+The most common decay reactions are the following:Nuclear Processes and Neutron Physics 19
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015ߛ-ray emission for an excited nucleus:
+(௓஺X)∗⇒ ௓஺X+ߛ(. 45)
+Internal conversion for an excited nucleus:
+(௓஺X)∗⇒[௓஺X]ା+݁ି. (46)
+This process corresponds to the direct ejection of an orbital electron leaving the nu-
+cleus in an ionized state ( [௭஺X]ା).
+ߚିdecay (weak interaction) for a nucleus containing too many neutrons:
+௓஺X⇒[௓ାଵ஺Y]ା+݁ି+ߥҧ. (47)
+Neutron emission (nuclear interaction) for a nucleus having a very large neutron ex-
+cess:
+௓஺X⇒௓஺ିଵX+଴ଵ݊(. 48)
+ߚାdecay (weak interaction) for a nucleus containing too many protons:
+௓஺X⇒[௓ିଵ஺Y]ି+݁ା+ߥ(. 49)
+Orbital electron capture (weak interaction) for a nucleus containing too many protons:
+௓஺X⇒௓ିଵ஺Y+ߥ(. 50)
+Proton emission (nuclear interaction) for a nucleus having a very large proton
+excess:
+௓஺X⇒[௓ିଵ஺ିଵY]ି+ଵଵ݌=௓ିଵ஺ିଵY+Hଵଵ. (51)
+This process corresponds to the ejection of an atom of hydrogen.
+ߙ-emission for heavy nuclei (nuclear interaction):
+௓஺X⇒[௓ିଶ஺ିସY]ଶି+ଶସߙ=௓ିଶ஺ିସY+ଶସHe. (52)
+This process corresponds to the ejection of an atom of helium.
+Spontaneous fission for heavy nuclei (nuclear interaction):
+௓஺X⇒ܥ଴ଵ݊+௒஻F+௓ି௒஺ି஻ି஼G. (53)
+This process corresponds to the fragmentation of a heavy nucleus into two or more
+smaller nuclei with the emission of several neutrons.
+For heavy or very unstable nuclei (see, for example, Figure 5 for uranium-238), several of these
+reactions must often take place before a stable isotope is reached.
+The Janis software from OECD-NEA can be used to retrieve and process the decay chain for all
+isotopes [OECD-NEA2013].20 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015Figure 5 Decay chain for uranium-238 (fission excluded).  The type of reaction (β or α-decay) 
+can be identified by the changes in N and Z between the initial and final nuclides.
+3.2 Nuclear Reactions
+As we saw in the previous section, several types of particles are produced through decay of
+radioactive nuclides. These particles have kinetic energy, and as they travel through matter,
+they interact with orbital electrons and nuclei. A nuclear reaction takes place if these particles
+produce after a collision one or more nuclei that are different from the original nucleus (an
+excited state of the original nucleus or a new nucleus). Otherwise, the collision gives rise to a
+simple scattering reaction where kinetic energy is conserved.
+For the case where charged particles are traveling through a material, scattering collisions with
+the orbital electrons or the nucleus are mainly observed (also called potential scattering).
+More rarely, the charged particles are captured by the nucleus to form a compound nucleus (a
+very short-lived, semi-bonded nucleus) that can decay through various channels.
+Similarly, the electric and magnetic fields associated with the photons interact mostly with the
+nucleus or the orbital electrons. They can also initiate nuclear reactions after being absorbed
+in the nucleus. Finally, neutrons rarely interact with electrons because they are neutral
+particles and the electrons are not affected by the nuclear force (electromagnetic interaction
+with the quarks inside the nucleon, magnetic interactions with unpaired electrons, and weak
+interactions are still present). However, they can be scattered (nuclear potential scattering) or
+absorbed (nuclear reaction) by the nucleus. Again, this absorption can lead to the formation
+of a very unstable compound nucleus that will decay rapidly.
+The main nuclear reactions of photons, electrons, neutrons, and charged heavy particles with
+nuclei are often the inverses of the decay reactions presented earlier:
+Nuclear Processes and Neutron Physics 21
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015ray absorption:
+*    .A A
+Z ZX X (54)
+ߛ-ray scattering (elastic and inelastic):
+**.    A A
+Z ZX X    (55)
+electron capture:
+      
+1     γ.A A
+Z Ze X Y 
+   (56)
+positron capture:
+      
+1    A A
+Z Ze X Y 
+   (57)
+proton capture:
+1 1
+1 1    .A A
+Z Zp X Y 
+  (58)
+ߙcapture:
+24 4
+2 2    .A A
+Z ZX Y 
+  (59)
+neutron capture:
+1 1
+0             .A A
+Z Zn X X  (60)
+neutron scattering (elastic and inelastic):
+*1 1
+0 0        .A A
+Z Zn X X n   (61)
+photon-induced fission:
+1
+0                 .A B A B C
+Z Y Z YX C n F G 
+  (62)
+neutron-induced fission:
+1 1 1
+0 0                        .A B A B C
+Z Y Z Yn X C n F G 
+   (63)
+These reactions must obey the same conservation laws as those described earlier for the
+decay reaction. For most reactions (except elastic scattering), the final nucleus will be in a
+highly excited state and will decay rapidly by ߛ-ray emission (prompt photons).
+The probability that any given reaction will take place between a nucleus and a particle is
+represented by the microscopic cross section ߪ. Much like the decay constant, the cross
+sections have a quantum mechanical interpretation and can be expressed in terms of the wave
+function |݅⟩associated with the initial state (the product of the wave functions of the projec-
+tile and the nucleus), the wave function ⟨݂|associated with the final state, and ܪᇱ,the interac-
+tion potential. The differential cross section is then given by Fermi’s first golden rule, which
+can be written as:
+2' 2| | ( ),Ξid Vf H i fd v (64)22 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015whereܸis the volume of the system, ݒ௜is the velocity of the projectile (assuming that the
+initial nucleus is at rest), and ߩ(݂)is again the density of states in the phase space Ξfor final
+particles. The cross section, which is then the integration over the final phase space of the
+differential cross section, has units of surface. The most common unit used for the micro-
+scopic cross section is the barn (b), with 1 b = 10ିଶସcmଶ= 10ିଶ଼mଶ.
+These cross sections are very difficult to evaluate explicitly because of the complexity of the
+wave functions (the wave function for a nucleus is the product of the wave functions of all the
+nucleons in the nucleus bonded by the nuclear potential) and the interaction potential. These
+are generally evaluated experimentally, and the results are stored in evaluated nuclear data
+files. A software package such as Janis can be used to retrieve and analyze these cross sec-
+tions [OECD-NEA2013]. For computational reactor physics, the NJOY program is generally
+used to process the cross-section databases for neutron-induced reactions [MacFarlane2010].
+3.3 Interactions of Charged Particles with Matter
+As mentioned earlier, charged particles traveling through matter interact mainly with atomic
+electrons because they are much more numerous than nuclei ( ܼelectrons for a nucleus with
+atomic number ܼ) and also because the wave functions associated with these electrons have a
+very large spatial extension (the size of an atom) compared to that associated with the nu-
+cleus.
+Heavy particles, such as protons, ߙ-particles, and ions, are scattered by the Coulomb potential
+produced by the electron, with the cross section given by the Mott scattering formula
+[Leroy2009, Bjorken1964]. As a result, a heavy particle loses a very small quantity of energy
+and momentum to secondary electrons and travels mainly in a straight line as it slows down.
+The secondary electrons, on the other hand, can gain enough energy to be knocked loose from
+the atom, leaving it in an ionized state.
+For electrons and positrons traveling through matter, the problem is somewhat more complex.
+The cross section for electron-electron collisions is given by the Möeller scattering formula,
+while Bhabha scattering is used for positron-electron collisions [Leroy2009, Bjorken1964].
+Positrons lose, on average, half their energy in collision with atomic electrons, and their
+trajectory is somewhat erratic. Positron-electron annihilation reactions can also take place,
+producing two ߛ-rays. Finally, the electrons and positrons that are accelerated in the strong
+electromagnetic field of a heavy nucleus lose some of their energy by ߛ-ray emission due to
+synchrotron radiation (also known as Bremsstrahlung) [Leroy2009, Bjorken1964].
+One can approximate the energy loss of a particle of charge ݖand mass݉inside a material of
+densityߩ, atomic number ܼ,and atomic mass ܯusing the continuous slowing-down approxi-
+mation (CSDA), where one assumes that the particle is interacting constantly with an electron
+gas of density ݊given by
+ .A n ZM (65)
+The energy loss per unit distance traveled by the particle inside the material ( −ܧ݀/ݔ݀,)
+known as the stopping power, is then given by the Bethe-Block formula [Smith2000,
+Leroy2009]:
+2
+24 ( ),   e
+collisionz c dEn L v F vdx mv (66)Nuclear Processes and Neutron Physics 23
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015whereݒis the speed of the particle and ܮ(ݒ)the stopping number, which can be written as
+2
+2
+22( / )(1 ( / ) ),     mvL ln v cI v c(67)
+whereܫis the mean excitation potential for the atomic electrons in this material. The correc-
+tion term,ܨ(ݒ), takes into account the fact that the atomic electrons are bonded as well as
+other quantum effects. For electrons, one must also consider the energy lost by synchrotron
+radiation, which is given approximately by [Leroy2009]:
+3 2
+,  e
+radiation edEZndx m(68)
+where݉௘is the mass of the electron. Here, it is assumed that the kinetic energy of the
+electronsܶ௘≪݉௘ܿଶ.
+For heavy particles (protons, ߙ-particles), nuclear slowing-down, (−ܧ݀/ݔ݀)nuclear , becomes
+important when they reach a low energy.
+The CSDA range ܴof a particle is defined as the distance (path of flight) that it must travel to
+lose all its kinetic energy. It is computed as
+01, T
+totalR dEdE
+dx(69)
+whereܶis the initial kinetic energy of the particle and
+.
+total collision radiation nucleardE dE dE dE
+dx dx dx dx   (70)
+These CSDA expressions are helpful to understand the general behaviour of particles slowing
+down in a material. However, for practical applications, tabulated values for −ܧ݀/ݔ݀andܴ
+are more useful. This type of information for electrons, protons, and ߙ-particles can be found
+on-line for various elements and different material compositions on the National Institute of
+Standard and Technology Web sites [Berger2013a]. The databases available are:
+ESTAR, for electrons;
+PSTAR, for protons;
+ASTAR, forߙ-particles.
+For heavy particles, this site also provides information on nuclear stopping power. Also note
+that the stopping power and range are defined in a somewhat different way from the notation
+above. The following expressions are used instead:
+2 1/ (MeV cm / g  ) / (MeV / cm)dE dx dE dx   (71)
+and
+2(g / cm   ) (cm)R R  (72)24
+©UNENE, all rights reserved. For educational use only, no assumed liability.because these are the conventional units used in radiation shielding studies
+number of electron/ion pairs produced per unit distance in a material is given approximately
+by
+whereܹis the average energy required to ionize an atom in this material.
+3.4 Interactions of Photons with Matter
+The behaviour of photons as they travel in a material is somewhat diffe
+charged particles, which lose their kinetic energy
+electrons and nuclei, the C oulomb field being a long
+particle that carries the energy ܧ=
+of frequency ߥand wavelength ߣ
+length, the photon behaves as a wave (diffraction and interference for low
+as a particle (photoelectric effec t for high
+Here, we will consider only the interactions with matter of the relatively high
+(ܧ൐ͳ) found in nuclear reactors
+first ab sorbed by the atomic electrons or the nucleus
+particles can be produced, including photons (scattering reactions), electrons and positrons
+(pair creation), and neutrons (photonuclear reaction).
+Figure 6 Microscopic cross section of the interaction of a high
+The Essential
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physicsthese are the conventional units used in radiation shielding studies .Note that the
+number of electron/ion pairs produced per unit distance in a material is given approximately
+,1pairs
+totaldn dE
+dx W dx
+is the average energy required to ionize an atom in this material.
+Photons with Matter
+The behaviour of photons as they travel in a material is somewhat diffe rent from
+lose their kinetic energy mainly by continuously interacting with
+oulomb field being a long -range force. The photon is the quantum
+=ߥ݄and momentum ݌Ԧൌ݊ሬ݄⃗Ȁߣof an electromagnetic field
+ൌܿȀߥtravelling in direction ݊ሬ⃗.Depending on its wav
+length, the photon behaves as a wave (diffraction and interference for low -energy photons) or
+t for high -energy photons) when it interacts with matter
+Here, we will consider only the interactions with matter of the relatively high -energy photons
+) found in nuclear reactors .In this case, the photon behaves as a particle that is
+sorbed by the atomic electrons or the nucleus .Following this absorption, secondary
+including photons (scattering reactions), electrons and positrons
+and neutrons (photonuclear reaction).
+Microscopic cross section of the interaction of a high -energy photon with a lead
+atom.
+The Essential CANDU
+Nuclear Physics – June 2015Note that the
+number of electron/ion pairs produced per unit distance in a material is given approximately
+(73)
+rent from that of
+by continuously interacting with
+The photon is the quantum
+of an electromagnetic field
+Depending on its wav e-
+energy photons) or
+energy photons) when it interacts with matter .
+energy photons
+In this case, the photon behaves as a particle that is
+Following this absorption, secondary
+including photons (scattering reactions), electrons and positrons
+energy photon with a leadNuclear Processes and Neutron Physics 25
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015The five main reactions taking place between high-energy photons and matter that are of
+interest in nuclear reactor-related studies are:
+Photoelectric effect;
+Rayleigh scattering;
+Compton scattering;
+Pair production; and
+Photonuclear reactions.
+With each such reaction is associated a macroscopic cross section Σ௠,௫(ܧ)representing the
+probability per unit distance travelled by a photon of energy ܧthat an interaction of type ݔ
+has taken place in material ݉. The macroscopic cross section takes into account the probabili-
+ties of interaction both between single photons and between particles and the fact that the
+material contains ܰ௠,௜particles of type ݅per unit volume:
+, , ,( ) ( ), m x m i i xE N E  (74)
+whereߪ௜,௫(ܧ)is the microscopic cross section of the interaction of a photon of energy ܧwith
+a particle of type ݅through reaction ݔ(see Section 3.2). The total microscopic photon cross
+section can be expressed as:
+  ( ) ( ) ( ) ( ) ( ) ( ).Photoelectric Rayleigh Compton Pair production Photonuclear E E E E E E          (75)
+Examples of microscopic cross sections for the interaction of photons with a lead atom are
+presented in Figure 6.
+Let us now describe in detail the five reactions contributing to ߪ(ܧ)and discuss their respec-
+tive dependences on the energy of the incident photon.
+3.4.1 Photoelectric effect
+This effect is illustrated in Figure 7 . A photon with an energy ܧℎ=ߥthat is greater than the
+binding energy ܹof atomic electrons around the nucleus is absorbed. Following this absorp-
+tion, the electron becomes free, leaving behind an ion. The energy balance for this reaction is
+,e NT T E W (76)
+whereܶ௘is the kinetic energy of the final electron and ܶேthat of the recoil nucleus (generally
+very small compared with ܶ௘).26
+©UNENE, all rights reserved. For educational use only, no assumed liability.Figure
+From quantum mechanics, the binding energy of electrons around
+be approximated using [Griffiths2005]
+where݊ൌͳfor K- shell electrons, 2 for L
+of the photon decreases, the electrons in the more tightly bonded shells (K, L
+are successively excluded, producing a large drop in the photoelectric cross
+energy falls below ܹ௡(see Figure
+difficult, and only approximate relations are available
+[Leroy2009]:
+sPhotoelectri c
+which is valid, within 2%, for photon with energies ranging from 100 keV
+total photoelectric cross section ( the
+[Leroy2009]:
+, Photoelectric Photoelectric K E E Z Z    
+Clearly, this cross section decreases rapidly with photon energy
+tons of energies less than a few tenths of
+Several processes can take place after this reaction
+initially in the valence band, the ionized atom is in its ground state
+emission is observed. When electrons coming from more tightly bonded energy level
+ejected, the ionized atom is left in an excited state
+ground state by two different means
+valence electron) can emit a photon and fill the vacant energy level
+come from a slightly higher energy level, leaving the ion in a less excited state that will further
+decay before reaching its ground state
+The Essential
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear PhysicsFigure 7 Photoelectric effect.
+From quantum mechanics, the binding energy of electrons around a nucleus of charge
+[Griffiths2005] :
+2
+213.61 ,nZW eVn
+shell electrons, 2 for L -shell electrons, and so on. Therefore , as the energy
+of the photon decreases, the electrons in the more tightly bonded shells (K, L ,and M shells)
+are successively excluded, producing a large drop in the photoelectric cross section when the
+Figure 6). The evaluation of this cross section is therefore very
+and only approximate relations are available . For a K-s hell electron, one can use
+c,KE()»32 2 pZ5ae6mec2( )3
+2
+3E( )7
+2c()2,
+which is valid, within 2%, for photon with energies ranging from 100 keV to 200 MeV
+the sum over all energy shells) is given approximately by
+   2 3
+, 1 0.01481  ln 0.000788  ln .Photoelectric Photoelectric K E E Z Z  
+section decreases rapidly with photon energy .It is dominant only for ph
+tons of energies less than a few tenths of an MeV.
+Several processes can take place after this reaction .If the electron ejected from the atom was
+initially in the valence band, the ionized atom is in its ground state ,and no further radiation
+When electrons coming from more tightly bonded energy level
+ejected, the ionized atom is left in an excited state . This excited i on can then decay to its
+two different means .First, an electron in a much higher energy state (i.e.
+valence electron) can emit a photon and fill the vacant energy level .The electron can also
+come from a slightly higher energy level, leaving the ion in a less excited state that will further
+reaching its ground state .When the photons emitted in these successive decays
+The Essential CANDU
+Nuclear Physics – June 2015a nucleus of charge ܼ݁can
+(77)
+, as the energy
+and M shells)
+section when the
+section is therefore very
+hell electron, one can use
+(78)
+to 200 MeV . The
+sum over all energy shells) is given approximately by
+2 31 0.01481  ln 0.000788  ln . E E Z Z (79)
+It is dominant only for ph o-
+If the electron ejected from the atom was
+and no further radiation
+When electrons coming from more tightly bonded energy level s are
+on can then decay to its
+First, an electron in a much higher energy state (i.e. , a
+The electron can also
+come from a slightly higher energy level, leaving the ion in a less excited state that will further
+When the photons emitted in these successive decaysNuclear Processes and Neutron Physics 27
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015are absorbed by less-bonded electrons, so-called soft Auger electrons are ejected from the
+atom, producing an Auger electron cascade.
+3.4.2 Rayleigh scattering
+This elastic scattering reaction takes place when a photon, after being absorbed by a bound
+atomic electron, is re-emitted with the same energy, but in a different direction, by the elec-
+tron, returning the atom to its original state [Leroy2009, Jauch1976]. The cross section for this
+reaction is very difficult to evaluate because it depends strongly on the wave function of the
+bonded electrons surrounding the nucleus. It is generally written as an integral of the form
+ 2
+22
+2
+01 cos , , sin ,e
+Rayleigh
+ecE F E Z dm c          (80)
+whereܨ(ܧ,ߠ,ܼ)is the atomic form factor that represents the effect of the ܼelectrons sur-
+rounding the nucleus on the scattering of a photon at an angle ߠwith respect to the initial
+photon direction. Several theoretical expressions for ܨ(ܧ,ߠ,ܼ)are available in the literature
+for different values of ܼand various energy ranges. For example, when the photon energy is
+greater than 100 keV, the main contributors to Rayleigh scattering are the electrons in the K-
+shell, and the relativistic Bethe-Levinger form factor is used [Hubbell1975]:
+F E,q,Z( ) =sin(2 gatan( Q))
+gQ1+Q2( )g, (81)
+with
+Q E ,q,Z( )=2Esin(q/ 2)
+aeZmec2, (82)
+gZ( )=1+aeZ( )2. (83)
+Because Rayleigh scattering is never the dominant photon reaction (see Figure 6 ) for the
+photon energy range considered in nuclear reactors, its contribution to the total cross section
+is often neglected.
+3.4.3 Compton scattering
+The Compton effect is the incoherent inelastic scattering of a photon by an electron that is
+weakly bonded to a nucleus (see Figure 8 ). Here, a photon with momentum ݇ሬ⃗(ห݇ሬ⃗ห=ℎߥ/ܿ=
+ܧ/ܿ) is scattered at an angle ߠwith respect to its original direction, with the final momentum
+of the photon being ݇ሬ⃗′. The electron is then ejected with a kinetic energy ܶ௘,obtained by
+conservation of momentum and energy:
+2
+2(1 cos ),(1 cos ) 
+   e
+eT Em c E
+(84)
+where the binding energy of the electron is assumed to be small compared to the photon
+energy, and the recoil energy carried by the nucleus is neglected. For a nearly free electron,
+the cross section for this reaction is given by the Klein-Nishina formula, which can be written
+as28
+©UNENE, all rights reserved. For educational use only, no assumed liability.2 2e
+Compton
+ecE lnm c    
+with2/ ( )e E m c This cross section decreases with energy
+the photoelectric effect. It dominates the photoelectric reaction for energies above approx
+mately 0.5 MeV.
+Figure
+3.4.4 Pair production
+A photon with energy ܧൌߥ݄൐2
+chargeܼ(or an electron) can be converted into an electron
+the nucleus carries a small part of the kinetic energy of the photon,
+energy being tr ansferred in the form of mass and kinetic energy to the pair
+energies in the range found in nuclear reactors, the cross
+approximately by [Leroy2009]:
+  Pair production e E Z  
+with2/ ( ).e E m c This cross section vanishes for
+Compton cross section above a few MeV.
+3.4.5 Photonuclear reactions
+Photonuclear reactions are the result of photons being absorbed by a nucleus to form an
+excited nucleus, which gets rid of its energy through different decay processes, namely the
+emission of a secondary photon, the ejection of one or more nucleons (proton
+the ejection of ߙ-particles, or through
+above a threshold, which lies between 7 and 9 MeV for heavy nuclides, but
+lower for very light isotopes (1.666 MeV and 2.226 Me
+rium). The absorption cross sect ions for these reactions (see
+difficult to evaluate , and only approximate expressions are available.
+The Essential
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics
+2
+2 2 22 1 1 4 11 2 1 ,2 2 1 2cE lnm c                   
+section decreases with energy ,but much more slowly tha
+It dominates the photoelectric reaction for energies above approx
+Figure 8 Compton effect.
+2݉௘ܿଶtraveling through the Coulomb field of a nucleus of
+can be converted into an electron -positron pair. After the reaction,
+the nucleus carries a small part of the kinetic energy of the photon, with the bulk of the
+ansferred in the form of mass and kinetic energy to the pair .
+energies in the range found in nuclear reactors, the cross section for this reaction is given
+2
+2
+228 218 129ln9 7 02 ,1 2e
+Pair production e
+ecE Zm c      
+section vanishes for ܧ൏ͳǤͲʹMeV and is larger than the
+above a few MeV.
+Photonuclear reactions are the result of photons being absorbed by a nucleus to form an
+excited nucleus, which gets rid of its energy through different decay processes, namely the
+emission of a secondary photon, the ejection of one or more nucleons (proton s and neutrons),
+or through a fission reaction. Photonuclear reactions occur only
+between 7 and 9 MeV for heavy nuclides, but isconsiderably
+lower for very light isotopes (1.666 MeV and 2.226 Me V respectively for beryllium and deut
+ions for these reactions (see Figure 9 ) are generally very
+, and only approximate expressions are available.
+The Essential CANDU
+Nuclear Physics – June 20152 1 2 1 ,
+2 1 2 
+ 
+ (85)
+but much more slowly tha n for
+It dominates the photoelectric reaction for energies above approx i-
+traveling through the Coulomb field of a nucleus of
+After the reaction,
+the bulk of the
+.For photon
+section for this reaction is given
+(86)
+MeV and is larger than the
+Photonuclear reactions are the result of photons being absorbed by a nucleus to form an
+excited nucleus, which gets rid of its energy through different decay processes, namely the
+s and neutrons),
+Photonuclear reactions occur only
+considerably
+V respectively for beryllium and deut e-
+) are generally veryNuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability.Figure 9 Photonuclear cross sections for deuterium, beryllium, and lead.
+For deuterium, which is important to CANDU reactor
+heavy water, the expression [Leroy2009]
+s2D,Ph
+is often used, where ܧǡthe photon energy
+0.0624, and ߪD(ܧ)is in barns. The end result of such a photonuclear reaction is a hydrogen
+atom and a fast neutron that can initiate
+Tabulated values for Rayleigh scattering (coher
+scattering (incoherent scattering), and pair production cross
+materials and for energies ranging from 1 keV to 100 GeV are available on
+of the National Institute of Standards and Technology (NIST)
+reactions, the energy- dependent cross
+OECD-NEA Janis software [OECD- NEA2013]
+For each reaction pr esented above, the photons first transfer all
+a nucleus following a collision. As a result, starting with
+direction Ωሬሬ⃗incident at point ݎԦon a material of uniform macroscopic cross
+number of initial photons ݊ሺܧǡݎԦ+
+given by [Basdevant2005]:
+,n E r s n E r e
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear PhysicsPhotonuclear cross sections for deuterium, beryllium, and lead.
+For deuterium, which is important to CANDU reactor s because they use large amounts of
+[Leroy2009]
+hotonuclear(E)»C2DE-2.226( )3
+E3
+the photon energy , is given in MeV, ܥDమvaries between 0.061 and
+The end result of such a photonuclear reaction is a hydrogen
+atom and a fast neutron that can initiate a fission reaction (see Section 2.6).
+Tabulated values for Rayleigh scattering (coher ent scattering), photoelectric effect, Compton
+and pair production cross sections with different atoms or
+materials and for energies ranging from 1 keV to 100 GeV are available on -line on the
+of the National Institute of Standards and Technology (NIST) [Berger2013b]. For photonuclear
+dependent cross sections for various isotopes can be obtained
+NEA2013] .
+esented above, the photons first transfer all their energy to an electron or
+As a result, starting with ݊ሺܧǡݎԦǡȳሬሬ⃗)photons of energy
+on a material of uniform macroscopic cross secti on
++ݏȳሬሬ⃗,Ωሬሬ⃗)still present after a distance ݏhas been crossed is
+,Ω , . ,Ω ,ΩE sn E r s n E r e   
+29
+Nuclear Physics – June 2015Photonuclear cross sections for deuterium, beryllium, and lead.
+large amounts of
+(87)
+varies between 0.061 and
+The end result of such a photonuclear reaction is a hydrogen
+ent scattering), photoelectric effect, Compton
+sections with different atoms or
+line on the Web site
+For photonuclear
+obtained using the
+energy to an electron or
+photons of energy ܧand
+onߑሺܧሻ, the
+has been crossed is
+(88)30 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015The number of photons therefore decreases exponentially with distance. This behaviour is
+similar to what is observed when light is attenuated by passing through a material with a
+linear attenuation coefficient ߤ(ܧ=) ߑ(ܧ). Secondary photons produced with energy ܧand
+direction Ωሬሬ⃗following the absorption of photons of energy ܧ′and direction Ωሬሬ⃗′will also con-
+tribute to the total population of photons at point ݎԦ+ݏΩሬሬ⃗. The equation that describes the
+photon population in a material, assuming a constant neutron incident population, is the static
+photon transport equation, which takes the form [Pomraning1991]:
+  ' ' ' ' 'Ω ,Ω,  ,Ω, Ω'  ,ΩΩ ,Ω,,s n E r E n E r dE d E E n E r          (89)
+whereΣ௦൫ܧᇱ→ܧ,Ωሬሬ⃗ᇱ→Ωሬሬ⃗൯is the differential scattering cross section representing the prob-
+ability that the absorption of a photon of energy ܧᇱand direction Ωሬሬ⃗ᇱproduces a photon of
+energyܧand direction Ωሬሬ⃗.
+3.5 Interactions of Neutrons with Matter
+Neutron interaction with matter is the result of the nuclear force, although weak and electro-
+magnetic interactions, the latter being the result of anomalous magnetic moment, are also
+possible. As a result, only neutron-nucleus interactions are generally considered, including
+elastic potential scattering with cross section σĞůĂƐƟĐ;
+inelastic scattering with cross section σŝŶĞůĂƐƟĐ;
+neutron absorption with cross section σĂďƐŽƌƉƟŽŶ;and
+spallation reactions, σƐƉĂůůĂƟŽŶ.
+In the first three reactions, the neutron interacts with the nucleus as a whole. In spallation
+reactions, the neutrons interact directly with the nucleons in the nucleus. The latter reaction
+can take place only when the energy of the incident neutron ܧ௡,௜is sufficiently high (threshold
+reactions with ܧ௡,௜>0.1 MeV), and therefore σspallation is either neglected, because it is too
+small, or simply included in the absorption cross section. The probability that the neutron
+interacts with a nucleus is then given by the total cross section, σ, where
+, , ,σ()σ()σ()n i absorption n i scattering n iE E E  , (90)
+ , , , σ σ σ .scattering n i elastic n i inelastic n i E E E  (91)
+Elastic potential scattering is an interaction in which kinetic energy is conserved and the
+neutron does not penetrate the nucleus. As a result, the neutron is slowed down, transferring
+part of its energy to the nucleus. For a collision between a neutron with an initial kinetic
+energyܧ௡,௜and a nucleus of mass ܯXat rest, the final neutron kinetic energy ܧ௡,௙(momentum
+and energy conservation) will be given by [Bell1982]:
+ , 2
+, 2 1 2 cos ,
+1n i
+n fEE A A
+A  
+(92)
+whereܣ=ܯX/݉௡andߴ, the scattering angle for the final neutron in the of mass system, is
+related to the scattering angle in the laboratory system ߠby
+ 2cos 1cos .
+1 2 cosA
+A A
+
+(93)Nuclear Processes and Neutron Physics 31
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015On average, the neutron will lose an energy Δܧ:
+
+,1
+2,n i E E (94)
+
+2
+21α ,
+1A
+A
+(95)
+after each collision. Because Δܧdecreases as ܣincreases, neutron slowing-down (also called
+moderation) is more efficient when scattering collisions with light rather than heavy nuclei are
+involved.
+For low-energy neutrons, the potential scattering cross section in the centre of mass system is
+nearly constant and has the form [Bell1982]:
+s=4pR2, (96)
+whereܴis the nuclear radius for this material. At higher energy, one can use Fermi’s golden
+rules to obtain an approximation for ߪ(ܧ)of the form
+s(E)=4p2sin2d
+2mnE, (97)
+whereߜrepresents the phase shift of the neutron wave function in isotropic scattering.
+Inelastic scattering and absorption reactions generally proceed by creation of a compound
+nucleus:
+* *1, 'A A A
+Z Z Zn X X n X  (98)
+*1      .A A
+Z Zn X X other decay channels  (99)
+The creation of the compound nucleus is a resonant reaction because the resulting weakly
+bonded nucleus can exist only if it corresponds to an excitation state of X௓஺ାଵ. The lifetime of
+this excited nucleus is generally very short ( ߬≈10ିଵ଺s), and with each decay channel ݇,
+including inelastic scattering, is associated a resonance width given by [Bell1982]:
+Γ,k
+k(100)
+with߬௞being the mean life for decay through this channel. The total resonance width for the
+creation of the excited nucleus Γis then given by
+ΓΓ.k (101)
+For light nuclei, Γinelastic≫Γabsorption ,and the inelastic scattering process dominates. For
+heavy nuclei, the reverse is true (absorption dominates). The resonance widths for inelastic
+scattering also increase with energy, the explicit dependence being
+0,inelastic n E E E  (102)
+whereΓ଴is a constant that depends on the nucleus considered.
+The probability (cross section) for the creation of a compound nucleus with resonant energy
+ܧ଴is given by32
+©UNENE, all rights reserved. For educational use only, no assumed liability. 1A
+ZXE l
+where݈is the orbital-angular- momentum quantum numb
+through channel ݇, the cross section is
+Note that at low energy ( ܧاܧ଴),Γ
+k
+and the cross section is a function of
+Figure 10 Cross sections for hydrogen (l
+Examples of cross sections for light (hydrogen and deuterium) and heavy nuclei (
+Uଽଶଶଷ଼) are presented in Figure 10
+clearly dominates. One can also observe that the total cross
+times larger than that of deuterium (better scattering nucleus for neutron moderation)
+absorption representing 10% of the total cross
+will lead to neutron capture. For deuterium, the ratio of neutron absorptions to collisions is
+closer to 1%, making this isotope a better neutron moderator
+absorption reaction is the most prevalent and exhibits a very large number of resonances
+very high energy, these resonances do not disappear, but are so closely packed that they
+produce a nearly continuous cross section.
+The Essential
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics
+2
+2
+2
+0E2 1 ,2
+2nE lmEE E 
+        
+
+momentum quantum numb er. For a nucleus that decays
+section is
+ 1 .A
+Zk
+k XE E
+Γ௡=Γ଴√ܧ,
+2
+0 02 1 ,
+2k
+kE lv m E 
+section is a function of ͳȀݒ, withݒbeing the incoming neutron velocity.
+Cross sections for hydrogen (l eft) and deuterium (right) as functions of energy.
+sections for light (hydrogen and deuterium) and heavy nuclei (
+and Figure 11 . For light nuclides, the scattering process
+One can also observe that the total cross section of hydrogen is about ten
+that of deuterium (better scattering nucleus for neutron moderation)
+bsorption representing 10% of the total cross section of hydrogen, one out of ten collisions
+For deuterium, the ratio of neutron absorptions to collisions is
+closer to 1%, making this isotope a better neutron moderator overall. For heavy nuclides, the
+prevalent and exhibits a very large number of resonances
+resonances do not disappear, but are so closely packed that they
+section.
+The Essential CANDU
+Nuclear Physics – June 2015(103)
+For a nucleus that decays
+(104)
+(105)
+being the incoming neutron velocity.
+of energy.
+sections for light (hydrogen and deuterium) and heavy nuclei ( Uଽଶଶଷହand
+or light nuclides, the scattering process
+section of hydrogen is about ten
+that of deuterium (better scattering nucleus for neutron moderation) . With
+one out of ten collisions
+For deuterium, the ratio of neutron absorptions to collisions is
+For heavy nuclides, the
+prevalent and exhibits a very large number of resonances . At
+resonances do not disappear, but are so closely packed that they
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability.Figure 11 Cross sections for
+The derivations above are valid only if one assumes that the nucleus is at rest
+not the case for material having temperatures
+kinetic energy that is proportional to
+on the cross sections can be taken into account for a material at temperature
+[Bell1982]:
+,
+2  k n X k n X X XE T v v v v p E dE 
+whereݒԦ௡andݒԦXare the velocity of the neutron and the nucleus
+is the Maxwell- Boltzmann distribution
+with energy ܧin the range ܧX൏ܧ
+X X X Xp E dE E e dE
+where݇࡮is the Boltzmann constant
+sections exhibiting ͳȀݒbehaviour (i.e.
+At low neutron energ ies, the scattering cross
+behaviour and is not affected by this transformation, although the energy distribution of the
+final neutrons resulting from these collisions will be such that they end up in thermal eq
+rium with the nuclides in the medium
+The thermal motion of atoms also changes the form of resonant cross
+height of the resonance while inc
+resonance is known as the Doppler effect.
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear PhysicsCross sections for235
+92U(left) and238
+92U(right) as functions of energy.
+The derivations above are valid only if one assumes that the nucleus is at rest .This is clearly
+not the case for material having temperatures ܶ൐Ͳ, because atoms acquire an average
+kinetic energy that is proportional to the temperature of their medium. The resulting effect
+sections can be taken into account for a material at temperature
+1
+2,    
+k n X k n X X XE T v v v v p E dE
+mE 
+are the velocity of the neutron and the nucleus respectively. Here,
+Boltzmann distribution , which represents the probability of find ing
+൏ܧX൅ܧ݀Xdue to thermal motion:
+/( )
+3/22,XE k T
+X X X Xp E dE E e dE
+k T
+B
+B
+is the Boltzmann constant .This thermal motion of nuclei has no impact on cross
+behaviour (i.e. , absorption cross sections of hydrogen at low energy)
+ies, the scattering cross section for light nuclides also exhibits
+behaviour and is not affected by this transformation, although the energy distribution of the
+final neutrons resulting from these collisions will be such that they end up in thermal eq
+rium with the nuclides in the medium [Bell1982].
+The thermal motion of atoms also changes the form of resonant cross sections by reducing the
+height of the resonance while inc reasing its width (see Figure 12 ).This widening of the
+resonance is known as the Doppler effect.
+33
+Nuclear Physics – June 2015(right) as functions of energy.
+This is clearly
+acquire an average
+The resulting effect
+sections can be taken into account for a material at temperature ܶusing
+(106)
+Here,݌(ܧX)ܧ݀X
+inga nucleus
+(107)
+This thermal motion of nuclei has no impact on cross
+of hydrogen at low energy) .
+exhibitsͳȀݒ
+behaviour and is not affected by this transformation, although the energy distribution of the
+final neutrons resulting from these collisions will be such that they end up in thermal eq uilib-
+sections by reducing the
+This widening of the
+34 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015Figure 12 Effect of temperature on238U absorption cross section around the 6.64-eV reso-
+nance.
+The neutron-nucleus interaction cross sections are very complex and in most cases are evalu-
+ated using a combination of theory and experiment. They are generally tabulated in evaluated
+nuclear data files that can be read by nuclear calculation software (NJOY , for example)
+[MacFarlane2010]. They can also be extracted on-line from nuclear databases or off-line using
+the Janis software [KAERI2013, Livermore2013, OECD-NEA2013].
+Once the energy-dependent cross sections are known, one can easily evaluate the number of
+reactions of type ݔper second (the reaction rate ܴ௠,௫(ݒ)) taking place inside a region of
+volume Vcontainingܰ௠nuclei per cm3of a material ݉(cross section σ௠,௫(ݒ))with a popula-
+tion of݊(ݒ)neutrons per cm3having a velocity ݒ=ඥ2ܧ௡/݉:
+,
+, ,   ,m m x
+m x m xN v n vR v V V v vv  (108)
+where߶(ݒ)=݊(ݒ/)ݒis the neutron flux and Σ௠,௫(ݒ)=ܰ௠σ௠,௫(ݒ)the macroscopic cross
+section for a reaction of type ݔin this material.
+4Fission and Nuclear Chain Reaction
+The concept of controlled energy production in a nuclear reactor is based on three fundamen-
+tal ideas that were discussed in Sections 2.6, 3.1, and 3.2, namely:
+energy is released if a heavy nucleus is fragmented into lighter nuclei, the fragmentation
+process being called nuclear fission;
+the spontaneous nuclear fission process, which has a very low yield for several heavy
+nuclei, generates neutrons in addition to the light nuclei as end products;
+the nuclear fission process can be initiated by neutrons and photons.
+Accordingly, a neutron of kinetic energy ܶ௡travelling through a medium containing heavy
+nuclei at rest could initiate a fission reaction:
+1 1 1  .A B A B C
+o Z o Y Z Yn X C n F G
+  (109)
+The kinetic energy ܶோreleased by this reaction is then
+12 2 2 2(1 ) ,A B A B C
+Z Y Z YR n n X F GT T C m c m c m c m c
+ (110)
+Nuclear Processes and Neutron Physics 35
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015with part of the energy carried by the neutrons and the lighter nuclei. These lighter nuclei
+rapidly lose their energy in matter (see Section 3.3), thereby producing heat that is removed
+by the coolant and transformed to electricity.
+Not all the neutrons produced after this reaction initiate a fission reaction. A number of them
+are absorbed by material without producing a fission reaction. Others simply leave the system
+(with or without collisions). Provided that on average a single neutron per fission reaction can
+initiate a new fission, a controlled exothermal chain reaction can be established. Establishing
+such a chain reaction looks relatively simple; however, this is far from the case, as shown in
+the following subsections.
+4.1 Fission Cross Sections
+The probability of fission is given by the value of the fission cross sections associated with a
+nucleus and depends on the energy of the neutron that initiates the reaction. All isotopes
+with atomic number ܼ> 90 are fissionable (have a non-zero probability of undergoing fission
+following the capture of a neutron). Table 5 compares the average energy, ܷ, required to
+initiate a fission reaction in different nuclei with the energy, ܳ, available in the compound
+nucleus after a neutron with a vanishing kinetic energy has been captured. For nuclei contain-
+ing an even number of protons and an odd number of neutrons, ܳ>ܷ. Such isotopes are
+called fissile isotopes because the internal energy of the compound nucleus resulting from
+neutron capture is sufficient to surmount the potential barrier for fission even when the
+incident neutrons are very slow ( ܶ௡≈0). For isotopes with ܳ<ܷ, the fission barrier can be
+overcome only using neutrons with relatively high kinetic energy. Fission for these nuclei is a
+threshold reaction.
+Table 5 Comparison of the energy, U, required for a fission reaction in a compound nucleus
+with the energy, Q, available after a neutron collision with different isotopes.
+Isotopeࡽ(MeV)ࢁ(MeV)
+Thଽ଴ଶଷଶ5.1 5.9
+Uଽଶଶଷଷ6.6 5.5
+Uଽଶଶଷହ6.4 5.8
+Uଽଶଶଷ଼4.9 5.9
+Puଽସଶଷଽ6.4 5.5
+As shown in Figure 13 , the energy dependence of the fission cross sections for Uଽଶଶଷହand Uଽଶଶଷ଼
+reflects the behaviour described above. The probability that a neutron of energy ܧ௡< 1.0
+MeV will collide with Uଽଶଶଷ଼and result in a fission reaction is very low. For Uଽଶଶଷହ, there is no
+lower limit on the neutron energy, and the fission probability increases as the energy of the
+neutron decreases. The neutron capture cross section (neutron absorption followed by
+photon emission) for Uଽଶଶଷ଼dominates at low energy, while for Uଽଶଶଷହ,it remains relatively small
+compared to the fission cross section (approximately 10%) over the full energy range. As a
+result, most neutron absorption in Uଽଶଶଷହwill lead to fission followed by production of new
+neutrons (neutrons are regenerated). For Uଽଶଶଷ଼, a collision with a neutron having energy below36 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015the fission threshold will lead to a net neutron loss. As a result, the natural uranium fuels used
+in CANDU reactors ( 0.72 atomic% of Uଽଶଶଷହ) will be much less reactive (prone to fission) than
+the enriched fuels (enrichment factors ߳ranging from 2.5 to 5 atomic% of Uଽଶଶଷହ) used in light
+water reactors (LWR).
+4.2 Fission Products and the Fission Process
+The fission process generally produces two light nuclei, called fission products, although three
+or more nuclei can also be generated. The relative rate of production of a given nuclide ܫ,
+called the fission yield, is denoted by ܻூand satisfies
+2,I
+IY (111)
+assuming that only two nuclei are produced by each fission reaction. As one can see in Figure
+14, where the fission yields of all the nuclei resulting from the fission of Uଽଶଶଷହare plotted as a
+function of their mass number, the fission process favours the production of relatively light
+nuclides ( 90 < A<105) combined with heavier isotopes ( 130 < A<145).Figure 13 Capture and fission cross sections of235
+92U(left) and238
+92U(right) as functions of
+energy.
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability.Figure 14 Relative fission yield for
+The average number ߭of neutrons emitted by
+small compared to the neutron excess
+value of߭for a given reaction depends on the nature of the fissile nuclides, the fission pro
+ucts released, and the energy of the neutrons
+neutron-rich and unstable. They will reach stability
+and neutron emission. All the transformations that take place within
+reaction are generally included in the so
+prompt electrons, and prompt photons)
+milliseconds to minutes) due to decay of isotopes with long
+delayed.
+Table 6 Average numbers of neutrons produced by the fissio
+Isotope
+Thଽ଴ଶଷଶ
+Uଽଶଶଷଷ
+Uଽଶଶଷହ
+Uଽଶଶଷ଼
+Puଽସଶଷଽ
+The fission reaction (see Section 2.6) also releases a large amount of kinetic energy (on the
+order of 200 MeV) that is distributed between fission products, neutrons,
+Table 7 ). Clearly , the fission products carry most of the energy, and because of their very short
+range in matter, this energy heats the nuclear fuel
+particles) also lose most of their energy in the fuel
+depositing their energy in the reactor structures, while the weakly interacting neutrinos will
+generally be lost to the environment
+Nuclear Processes and Neutron Physics
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear PhysicsRelative fission yield for235
+92Uas a function of mass number
+of neutrons emitted by the fission process (see Table 6 ) is relatively
+the neutron excess ܰെܼ൐ͶͲrequired for heavy isotopes to exist
+for a given reaction depends on the nature of the fissile nuclides, the fission pro
+and the energy of the neutrons .Most fission products are therefore very
+They will reach stability through two main processes
+All the transformations that take place within 10ିଵସs of the fission
+reaction are generally included in the so -called prompt contribution (prompt neutrons,
+and prompt photons) .Particles produced on a longer time scale (from
+milliseconds to minutes) due to decay of isotopes with long ermean lifetime
+Average numbers of neutrons produced by the fissio n of common heavy nuclides.
+࣏(ࡱ࢔<1 eV) ࣏(ࡱ࢔>1 MeV)
+0 2.2
+2.50 2.6
+2.43 2.6
+0 2.6
+2.89 3.1
+The fission reaction (see Section 2.6) also releases a large amount of kinetic energy (on the
+order of 200 MeV) that is distributed between fission products, neutrons, ߛ-rays, etc
+, the fission products carry most of the energy, and because of their very short
+range in matter, this energy heats the nuclear fuel .Similarly, the charged electron
+their energy in the fuel . The highly penetrating ߛ-rays will end up
+reactor structures, while the weakly interacting neutrinos will
+generally be lost to the environment .Finally, for LWR and CANDU reactors, only a very sm
+37
+Nuclear Physics – June 2015as a function of mass number .
+) is relatively
+required for heavy isotopes to exist . The
+for a given reaction depends on the nature of the fissile nuclides, the fission pro d-
+Most fission products are therefore very
+through two main processes :ߚିdecay
+s of the fission
+called prompt contribution (prompt neutrons,
+Particles produced on a longer time scale (from
+mean lifetime s are called
+n of common heavy nuclides.
+The fission reaction (see Section 2.6) also releases a large amount of kinetic energy (on the
+rays, etc . (see
+, the fission products carry most of the energy, and because of their very short
+Similarly, the charged electron s (ߚି
+rays will end up
+reactor structures, while the weakly interacting neutrinos will
+Finally, for LWR and CANDU reactors, only a very sm all38 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015part of the neutron energy will be transferred to the fuel in the form of heat, with most of it
+being lost to the environment (mostly through slowing-down in the moderator).
+Table 7 Distribution of kinetic energy among the particles produced by a fission reaction.
+Particles Kinetic energy
+(MeV)
+Fission products 168
+Promptߛ-rays 7
+Delayedߛ-rays 7
+Electrons 8
+Neutrinos 12
+Neutrons 7
+Total 207
+Note that the data presented in Table 7 represent average values, meaning that the neutrons
+produced in the fission process have an energy distribution. The probability that a neutron of
+energyܧ௡is produced in the fission process, which is known as the fission spectrum, ߯(ܧ௡), is
+often approximated by the Watt relationship [Watt1952]:
+  sinh ,naE
+n nE Ce bE (112)
+whereܽandܾare constants associated with the isotope undergoing fission and depend
+weakly on the incident neutron energy. The normalization factor ܥis defined so that
+
+01n nE dE
+ (113)
+and has the value
+C=2a2/3e-b/4a
+pb. (114)
+This fission spectrum for Uଽଶଶଷହis illustrated in Figure 15 . Clearly, most of the neutrons are
+released with energies greater than 1 MeV and can initiate fission reactions with fissionable
+material. However, the fission cross section for this energy range is relatively low (see Figure
+13), and fissions at such energies are highly improbable. Nevertheless, a controlled chain
+reaction that relies mainly on fast fission can be achieved in so-called “fast neutron reactors”,
+where Puଽସଶଷଽis often used because of its large fission cross section for high-energy neutrons.
+The alternative to fast neutron reactors is moderated reactors, in which the fast neutrons are
+slowed down to energies where the fission cross section is significantly larger (below 1 eV).
+This is the concept used in “thermal neutron reactors”, which are discussed in the next sec-
+tion.Nuclear Processes and Neutron Physics 39
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015Now, let us look at the properties of fission products. These nuclides have intermediate
+masses and vanishing fission cross sections. However, they can have very large neutron-
+capture cross sections and thereby can have a considerable negative impact on the neutron
+population in the fuel where they are produced. For this reason, they are often called neutron
+poisons. Examples of poisons that have a large impact on nuclear-reactor operation are Xeହସଵଷହ
+(ߪ௔= 3.1 × 10଺b) and Sm଺ଶଵସଽ(ߪ௔= 6.1 × 10ସb). A second observation is that most of these
+nuclides are unstable and decay naturally through one of the reactions described in Section
+3.1. These reactions produce both particles, including delayed neutrons, and energy that is
+often deposited in the fuel. These delayed neutrons play an important role in the control of
+nuclear reactors, as will be explained in Chapter 5. Moreover, energy will still be produced in
+the fuel for a long time after the controlled fission reaction has been stopped, due to the
+decay of fission products. This is the main source of the heat produced in neutron-irradiated
+nuclear fuels (some energy is also produced through photonuclear fission). This residual heat
+is removed from shut-down reactors and irradiated fuel pools by continuously circulating the
+coolant.
+Figure 15 Fission spectrum for235
+92U.
+Finally, we must address the problem of the changes in the composition of a material exposed
+to a neutron flux. In Section 3.1, we introduced the Bateman equation, which takes the form
+[Smith2000, Nikjoo2012, Magill2005]:
+ௗே಺(௧)
+ௗ௧=−ߣூܰூ(ݐ)−ܮூ(ݐ)+ܲூ(ݐ),( 115)
+whereܰூ(ݐ)is the concentration of isotope ܫin the material and the net source ܵ(ݐ)is now
+divided into a production ܲூ(ݐ)and a lossܮூ(ݐ)term. The loss term, from sources other than
+decay, is the result of a neutron being absorbed (captured) by isotope ܫ:
+ ,
+0σ() ,I I I absorptionL t N t E E dE
+ (116)
+40 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015where߶(ܧ)is the neutron flux. The production term has two contributions: decay from other
+nuclei, and transformation of a different nucleus into ܫfollowing a neutron-induced nuclear
+reaction:
+  , , ,
+0σ ,d x
+I J I J J J I J J x
+J J xP t Y N t Y N t E E dE
+    (117)
+whereܻ௃,ூௗis the yield for the production of isotope ܫfrom the decay of isotope ܬ,whileܻ௃,ூ௫is
+the isotope ܫproduction yield from a reaction of type ݔ(fission, capture, etc.) between a
+neutron and isotope ܬ.
+4.3 Nuclear Chain Reaction and Nuclear Fission Reactors
+The previous sections have introduced all the concepts required to design a conceptual
+nuclear fission reactor:
+The nuclear fuel contains heavy isotopes that are broken into lighter nuclides (fission
+products) following a neutron-induced fission reaction. Such a reaction also generates en-
+ergy and secondary neutrons that can be used to maintain a chain reaction.
+Most of the energy released as a result of the fission process is carried away by the fission
+products and deposited in the fuel because of the short range of these nuclei.
+The secondary neutrons produced in the fission process are fast neutrons.
+These neutrons can lose their energy through scattering collisions with the various materi-
+als present in our conceptual reactor. Neutron slowing-down by collisions with light iso-
+topes is more efficient than by collision with heavy isotopes (see Section 3.5).
+This energy deposition increases the temperature of the fuel, which must then be cooled
+to make use of the heat and avoid damage to the reactor. For a power reactor, this heat is
+collected in a coolant (generally gas or liquids circulating around the fuel) and used to gen-
+erate electricity.
+Now let us look at the fuel and coolant materials that are the most readily available.
+Three heavy fissionable isotopes are present in nature: Thଽ଴ଶଷଶ, U,ଽଶଶଷ଼and Uଽଶଶଷହ. Of these, only
+Uଽଶଶଷହis fissile by neutrons of all energies. Because the density of thorium is 11,000 kg/m3and
+it has a microscopic fission cross section of 0.1 barn for 1 MeV neutrons, the mean free path of
+a neutron for fission in this material is 3.5 m. The mean free path for neutron capture in
+thorium is very similar in magnitude. Therefore, nearly half the 2.2 neutrons emitted by
+fission in thorium will be lost to unproductive capture. For U,ଽଶଶଷ଼which represents 99.27% of
+all the atoms found in natural uranium (density of 18,000 kg/m3), the odds are slightly better,
+with mean free paths for fission and capture respectively of 50 and 300 cm and fewer neu-
+trons emitted per fission are lost to capture.
+The main advantage of Uଽଶଶଷହ, even though it represents only 0.72% of natural uranium compo-
+sition, is that its fission cross section is quite high (1000 barns at 0.01 eV), giving a mean free
+path for fission of 2 cm. The capture cross section of Uଽଶଶଷହat this energy is also six times
+smaller than the fission cross section. It is possible to decrease the mean free path for fission
+with Uଽଶଶଷହby increasing its relative concentration in uranium-based fuel (fuel enrichment).
+The ratio of capture to fission in uranium-enriched fuels remains small even if the fuel contains
+a large amount of Uଽଶଶଷ଼(capture cross section less than 1 barn).Nuclear Processes and Neutron Physics 41
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015The heat produced in the fuel can then easily be extracted by conventional means (by circulat-
+ing a fluid such as water). The main problem is to slow down the secondary fission neutrons
+to low energies (< 1 eV) while ensuring that few are lost by capture inside other materials or
+by leaving the reactor. A neutron slowing-down material, the moderator, must therefore be
+introduced into the reactor to serve this purpose.
+Table 8 Maximum values of the elastic scattering and absorption cross sections for1
+1H,2
+1D,
+and12
+6Cin the energy range 0.1 eV < E <0.1 MeV.
+IsotopeߪƐĐĂƩĞƌŝŶŐ(b)ߪĂďƐŽƌƉƟŽŶ(b)
+Hଵଵ18 0.17
+Dଵଶ3.4 0.00025
+C଺ଵଶ4.6 0.0016
+For this moderator, two questions are of prime importance: what should be its composition,
+and where should it be located? The first question is easily answered by combining the kinet-
+ics of the neutron-nucleus collision and a survey of the scattering and absorption cross sec-
+tions of the most promising candidates. In Section 3.5, we concluded that the slowing-down
+efficiency of a nucleus increases as its mass number decreases, which points to the use of light
+nuclides as moderators. The most promising candidates are the isotopes of hydrogen and
+carbon that are readily available in water and graphite. Table 8 provides the maximum values
+of the elastic scattering and absorption cross sections for Hଵଵ,D,ଵଶand C଺ଵଶin the energy range
+0.1 eV <ܧ< 0.1 MeV . As one can see, Hଵଵis the best moderator if one does not take into
+account its absorption cross section. However, up to one in ten collisions of a neutron with Hଵଵ
+could lead to absorption (for 1eV neutrons). On the other hand, even if the number of colli-
+sions required to slow down neutrons using Dଵଶand C଺ଵଶis significantly higher (the distance the
+neutron will travel between collisions is longer), less than 0.007% of the collisions with Dଵଶand
+0.03% of the collisions with C଺ଵଶ(1 eV neutron) lead to capture. Accordingly, if one wants to
+build a core that is compact, a Hଵଵ-based moderator is a requirement (light water, for example
+in LWR); otherwise the best candidate is a moderator that contains large concentrations of Dଵଶ
+(heavy water in CANDU).
+Now let us try to answer the question of the spatial distribution of this moderator. Two very
+different options can be considered: a homogeneous mixture of fuel and moderator, and small
+isolated fuel elements placed strategically in the moderator. Again, the answer to this ques-
+tion can be inferred from Figure 13 . The neutrons in a homogeneous mixture of fuel and
+moderator materials have a large chance of colliding with fuel isotopes as they are slowing
+down. This means that neutrons with energies in the “resonance” range ( 4 eV <ܧ< 10 keV )
+will be in direct contact with fuel nuclides. Because their capture cross sections at resonance
+energies increase, often by several orders of magnitude with respect to the background value,
+neutron capture will have a detrimental effect on the number of neutrons that can reach
+energies below 1 eV. On the other hand, by separating different fuel elements by a sufficient
+amount of moderating materials to ensure that a maximum number of neutrons escape the
+resonance energy range, one decreases neutron loss by capture and increases the probability
+of fission.42 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015These are the general physics considerations that led to current reactor designs, including the
+pressurized water (PWR) and CANDU reactors. In the next section, we conclude this chapter
+by introducing the neutron transport equation, which provides a means to evaluate numeri-
+cally the neutron population in the reactor and to determine whether a given reactor concept
+can lead to a sustained chain reaction. This equation also provides the neutron flux that is
+required to follow the evolution of the fuel and the fission products in the reactor using the
+Bateman equation.
+4.4 Reactor Physics and the Transport Equation
+When designing a nuclear power reactor, physicists have two main objectives:
+controlling the nuclear chain reaction;
+extracting the energy produced inside the fuel to avoid damage to the core and to use this
+energy to produce electricity.
+Because most of the energy produced in a nuclear reactor is the result of the fission process,
+the power produced in the core can be expressed by:
+3 2
+,
+0 4  ( , , ) ( , , , Ω)Ω,     
+J f J
+J VP t d r dE r t E r t E d
+  (118)
+whereܸis the reactor volume, ߶(ݎԦ,ݐ,ܧ,Ωሬሬ⃗)is the flux of neutrons with energy ܧand direction
+Ωሬሬ⃗at a pointݎԦin space and a time ݐ, andΣ௙,௃(ݎԦ,ݐ,ܧ)is the macroscopic fission cross section
+for isotopeܬgiven by
+, ,, , , ,f J J f Jr t E N r t E    (119)
+whereܰ௃(ݎԦ,ݐ)is the time-dependent concentration of ܬ, the solution of the flux-dependent
+Bateman equations (see Section 4.2). Finally, ߢ௃represents the average energy produced by
+the fission of isotope ܬ,which we assume to be energy-independent.
+Now let us consider the flux, which is a measure of the neutron population in the reactor
+(Section 3.5). For a given time interval ݐ݀, the change of the neutron population
+݊݀(ݎԦ,ݐ,ܧ,Ωሬሬ⃗) =߶݀(ݎԦ,ݐ,ܧ,Ωሬሬ⃗)/ݒdue to loss of neutrons by collisions is [Bell1982, Duder-
+stadt1979, Hébert2009, Lewis1993]:
+ , , ,Ω ,,,,,Ω,CL r t E dt r t E r t E dt     (120)
+whereΣis the total cross section and ܮ஼(ݎԦ,ݐ,ܧ,Ωሬሬ⃗)the rate of collision per unit volume of
+neutrons with energy ܧand direction Ωሬሬ⃗at pointݎԦand timeݐ. This term includes both ab-
+sorbed and scattered neutrons. Some neutrons will be lost to migration when the net flow of
+neutrons reaching a region in space of volume ݀ଷݎis different from that leaving this same
+region. This rate of neutron loss due to migration is given by
+LMr,t,E,
+Ω ( )dt= -
+Ω×
+Ñfr,t,E,
+Ω ( )dt, (121)
+meaning that neutrons, which can be considered to form a gas, tend to move towards regions
+of low neutron population (the kinetic theory of gas). Neutron with energy ܧand direction Ωሬሬ⃗
+can also be produced in this region of space due to scattering of neutrons with different
+directions and energies:Nuclear Processes and Neutron Physics 43
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015  2 ' ' ' '
+0 4, , ,Ω ' Ω' ,,,ΩΩ,,,Ω,S sS r t E dt dE d r t E E r t E dt
+         (122)
+whereΣ௦(ݎԦ,ݐ,ܧᇱ→ܧ,Ωሬሬ⃗′→Ωሬሬ⃗)is the probability (also known as the double differential
+scattering cross section) that a neutron of energy ܧᇱmoving in direction Ωሬሬ⃗′is scattered in
+direction Ωሬሬ⃗with energy ܧ. For the case where fission takes place, the neutron production rate
+is
+' 2 '
+,
+0 4, , ,Ω ()'  (,,)Ω(,,',Ω'),F j j f J
+jS r t E dt E dE r t E d r t E dt
+          (123)
+where߯௝(ܧ)is the fission spectrum and ߥ௝the average number of neutrons produced by
+fission of isotope ܬ. Neutron productions from other sources ܵா൫ݎԦ,ݐ,ܧ,Ωሬሬ⃗൯can also be added
+to the balance, for example, sources for other types of nuclear reactions (photonuclear fission
+and photoneutron production in Dଵଶ) or flux-independent contributions from the decay of
+radioactive isotopes.
+The global neutron population will then satisfy the following balance equation:
+1
+vdfr,t,E,
+Ω ( )
+dt=LCr,t,E,
+Ω ( ) +LMr,t,E,
+Ω ( ) +SSr,t,E,
+Ω ( ) +SFr,t,E,
+Ω ( ) +SEr,t,E,
+Ω ( ) ,(124)
+which is known as the Boltzmann transport equation. If one assumes that the cross sections
+are nearly constant over time (the change in the composition of the materials in the reactor
+varies substantially only over long time periods) and that the core is at static equilibrium (the
+flux remains constant), one obtains the following time-independent neutron transport equa-
+tion [Lewis1993]:
+
+  ' 2 ' ' ' ' ' ' ' 2 ' ' '
+,
+0 4 0 4Ω,,Ω,,,Ω
+1 Ω ,,ΩΩ,,Ω    ,Ω,,Ω,s j j f J
+jr E r E r E
+dE d r E E r E E dE r E d r Ek 
+  
+     
+         
+      
+(125)
+where݇is known as the multiplication factor. It is inserted in the transport equation to
+modify the fission rate in such a way as to reach this static equilibrium. When ݇= 1, equilib-
+rium is achieved, and the reactor is critical. For ݇< 1, the reactor is sub-critical, and neutron
+generation is insufficient to compensate for losses, whereas for ݇> 1, the reactor is super-
+critical, and neutron production exceeds losses.
+For reactor calculations, where fission reactions take place only inside the core, boundary
+conditions of the form
+frB,E,
+Ω ( )=0 for
+Ω×
+N<0 (126)
+are generally imposed on the transport equation. Here, the point ݎԦ஻is on the outer boundary
+of the reactor, with ܰሬሬ⃗being a unit vector normal to this boundary and directed outwards. This
+condition simply means that no neutrons will enter the reactor from the outside.
+The static transport equation is an eigenvalue equation, with ݇being the inverse of the
+eigenvalue. Therefore, the neutron flux is the eigenvector for this equation and is only defined44 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015to within a normalization constant. Therefore, if ߶൫ݎԦ,ܧ,Ωሬሬ⃗൯is a solution, so is ߶ܽ൫ݎԦ,ܧ,Ωሬሬ⃗൯,
+withܽan arbitrary constant. For reactor calculations, the normalization constant is directly
+related to the power produced in the core.
+Solving the transport problem is not trivial, even for very simple cases (static, one velocity
+neutrons in one dimension). In Chapters 4 (static) and 5 (time-dependent), approximation to
+and simplification of the transport equation commonly used in reactor simulations will be
+discussed. One should then be able to extract, from the solutions of the resulting simplified
+equations, information useful for the design, operation, and control of nuclear reactors.
+5Bibliography
+[Basdevant2005] J.-L. Basdevant, R. James, S. Michel, Fundamentals in Nuclear Physics .
+Springer, New York, 2005.
+[Bell1982] G. I. Bell, S. Glasstone, Nuclear Reactor Theory . Robert E. Krieger, Malabar, 1982.
+[Berger2013a] M. J. Berger, J. S. Coursey, M. A. Zucker, J. Chang, J., ESTAR, PSTAR, and ASTAR:
+Computer Programs for Calculating Stopping-Power and Range Tables for Electrons,
+Protons, and Helium Ions ,http://physics.nist.gov/Star , visited April 2013.
+[Berger2013b] M. J. Berger, J. H. Hubbel, S. M. Seltzer, J. Chang, J. S. Coursey, R. Sukumar, D. S.
+Zucker, K. Olsen, XCOM: Photon Cross Section Database ,
+http://www.nist.gov/pml/data/xcom , visited April 2013.
+[Bjorken1964] J. D. Bjorken, S. D. Drell, Relativistic Quantum Mechanics , McGraw-Hill, New
+York, 1964.
+[Brookhaven2013] National Nuclear Data Center at Brookhaven National Laboratory:
+http://www.nndc.bnl.gov/chart/ , visited April 2013.
+[Griffiths2005] D. J. Griffiths, Introduction to Quantum Mechanics , Pearson Canada, Toronto,
+2005.
+[Duderstadt1979] J. J. Duderstadt, W. R. Martin, Transport Theory . Wiley, New York, 1979.
+[Halzen1984] F. Halzen, A. Martin, Quarks and Leptons: An Introductory Course in Modern
+Particle Physics . Wiley, New York, 1984.
+[Hébert2009] A. Hébert, Applied Reactor Physics . Presses Internationales Polytechnique,
+Montréal, QC, 2009.
+[Hubbell1975] J. H. Hubbell, W. J. Veigele, E. A. Briggs, R. T. Brown, D. T. Cromer, and R. J.
+Howerton, “Atomic form factors, incoherent scattering functions, and photon scatter-
+ing cross sections”, J. Phys. Chem. Ref. Data , 4, 471-538, 1975.
+[Jauch1976] J. M. Jauch, F. Rohrlich, The Theory of Photons and Electrons . Springer-Verlag,
+New York, 1976.
+[KAERI2013] Nuclear Data Center at Korea Atomic Energy Research Institute:
+http://atom.kaeri.re.kr/ton/ , visited April 2013.
+[Leroy2009] C. Leroy, P .-G. Rancoita, Principle of Radiation Interaction in Matter and Detection ,
+2nd edition. World Scientific, Singapore, 2009.
+[Le Sech2010] C. Le Sech, C. Ngô, Physique nucléaire : Des quarks aux applications . Dunod,
+Paris, 2010.Nuclear Processes and Neutron Physics 45
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015[Lewis1993] E. E. Lewis and W. F. Miller, Jr., Computational Methods of Neutron Transport, 2nd
+edition. Wiley, New York, 1993.
+[Livermore2013] Isotope Evaluation at Lawrence Livermore National Laboratory :
+http://ie.lbl.gov/toi2003/MassSearch.asp , visited April 2013.
+[MacFarlane2010] R. E. MacFarlane, A. C. Kahler, “Methods for Processing ENDF/B-VII with
+NJOY”, Nuclear Data Sheets , 111, 2739-2890, 2010.
+[Magill2005] J. Magill and J. Galy, Radioactivity, Radionuclides, Radiation . Springer: Heidelberg,
+2005.
+[Nikjoo2012] H. Nikjoo, S. Uehara, D. Emfietzoglou, Interaction of Radiation with Matter . CRC
+Press, Boca Raton, FL, 2012.
+[OECD-NEA2013] OECD-NEA Janis 3.0, Java-Based Nuclear Data Display Program.
+https://www.oecd-nea.org/janis , visited April 2013.
+[Pomraning1991] G. C. Pomraning, Linear Kinetic Theory and Particle Transport in Stochastic
+Mixtures . World Scientific, London, 1991.
+[Schiff1968] L. I. Schiff, Quantum Mechanics . McGraw-Hill, New York, 1968.
+[Smith2000] F. A. Smith, A Primer of Applied Radiation Physics . World Scientific, Singapore,
+2000.
+[Watt1952] B. E. Watt, “Energy spectrum of neutrons from thermal fission of Uଶଷହ”,Phys. Rev.
+87, 1037-1041, 1952.
+[WebElements2013] WebElements: The Periodic Table on the Web .
+http://www.webelements.com/isotopes.html , visited April 2013.
+[Wong2004] S. S. M. Wong, Introductory Nuclear Physics . Wiley-VCH, Weinheim, 2004.
+6Summary of Relationship to Other Chapters
+This chapter explains the structure of the nucleus and introduces the various interactions of
+charged particles, photons, and neutrons with matter. It also defines the basic quantities and
+concepts needed to study the fission chain reaction and to approach the analysis of reactors.
+The Bateman equations are presented and used in other chapters to evaluate the rate of
+evolution of fuel composition. The Boltzmann transport equation, which provides a way to
+evaluate the neutron population in a nuclear reactor, is also introduced. This is the fundamen-
+tal equation from which the neutron diffusion equation used in Chapters 4 and 5 is derived.
+Chapter 4 starts with the static transport equation to derive the time-independent neutron-
+diffusion equation for the analysis of steady-state (time-independent) neutron distributions
+either in the presence of external sources or in fission reactors. It also discusses the evolution
+of the fuel composition in an operating reactor based on the coupled solution of the transport
+and Bateman equations using a quasi-static approximation.
+Chapter 5 covers the time-dependent neutron-diffusion equations and studies the phenomena
+of fast-neutron kinetics, fission-product poisoning, reactivity coefficients, etc., in reactors.
+Chapter 12 deals with radioprotection and uses the concept defined in the present chapter for
+the interactions of charged particles, photons, and neutrons with matter with the goal of
+reducing the damage to living tissues.46 The Essential CANDU
+©UNENE, all rights reserved. For educational use only, no assumed liability. Nuclear Physics – June 2015Chapter 19 examines the behaviour of fuel after irradiation in a nuclear reactor, particularly its
+composition and the residual energy that it produces.
+7Problems
+1.Evaluate the intensity of the electromagnetic force acting between two protons in
+an atom of helium.
+2.Determine the atomic mass of natural chlorine if it is composed of 75.77 %atomic
+Clଵ଻ଷହand 24.23 %atomic Clଵ଻ଷ଻.
+3.What is the atomic concentration of Uଽଶଶଷହin a sample of uranium oxide ( UOଶ) of
+densityߩ=10.4 g / cmଷenriched at a level of 3.5 %weight?
+4.Using the semi-empirical mass formula, evaluate the atomic mass of Feହ଺and
+compare with the exact value.
+5.What is the ground state energy level of a neutron in the Saxon-Wood potential for
+Uଽଶଶଷ଼?
+6.Complete the following nuclear reactions and determine the net energy in MeV re-
+leased by these reactions:
+a)ܪଵଶ+ܪଵଷ=ܺ௓஺+݊଴ଵ
+b)݊଴ଵ+݉ܥଽ଺ଶସଵ=ܺ௓஺+ݎܭଷ଺ଽ଴+ 3݊଴ଵ
+7.What is the activity of one gram of potassium-40?
+8.Assuming that the activity of a sample of water due to tritium is 100 Bq, determine
+the mass of tritium in this sample. What will be the activity of this sample after
+three years?
+9.Using the information available on the ESTAR web site, plot the CSDA range in cm
+for an electron in dry air at sea level as a function of its energy for 100 keV <E < 10
+MeV.
+10.Draw the deuterium cross section for photonuclear reactions as a function of en-
+ergy in the range 2.23 MeV < E < 10MeV (here assume ܥ஽మ= 0.062 ). Compare
+with the deuterium cross section for neutron radiative capture at 300 K in the
+same energy range.
+11.How many collisions are required on average to slow down a neutron to half its
+speed (1/4 of its energy) through elastic collisions with deuterium nuclei?
+12.Evaluate the potential scattering cross section for oxygen and hydrogen at low en-
+ergy.
+13.A CANDU bundle contains 19.5 kg of natural uranium (enrichment of 0.711
+%weight). Compute the fission rate in a bundle due to Uଽଶଶଷହif it is exposed to a flux
+of10ଵସneutrons/cm2/s of energy ܧ=0.01 eV.
+14.Show that the mean free path of 1 MeV neutrons in thorium is 3.5 m.
+8Acknowledgments
+Reviewers Marv Gold and Esam Hussein are gratefully acknowledged for their hard work and
+excellent comments during the development of this Chapter. Their feedback has much im-
+proved it. Of course the responsibility for any errors or omissions lies entirely with the author.
+Thanks are also extended to Diana Bouchard for expertly editing and assembling the final
+copy.
